@@ -9,6 +9,7 @@ import argparse
 import html
 import json
 import os
+import statistics
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -99,6 +100,7 @@ def normalise(raw: dict[str, Any], keyword: str, rank: int) -> dict[str, Any] | 
         "currency": currency,
         "source_query": keyword,
         "search_rank": rank,
+        "shop_id": number(shop.get("shop_id") if isinstance(shop, dict) and shop.get("shop_id") is not None else raw.get("shop_id")),
         "quantity": number(raw.get("quantity")),
         "views": number(raw.get("views")),
         "favorites": number(raw.get("num_favorers") if raw.get("num_favorers") is not None else raw.get("favorites")),
@@ -118,31 +120,149 @@ def load_state(path: Path) -> dict[str, Any]:
     return state
 
 
+def _comparison(samples: list[dict[str, Any]]) -> tuple[dict[str, Any], float] | None:
+    """Choose the observation closest to 24 hours before the latest sample.
+
+    The free job runs twice daily, so the first usable comparison is normally
+    12 hours long and is transparently normalised to a 24-hour rate.  Once a
+    24-hour sample exists it wins over the shorter comparison.
+    """
+    if len(samples) < 2:
+        return None
+    current_time = parse_time(samples[-1].get("captured_at"))
+    if not current_time:
+        return None
+    choices: list[tuple[dict[str, Any], float]] = []
+    for sample in samples[:-1]:
+        before_time = parse_time(sample.get("captured_at"))
+        if not before_time:
+            continue
+        hours = (current_time - before_time).total_seconds() / 3600
+        if 2 <= hours <= 30:
+            choices.append((sample, hours))
+    return min(choices, key=lambda choice: abs(choice[1] - 24)) if choices else None
+
+
+def recalculate_metrics(state: dict[str, Any], captured_at: str) -> None:
+    """Apply the Railway-style public-signal scoring to the current batch.
+
+    "Onaylı" remains deliberately conservative: a tracked listing's quantity
+    decrease must be corroborated by the public shop sales-counter increase in
+    the same interval.  It is never represented as private Etsy order data.
+    """
+    current: list[dict[str, Any]] = [
+        item for item in state["items"].values() if item.get("last_seen_at") == captured_at
+    ]
+    intervals: dict[str, dict[str, Any]] = {}
+    for item in current:
+        found = _comparison(list(item.get("samples") or []))
+        if not found:
+            item.update({
+                "metrics_ready": False,
+                "quantity_delta": 0,
+                "stock_movement_24h": 0.0,
+                "confirmed_sales_24h": 0.0,
+                "estimated_sales_24h": 0.0,
+                "views_24h": 0.0,
+                "favorites_24h": 0.0,
+                "shop_sales_24h": 0.0,
+                "confirmed_sales_view_24h": None,
+                "estimated_sales_view_24h": None,
+                "confidence": 0,
+                "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+                "hot_score": 0.0,
+            })
+            continue
+        before, hours = found
+        current_sample = item["samples"][-1]
+        delta = lambda field: max((number(current_sample.get(field)) or 0) - (number(before.get(field)) or 0), 0)
+        stock = max((number(before.get("quantity")) or 0) - (number(current_sample.get("quantity")) or 0), 0)
+        intervals[str(item["listing_id"])] = {
+            "item": item,
+            "hours": hours,
+            "stock": stock,
+            "views": delta("views"),
+            "favorites": delta("favorites"),
+            "shop_sales": delta("shop_sales"),
+        }
+
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for interval in intervals.values():
+        shop_id = interval["item"].get("shop_id")
+        if shop_id is not None:
+            groups.setdefault(str(shop_id), []).append(interval)
+
+    for interval in intervals.values():
+        item, hours = interval["item"], interval["hours"]
+        group = groups.get(str(item.get("shop_id")), []) if item.get("shop_id") is not None else []
+        group_stock = sum(float(row["stock"]) for row in group)
+        group_shop_sales = max((float(row["shop_sales"]) for row in group), default=0.0)
+        corroborated = bool(group and group_stock > 0 and group_shop_sales >= group_stock)
+        confirmed = float(interval["stock"]) if corroborated else 0.0
+        unconfirmed = max(float(interval["stock"]) - confirmed, 0.0)
+        momentum = 0.15 + float(interval["views"]) * 0.02 + float(interval["favorites"]) + (101 - min(max(float(item.get("search_rank") or 100), 1), 100)) / 220
+        group_momentum = sum(
+            0.15 + float(row["views"]) * 0.02 + float(row["favorites"]) + (101 - min(max(float(row["item"].get("search_rank") or 100), 1), 100)) / 220
+            for row in group
+        )
+        residual = max(group_shop_sales - group_stock, 0.0)
+        coverage = min(len(group) / (len(group) + 18), 0.45) if group else 0.0
+        allocated = residual * momentum / group_momentum * coverage if group_momentum else 0.0
+        estimated = confirmed + unconfirmed * 0.35 + allocated
+        scale = 24 / hours
+        views_24h = round(float(interval["views"]) * scale, 2)
+        confirmed_24h = round(confirmed * scale, 2)
+        estimated_24h = round(estimated * scale, 2)
+        stock_24h = round(float(interval["stock"]) * scale, 2)
+        ratio_ready = views_24h >= 5
+        confidence = min(100, int(40 + (20 if interval["views"] > 0 else 0) + (10 if interval["favorites"] > 0 else 0) + (30 if corroborated else 0) + (10 if interval["stock"] > 0 else 0)))
+        if corroborated and interval["views"] > 0:
+            basis = "Onaylı: stok + mağaza + view"
+        elif corroborated:
+            basis = "Onaylı: stok + mağaza"
+        elif interval["stock"] > 0:
+            basis = "Stok hareketi, kısmi doğrulama"
+        elif interval["shop_sales"] > 0 and interval["views"] > 0:
+            basis = "Mağaza satışı + view dağılımı"
+        else:
+            basis = "Ölçüm var, satış sinyali yok"
+        item.update({
+            "metrics_ready": True,
+            "comparison_hours": round(hours, 2),
+            "quantity_delta": round(float(interval["stock"]), 2),
+            "stock_movement_24h": stock_24h,
+            "confirmed_sales_24h": confirmed_24h,
+            "estimated_sales_24h": estimated_24h,
+            "views_24h": views_24h,
+            "favorites_24h": round(float(interval["favorites"]) * scale, 2),
+            "shop_sales_24h": round(float(interval["shop_sales"]) * scale, 2),
+            "confirmed_sales_view_24h": round(confirmed_24h / views_24h * 100, 2) if ratio_ready else None,
+            "estimated_sales_view_24h": round(estimated_24h / views_24h * 100, 2) if ratio_ready else None,
+            "confidence": confidence,
+            "basis": basis,
+            "hot_score": round(confirmed_24h * 12 + estimated_24h * 4 + (views_24h + 1) ** 0.5 + float(interval["favorites"]) * scale * 0.8 + confidence / 25, 2),
+        })
+
+
 def merge(state: dict[str, Any], observation: dict[str, Any], captured_at: str) -> None:
     key = str(observation["listing_id"])
     old = state["items"].get(key, {})
     samples = list(old.get("samples") or [])
-    quantity_delta = 0
-    estimate = 0.0
-    if samples:
-        previous = samples[-1]
-        before, after = number(previous.get("quantity")), number(observation.get("quantity"))
-        before_at, after_at = parse_time(previous.get("captured_at")), parse_time(captured_at)
-        if before is not None and after is not None and before_at and after_at:
-            hours = (after_at - before_at).total_seconds() / 3600
-            if 2 <= hours <= 36:
-                quantity_delta = max(int(before - after), 0)
-                estimate = round(quantity_delta * 24 / hours, 2)
-    samples.append({"captured_at": captured_at, **{field: observation.get(field) for field in ("quantity", "views", "favorites", "shop_sales")}})
+    snapshot = {"captured_at": captured_at, **{field: observation.get(field) for field in ("quantity", "views", "favorites", "shop_sales")}}
+    if samples and samples[-1].get("captured_at") == captured_at:
+        samples[-1] = snapshot
+    else:
+        samples.append(snapshot)
     cutoff = now() - timedelta(days=KEEP_DAYS)
     samples = [item for item in samples if (parse_time(item.get("captured_at")) or now()) >= cutoff][-75:]
-    state["items"][key] = {**old, **observation, "samples": samples, "last_seen_at": captured_at, "quantity_delta": quantity_delta, "estimated_sales_24h": estimate}
+    state["items"][key] = {**old, **observation, "samples": samples, "last_seen_at": captured_at}
+    recalculate_metrics(state, captured_at)
 
 
 def prune(state: dict[str, Any]) -> None:
     cutoff = now() - timedelta(days=KEEP_DAYS)
     current = [item for item in state["items"].values() if (parse_time(item.get("last_seen_at")) or cutoff - timedelta(seconds=1)) >= cutoff]
-    current.sort(key=lambda item: (float(item.get("estimated_sales_24h") or 0), float(item.get("views") or 0)), reverse=True)
+    current.sort(key=lambda item: (float(item.get("hot_score") or 0), float(item.get("views_24h") or 0)), reverse=True)
     state["items"] = {str(item["listing_id"]): item for item in current[:MAX_ITEMS]}
 
 
@@ -168,17 +288,77 @@ def collect(keystring: str, secret: str) -> list[dict[str, Any]]:
     return output
 
 
-HTML = """<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Averixa Market Radar</title><style>body{margin:0;background:#0a0d16;color:#f4f7ff;font:15px system-ui,sans-serif}main{max-width:1180px;margin:auto;padding:32px 18px}.sub,.muted{color:#aab5cf}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}.card,.panel{background:#121827;border:1px solid #28334d;border-radius:14px;padding:16px}.value{font-size:28px;color:#6ee7b7;font-weight:700}.label{color:#aab5cf;font-size:12px;text-transform:uppercase}table{width:100%;border-collapse:collapse;min-width:720px}th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #28334d}th{color:#aab5cf;font-size:12px}.panel{overflow:auto}a{color:#8bd3ff}input{padding:10px;width:min(420px,100%);background:#0b1120;color:white;border:1px solid #28334d;border-radius:8px}@media(max-width:650px){.cards{grid-template-columns:1fr}}</style><main><h1>Averixa Market Radar</h1><p class="sub">Free Lite Cloud · periodic public-market snapshot · <span id="updated">Loading…</span></p><section class="cards" id="cards"></section><section class="panel"><h2>Top observed opportunities</h2><input id="q" placeholder="Filter title or keyword"><div id="rows"></div></section><p class="muted">Quantity movement is an estimate from public listing observations; it is not private Etsy order data.</p></main><script>const n=v=>Number(v||0),f=v=>n(v).toLocaleString(undefined,{maximumFractionDigits:2}),e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let rows=[];function draw(){let q=document.querySelector('#q').value.toLowerCase(),x=rows.filter(r=>(r.title+' '+r.source_query).toLowerCase().includes(q)).slice(0,120);document.querySelector('#rows').innerHTML=x.length?`<table><tr><th>Listing</th><th>Keyword</th><th>Est. quantity movement / 24h</th><th>Views</th><th>Price</th></tr>${x.map(r=>`<tr><td><a href="${e(r.url)}" target="_blank" rel="noreferrer">${e(r.title)}</a></td><td>${e(r.source_query)}</td><td>${f(r.estimated_sales_24h)}</td><td>${f(r.views)}</td><td>${e(r.currency||'')} ${f(r.price)}</td></tr>`).join('')}</table>`:'<p class="muted">No comparable observations yet. The first run builds the baseline.</p>'}Promise.all(['data/status.json','data/radar.json'].map(x=>fetch(x).then(r=>r.json()))).then(([s,r])=>{rows=r;document.querySelector('#updated').textContent='Last run: '+new Date(s.generated_at).toLocaleString();document.querySelector('#cards').innerHTML=[['Tracked listings',s.listings],['Comparable listings',s.comparable],['Keywords',s.keywords]].map(([k,v])=>`<div class="card"><div class="label">${k}</div><div class="value">${f(v)}</div></div>`).join('');document.querySelector('#q').oninput=draw;draw()})</script></html>"""
+HTML = r"""<!doctype html>
+<html lang="tr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Averixa Market Radar</title>
+<style>
+:root{--bg:#090d16;--panel:#121a2a;--line:#283650;--text:#f3f7ff;--muted:#a7b4cf;--green:#6ee7b7;--blue:#8bd3ff;--yellow:#fcd34d;--pink:#f9a8d4}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 10% 0,#152445 0,var(--bg) 40%);color:var(--text);font:14px/1.45 Inter,Segoe UI,Arial,sans-serif}main{max-width:1500px;margin:auto;padding:30px 18px 42px}.top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}.brand h1{margin:0;font-size:29px}.brand p,.muted{color:var(--muted)}.pill{display:inline-block;border:1px solid #35606d;background:#11313a;color:var(--green);padding:5px 9px;border-radius:999px;font-weight:700;font-size:12px}.cards{display:grid;grid-template-columns:repeat(6,minmax(130px,1fr));gap:10px;margin:22px 0 14px}.card,.panel{background:rgba(18,26,42,.94);border:1px solid var(--line);border-radius:13px}.card{padding:14px}.label{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.04em}.value{font-size:25px;font-weight:800;color:var(--green);margin-top:4px}.panel{padding:15px}.tabs{display:flex;gap:8px;margin:14px 0}.tab,button,select,input{border:1px solid var(--line);background:#0c1321;color:var(--text);border-radius:8px;padding:9px 11px}.tab{cursor:pointer}.tab.active{background:#1b5360;border-color:#2998a8}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 14px}.filters input{min-width:260px;flex:1}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px}table{width:100%;border-collapse:collapse;min-width:1180px}th,td{padding:10px 8px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:11px;color:var(--muted);background:#101827;position:sticky;top:0;z-index:1}tr:hover td{background:#172339}.product{min-width:300px}.product a,a{color:var(--blue)}.sub{font-size:11px;color:var(--muted);margin-top:3px}.confirmed{color:var(--green);font-weight:800}.estimated{color:var(--yellow);font-weight:700}.ratio{color:var(--pink);font-weight:800}.badge{display:inline-block;padding:3px 6px;border:1px solid #3a4a69;border-radius:999px;font-size:11px;white-space:nowrap}.niche-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.niche{padding:15px}.niche h3{margin:0 0 4px;font-size:16px}.niche-metrics{display:flex;gap:18px;flex-wrap:wrap;margin-top:12px}.niche-metrics b{display:block;color:var(--green);font-size:20px}.foot{margin-top:15px;color:var(--muted);font-size:12px}.view{display:none}.view.active{display:block}@media(max-width:1000px){.cards{grid-template-columns:repeat(3,1fr)}.niche-grid{grid-template-columns:1fr}}@media(max-width:600px){main{padding:20px 12px}.top{flex-direction:column}.cards{grid-template-columns:repeat(2,1fr)}.filters input{min-width:100%}}
+</style>
+<main><div class="top"><div class="brand"><h1>Averixa Market Radar</h1><p>Free Cloud · public Etsy signals · <span id="updated">yükleniyor…</span></p></div><span class="pill">PC kapalıyken de çalışır</span></div>
+<section class="cards" id="cards"></section>
+<div class="panel"><div class="tabs"><button class="tab active" data-view="products">Ürün sinyalleri</button><button class="tab" data-view="niches">Niş özeti</button></div>
+<section id="products" class="view active"><div class="filters"><input id="q" placeholder="Ürün veya anahtar kelime ara"><select id="sort"><option value="confirmed_sales_view_24h">Onaylı S/View</option><option value="confirmed_sales_24h">Onaylı satış</option><option value="estimated_sales_24h">Tahmini satış</option><option value="hot_score">Fırsat skoru</option><option value="views_24h">View artışı</option></select><select id="quality"><option value="all">Tüm kayıtlar</option><option value="ready">Ölçümü olanlar</option><option value="confirmed">Onaylı sinyaller</option></select></div><div id="product-rows"></div></section>
+<section id="niches" class="view"><div class="filters"><input id="nq" placeholder="Niş ara"></div><div class="niche-grid" id="niche-rows"></div></section></div>
+<p class="foot"><b>Onaylı</b>: aynı ölçüm aralığında stok düşüşü, public mağaza satış sayacıyla desteklenmiş sinyal. <b>Tahmini</b>: public stok/view/favori sinyallerinden ihtiyatlı tahmin. Rakiplerin özel Etsy sipariş verisi değildir.</p></main>
+<script>
+const n=v=>Number(v||0), f=v=>v==null?'—':n(v).toLocaleString(undefined,{maximumFractionDigits:2}), pct=v=>v==null?'—':f(v)+'%', esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let products=[], niches=[];
+function metric(v,cls=''){return `<span class="${cls}">${f(v)}</span>`}
+function drawProducts(){const q=document.querySelector('#q').value.toLowerCase(),sort=document.querySelector('#sort').value,quality=document.querySelector('#quality').value;let rows=products.filter(r=>(r.title+' '+r.source_query).toLowerCase().includes(q)).filter(r=>quality==='all'||(quality==='ready'&&r.metrics_ready)||(quality==='confirmed'&&n(r.confirmed_sales_24h)>0)).sort((a,b)=>n(b[sort])-n(a[sort])).slice(0,150);document.querySelector('#product-rows').innerHTML=rows.length?`<div class="table-wrap"><table><tr><th>Ürün</th><th>Onaylı<br>24s</th><th>Tahmini<br>24s</th><th>View Δ<br>24s</th><th>Onaylı<br>S/View</th><th>Tahmini<br>S/View</th><th>Stok<br>hareketi</th><th>Fiyat</th><th>Güven</th><th>Dayanak</th></tr>${rows.map(r=>`<tr><td class="product"><a href="${esc(r.url)}" target="_blank" rel="noreferrer">${esc(r.title)}</a><div class="sub"><span class="badge">${esc(r.source_query)}</span> · ${r.metrics_ready?f(r.comparison_hours)+'s ölçüm':'ilk ölçüm'}</div></td><td>${metric(r.confirmed_sales_24h,'confirmed')}</td><td>${metric(r.estimated_sales_24h,'estimated')}</td><td>${f(r.views_24h)}</td><td class="ratio">${pct(r.confirmed_sales_view_24h)}</td><td class="ratio">${pct(r.estimated_sales_view_24h)}</td><td>${f(r.stock_movement_24h)}</td><td>${esc(r.currency||'')} ${f(r.price)}</td><td>${r.metrics_ready?'%'+f(r.confidence):'—'}</td><td><span class="badge">${esc(r.basis||'—')}</span></td></tr>`).join('')}</table></div>`:'<p class="muted">Bu filtrede kayıt yok.</p>'}
+function drawNiches(){const q=document.querySelector('#nq').value.toLowerCase(),rows=niches.filter(x=>x.niche_name.toLowerCase().includes(q));document.querySelector('#niche-rows').innerHTML=rows.length?rows.map(x=>`<article class="panel niche"><h3>${esc(x.niche_name)}</h3><div class="muted">${f(x.comparable)} / ${f(x.observed_listing_count)} ölçülebilir ilan · örnek: <a href="${esc(x.sample_url||'#')}" target="_blank" rel="noreferrer">${esc(x.sample_title||'—')}</a></div><div class="niche-metrics"><div><span class="label">Onaylı 24s</span><b>${f(x.confirmed_sales_24h)}</b></div><div><span class="label">Tahmini 24s</span><b>${f(x.estimated_sales_24h)}</b></div><div><span class="label">S/View</span><b>${pct(x.confirmed_sales_view_24h)}</b></div><div><span class="label">Fırsat</span><b>${f(x.opportunity_score)}</b></div></div></article>`).join(''):'<p class="muted">Bu filtrede niş yok.</p>'}
+Promise.all(['data/status.json','data/radar.json','data/niches.json'].map(x=>fetch(x).then(r=>r.json()))).then(([s,r,ns])=>{products=r;niches=ns;document.querySelector('#updated').textContent='son ölçüm: '+new Date(s.generated_at).toLocaleString('tr-TR');document.querySelector('#cards').innerHTML=[['Takipteki ilan',s.listings],['Ölçümü olan',s.comparable],['Onaylı satış · 24s',s.confirmed_sales_24h],['Tahmini satış · 24s',s.estimated_sales_24h],['En iyi onaylı S/View',pct(s.top_confirmed_sales_view_24h)],['Niş',s.keywords]].map(([k,v])=>`<div class="card"><div class="label">${k}</div><div class="value">${v}</div></div>`).join('');drawProducts();drawNiches();document.querySelector('#q').oninput=drawProducts;document.querySelector('#sort').onchange=drawProducts;document.querySelector('#quality').onchange=drawProducts;document.querySelector('#nq').oninput=drawNiches;document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab,.view').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelector('#'+b.dataset.view).classList.add('active')})});
+</script></html>"""
+
+
+def build_niches(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    grouped: dict[str, list[dict[str, Any]]] = {}
+    for row in rows:
+        grouped.setdefault(str(row.get("source_query") or "Other"), []).append(row)
+    output: list[dict[str, Any]] = []
+    for name, group in grouped.items():
+        confirmed = round(sum(float(row.get("confirmed_sales_24h") or 0) for row in group), 2)
+        estimated = round(sum(float(row.get("estimated_sales_24h") or 0) for row in group), 2)
+        views = round(sum(float(row.get("views_24h") or 0) for row in group), 2)
+        comparable = sum(bool(row.get("metrics_ready")) for row in group)
+        sample = max(group, key=lambda row: float(row.get("hot_score") or 0))
+        prices = [float(row["price"]) for row in group if number(row.get("price")) is not None]
+        output.append({
+            "niche_name": name,
+            "observed_listing_count": len(group),
+            "comparable": comparable,
+            "confirmed_sales_24h": confirmed,
+            "estimated_sales_24h": estimated,
+            "views_24h": views,
+            "confirmed_sales_view_24h": round(confirmed / views * 100, 2) if views >= 5 else None,
+            "estimated_sales_view_24h": round(estimated / views * 100, 2) if views >= 5 else None,
+            "median_price": round(statistics.median(prices), 2) if prices else None,
+            "opportunity_score": round(sum(float(row.get("hot_score") or 0) for row in group), 2),
+            "sample_title": sample.get("title"),
+            "sample_url": sample.get("url"),
+        })
+    return sorted(output, key=lambda row: float(row["opportunity_score"]), reverse=True)
 
 
 def write_site(state: dict[str, Any], site: Path) -> None:
     data = site / "data"
     data.mkdir(parents=True, exist_ok=True)
-    rows = sorted(state["items"].values(), key=lambda item: (float(item.get("estimated_sales_24h") or 0), float(item.get("views") or 0)), reverse=True)
-    status = {"generated_at": state.get("last_success_at"), "listings": len(rows), "comparable": sum(bool(row.get("estimated_sales_24h")) for row in rows), "keywords": len(KEYWORDS)}
+    rows = sorted(state["items"].values(), key=lambda item: (float(item.get("hot_score") or 0), float(item.get("estimated_sales_24h") or 0)), reverse=True)
+    ready = [row for row in rows if row.get("metrics_ready")]
+    ratios = [float(row["confirmed_sales_view_24h"]) for row in ready if row.get("confirmed_sales_view_24h") is not None]
+    status = {
+        "generated_at": state.get("last_success_at"),
+        "listings": len(rows),
+        "comparable": len(ready),
+        "keywords": len(KEYWORDS),
+        "confirmed_sales_24h": round(sum(float(row.get("confirmed_sales_24h") or 0) for row in ready), 2),
+        "estimated_sales_24h": round(sum(float(row.get("estimated_sales_24h") or 0) for row in ready), 2),
+        "views_24h": round(sum(float(row.get("views_24h") or 0) for row in ready), 2),
+        "top_confirmed_sales_view_24h": max(ratios) if ratios else None,
+    }
     (site / "index.html").write_text(HTML, encoding="utf-8")
     (data / "status.json").write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (data / "radar.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (data / "niches.json").write_text(json.dumps(build_niches(rows), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def main() -> None:
@@ -192,6 +372,7 @@ def main() -> None:
     state, captured_at = load_state(args.state), now().isoformat()
     for row in collect(keystring, secret):
         merge(state, row, captured_at)
+    recalculate_metrics(state, captured_at)
     state["last_success_at"] = captured_at
     prune(state)
     args.state.parent.mkdir(parents=True, exist_ok=True)
