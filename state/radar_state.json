@@ -49,24 +49,31 @@
           "views": 225,
           "favorites": 6,
           "shop_sales": 159
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 969,
+          "views": 225,
+          "favorites": 6,
+          "shop_sales": 159
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "quantity_delta": 9.0,
-      "estimated_sales_24h": 20.89,
+      "estimated_sales_24h": 20.75,
       "shop_id": 25630851,
       "metrics_ready": true,
-      "stock_movement_24h": 20.65,
-      "confirmed_sales_24h": 20.65,
+      "stock_movement_24h": 20.51,
+      "confirmed_sales_24h": 20.51,
       "views_24h": 0.0,
-      "favorites_24h": 6.88,
-      "shop_sales_24h": 25.24,
+      "favorites_24h": 6.84,
+      "shop_sales_24h": 25.07,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 341.47,
-      "comparison_hours": 10.46
+      "hot_score": 339.19,
+      "comparison_hours": 10.53
     },
     "4571288199": {
       "listing_id": 4571288199,
@@ -103,23 +110,30 @@
           "views": 2144,
           "favorites": 130,
           "shop_sales": 2223
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2223
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "metrics_ready": true,
       "quantity_delta": 4.0,
-      "stock_movement_24h": 19.1,
-      "confirmed_sales_24h": 19.1,
-      "estimated_sales_24h": 21.36,
+      "stock_movement_24h": 18.83,
+      "confirmed_sales_24h": 18.83,
+      "estimated_sales_24h": 21.06,
       "views_24h": 0.0,
-      "favorites_24h": 14.32,
-      "shop_sales_24h": 62.06,
+      "favorites_24h": 14.12,
+      "shop_sales_24h": 61.19,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 330.7,
-      "comparison_hours": 5.03
+      "hot_score": 326.1,
+      "comparison_hours": 5.1
     },
     "4369278115": {
       "listing_id": 4369278115,
@@ -156,23 +170,30 @@
           "views": 19981,
           "favorites": 216,
           "shop_sales": 1702
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 822,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1702
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "metrics_ready": true,
       "quantity_delta": 2.0,
-      "stock_movement_24h": 9.55,
-      "confirmed_sales_24h": 9.55,
-      "estimated_sales_24h": 9.8,
+      "stock_movement_24h": 9.41,
+      "confirmed_sales_24h": 9.41,
+      "estimated_sales_24h": 9.66,
       "views_24h": 0.0,
       "favorites_24h": 0.0,
-      "shop_sales_24h": 14.32,
+      "shop_sales_24h": 14.12,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 80,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 158.0,
-      "comparison_hours": 5.03
+      "hot_score": 155.76,
+      "comparison_hours": 5.1
     },
     "4555960599": {
       "listing_id": 4555960599,
@@ -209,23 +230,30 @@
           "views": 1750,
           "favorites": 92,
           "shop_sales": 147
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 956,
+          "views": 1750,
+          "favorites": 92,
+          "shop_sales": 147
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "metrics_ready": true,
       "quantity_delta": 1.0,
-      "stock_movement_24h": 4.77,
-      "confirmed_sales_24h": 4.77,
-      "estimated_sales_24h": 5.03,
+      "stock_movement_24h": 4.71,
+      "confirmed_sales_24h": 4.71,
+      "estimated_sales_24h": 4.95,
       "views_24h": 0.0,
-      "favorites_24h": 9.55,
-      "shop_sales_24h": 9.55,
+      "favorites_24h": 9.41,
+      "shop_sales_24h": 9.41,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 89.6,
-      "comparison_hours": 5.03
+      "hot_score": 88.45,
+      "comparison_hours": 5.1
     },
     "4572125601": {
       "listing_id": 4572125601,
@@ -314,24 +342,31 @@
           "views": 1741,
           "favorites": 101,
           "shop_sales": 20853
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 43,
+          "views": 1741,
+          "favorites": 101,
+          "shop_sales": 20853
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "quantity_delta": 1.0,
-      "estimated_sales_24h": 2.54,
+      "estimated_sales_24h": 2.52,
       "shop_id": 28298093,
       "metrics_ready": true,
-      "stock_movement_24h": 2.29,
-      "confirmed_sales_24h": 2.29,
+      "stock_movement_24h": 2.28,
+      "confirmed_sales_24h": 2.28,
       "views_24h": 0.0,
-      "favorites_24h": 2.29,
-      "shop_sales_24h": 6.88,
+      "favorites_24h": 2.28,
+      "shop_sales_24h": 6.84,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 44.08,
-      "comparison_hours": 10.46
+      "hot_score": 43.86,
+      "comparison_hours": 10.53
     },
     "4407632391": {
       "listing_id": 4407632391,
@@ -368,23 +403,30 @@
           "views": 28844,
           "favorites": 764,
           "shop_sales": 17927
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 981,
+          "views": 28844,
+          "favorites": 764,
+          "shop_sales": 17927
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "metrics_ready": true,
       "quantity_delta": 0.0,
       "stock_movement_24h": 0.0,
       "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 1.26,
+      "estimated_sales_24h": 1.24,
       "views_24h": 0.0,
-      "favorites_24h": 4.77,
-      "shop_sales_24h": 23.87,
+      "favorites_24h": 4.71,
+      "shop_sales_24h": 23.53,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 50,
       "basis": "Ölçüm var, satış sinyali yok",
-      "hot_score": 11.86,
-      "comparison_hours": 5.03
+      "hot_score": 11.73,
+      "comparison_hours": 5.1
     },
     "1765315407": {
       "listing_id": 1765315407,
@@ -481,9 +523,16 @@
           "views": 921,
           "favorites": 27,
           "shop_sales": 2068
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 35,
+          "views": 921,
+          "favorites": 27,
+          "shop_sales": 2068
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "metrics_ready": true,
       "quantity_delta": 0.0,
       "stock_movement_24h": 0.0,
@@ -491,13 +540,13 @@
       "estimated_sales_24h": 0.25,
       "views_24h": 0.0,
       "favorites_24h": 0.0,
-      "shop_sales_24h": 4.77,
+      "shop_sales_24h": 4.71,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 3.6,
-      "comparison_hours": 5.03
+      "comparison_hours": 5.1
     },
     "4578196948": {
       "listing_id": 4578196948,
@@ -787,9 +836,16 @@
           "views": 42,
           "favorites": 0,
           "shop_sales": 84
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 999,
+          "views": 42,
+          "favorites": 0,
+          "shop_sales": 84
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 50751829,
@@ -804,7 +860,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 10.46
+      "comparison_hours": 10.53
     },
     "1394722285": {
       "listing_id": 1394722285,
@@ -1261,9 +1317,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "metrics_ready": true,
       "quantity_delta": 0.0,
       "stock_movement_24h": 0.0,
@@ -1277,7 +1340,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.03
+      "comparison_hours": 5.1
     },
     "4583587436": {
       "listing_id": 4583587436,
@@ -1314,9 +1377,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 10
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 10
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "metrics_ready": true,
       "quantity_delta": 0.0,
       "stock_movement_24h": 0.0,
@@ -1330,7 +1400,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.03
+      "comparison_hours": 5.1
     },
     "1269805663": {
       "listing_id": 1269805663,
@@ -17973,9 +18043,16 @@
           "views": 1171,
           "favorites": 55,
           "shop_sales": 6985
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 832,
+          "views": 1171,
+          "favorites": 55,
+          "shop_sales": 6985
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -17994,7 +18071,7 @@
       "listing_id": 4583774052,
       "title": "Plant Stake SVG Bundle, Garden Marker Laser Cut Files, Mother’s Day Plant Gift Designs, Floral Pot Sign Digital Download",
       "url": "https://www.etsy.com/listing/4583774052/plant-stake-svg-bundle-garden-marker",
-      "image_url": "https://i.etsystatic.com/64815114/r/il/2aa225/8587096228/il_570xN.8587096228_my11.jpg",
+      "image_url": "https://i.etsystatic.com/64815114/r/il/b62b47/8634987947/il_570xN.8634987947_my11.jpg",
       "price": 6.99,
       "currency": "USD",
       "source_query": "svg bundle",
@@ -18011,9 +18088,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 5
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 5
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -18049,9 +18133,16 @@
           "views": 8701,
           "favorites": 39,
           "shop_sales": 4488
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 5,
+          "views": 8701,
+          "favorites": 39,
+          "shop_sales": 4488
         }
       ],
-      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "last_seen_at": "2026-09-27T18:08:02+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -18067,5 +18158,5 @@
       "hot_score": 0.0
     }
   },
-  "last_success_at": "2026-09-27T18:03:43+00:00"
+  "last_success_at": "2026-09-27T18:08:02+00:00"
 }
