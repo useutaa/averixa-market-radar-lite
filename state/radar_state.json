@@ -35,24 +35,31 @@
           "views": 225,
           "favorites": 4,
           "shop_sales": 155
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 973,
+          "views": 225,
+          "favorites": 4,
+          "shop_sales": 155
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 5.0,
-      "estimated_sales_24h": 22.56,
+      "estimated_sales_24h": 22.31,
       "shop_id": 25630851,
       "metrics_ready": true,
-      "stock_movement_24h": 22.09,
-      "confirmed_sales_24h": 22.09,
+      "stock_movement_24h": 21.85,
+      "confirmed_sales_24h": 21.85,
       "views_24h": 0.0,
-      "favorites_24h": 4.42,
-      "shop_sales_24h": 30.93,
+      "favorites_24h": 4.37,
+      "shop_sales_24h": 30.59,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 363.46,
-      "comparison_hours": 5.43
+      "hot_score": 359.54,
+      "comparison_hours": 5.49
     },
     "4572125601": {
       "listing_id": 4572125601,
@@ -141,24 +148,31 @@
           "views": 2102,
           "favorites": 131,
           "shop_sales": 76923
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 238,
+          "views": 2102,
+          "favorites": 131,
+          "shop_sales": 76923
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
-      "estimated_sales_24h": 0.47,
+      "estimated_sales_24h": 0.46,
       "shop_id": 29129702,
       "metrics_ready": true,
       "stock_movement_24h": 0.0,
       "confirmed_sales_24h": 0.0,
       "views_24h": 0.0,
       "favorites_24h": 0.0,
-      "shop_sales_24h": 8.84,
+      "shop_sales_24h": 8.74,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
-      "hot_score": 4.48,
-      "comparison_hours": 5.43
+      "hot_score": 4.44,
+      "comparison_hours": 5.49
     },
     "4578196948": {
       "listing_id": 4578196948,
@@ -168,7 +182,7 @@
       "price": 4.95,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 38,
+      "search_rank": 39,
       "quantity": 2,
       "views": 80,
       "favorites": 5,
@@ -194,9 +208,16 @@
           "views": 80,
           "favorites": 5,
           "shop_sales": 43973
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 2,
+          "views": 80,
+          "favorites": 5,
+          "shop_sales": 43973
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.23,
       "shop_id": 13541341,
@@ -205,13 +226,13 @@
       "confirmed_sales_24h": 0.0,
       "views_24h": 0.0,
       "favorites_24h": 0.0,
-      "shop_sales_24h": 4.42,
+      "shop_sales_24h": 4.37,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 3.52,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "1058766746": {
       "listing_id": 1058766746,
@@ -247,9 +268,16 @@
           "views": 1283,
           "favorites": 48,
           "shop_sales": 8076
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 75,
+          "views": 1283,
+          "favorites": 48,
+          "shop_sales": 8076
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 11875708,
@@ -264,7 +292,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "4539006014": {
       "listing_id": 4539006014,
@@ -274,7 +302,7 @@
       "price": 1.0,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 37,
+      "search_rank": 36,
       "quantity": 979,
       "views": 769,
       "favorites": 24,
@@ -300,9 +328,16 @@
           "views": 769,
           "favorites": 24,
           "shop_sales": 3025
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 979,
+          "views": 769,
+          "favorites": 24,
+          "shop_sales": 3025
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 31616775,
@@ -317,7 +352,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "1728398669": {
       "listing_id": 1728398669,
@@ -327,7 +362,7 @@
       "price": 9.95,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 45,
+      "search_rank": 46,
       "quantity": 997,
       "views": 163,
       "favorites": 7,
@@ -353,9 +388,16 @@
           "views": 163,
           "favorites": 7,
           "shop_sales": 498
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 997,
+          "views": 163,
+          "favorites": 7,
+          "shop_sales": 498
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 49864587,
@@ -370,7 +412,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "4534042870": {
       "listing_id": 4534042870,
@@ -406,9 +448,16 @@
           "views": 42,
           "favorites": 0,
           "shop_sales": 84
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 42,
+          "favorites": 0,
+          "shop_sales": 84
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 50751829,
@@ -423,7 +472,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "1394722285": {
       "listing_id": 1394722285,
@@ -459,9 +508,16 @@
           "views": 16,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 16,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 40377967,
@@ -476,7 +532,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "4375086676": {
       "listing_id": 4375086676,
@@ -512,9 +568,16 @@
           "views": 11,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 11,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 62104567,
@@ -529,7 +592,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "1734202931": {
       "listing_id": 1734202931,
@@ -565,9 +628,16 @@
           "views": 5,
           "favorites": 0,
           "shop_sales": 128
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 95,
+          "views": 5,
+          "favorites": 0,
+          "shop_sales": 128
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 48210524,
@@ -582,7 +652,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "4309437768": {
       "listing_id": 4309437768,
@@ -592,7 +662,7 @@
       "price": 3.49,
       "currency": "CAD",
       "source_query": "printable planner",
-      "search_rank": 46,
+      "search_rank": 45,
       "quantity": 999,
       "views": 1,
       "favorites": 0,
@@ -618,9 +688,16 @@
           "views": 1,
           "favorites": 0,
           "shop_sales": 2
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 1,
+          "favorites": 0,
+          "shop_sales": 2
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 59362955,
@@ -635,7 +712,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "4583486082": {
       "listing_id": 4583486082,
@@ -645,7 +722,7 @@
       "price": 49.95,
       "currency": "AUD",
       "source_query": "printable planner",
-      "search_rank": 39,
+      "search_rank": 38,
       "quantity": 999,
       "views": 0,
       "favorites": 0,
@@ -671,9 +748,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 68255617,
@@ -688,7 +772,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "4583475795": {
       "listing_id": 4583475795,
@@ -724,9 +808,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 5
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 5
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 67955578,
@@ -741,7 +832,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "4582913349": {
       "listing_id": 4582913349,
@@ -777,9 +868,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 68243250,
@@ -794,7 +892,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.43
+      "comparison_hours": 5.49
     },
     "1269805663": {
       "listing_id": 1269805663,
@@ -9129,7 +9227,7 @@
       "price": 2.4,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 1,
+      "search_rank": 7,
       "shop_id": 65473672,
       "quantity": 88,
       "views": 237,
@@ -9142,9 +9240,16 @@
           "views": 237,
           "favorites": 11,
           "shop_sales": 370
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 88,
+          "views": 237,
+          "favorites": 11,
+          "shop_sales": 370
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9167,7 +9272,7 @@
       "price": 6.0,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 2,
+      "search_rank": 10,
       "shop_id": 62452780,
       "quantity": 998,
       "views": 15,
@@ -9180,9 +9285,16 @@
           "views": 15,
           "favorites": 2,
           "shop_sales": 905
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 998,
+          "views": 15,
+          "favorites": 2,
+          "shop_sales": 905
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9205,7 +9317,7 @@
       "price": 3.0,
       "currency": "EUR",
       "source_query": "svg bundle",
-      "search_rank": 3,
+      "search_rank": 11,
       "shop_id": 49521837,
       "quantity": 979,
       "views": 326,
@@ -9218,9 +9330,16 @@
           "views": 326,
           "favorites": 29,
           "shop_sales": 11086
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 979,
+          "views": 326,
+          "favorites": 29,
+          "shop_sales": 11086
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9243,7 +9362,7 @@
       "price": 2.8,
       "currency": "EUR",
       "source_query": "svg bundle",
-      "search_rank": 4,
+      "search_rank": 12,
       "shop_id": 23070958,
       "quantity": 4,
       "views": 35602,
@@ -9256,9 +9375,16 @@
           "views": 35602,
           "favorites": 895,
           "shop_sales": 64060
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 4,
+          "views": 35602,
+          "favorites": 895,
+          "shop_sales": 64060
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9281,7 +9407,7 @@
       "price": 2.0,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 5,
+      "search_rank": 49,
       "shop_id": 50178161,
       "quantity": 847,
       "views": 3478,
@@ -9294,9 +9420,16 @@
           "views": 3478,
           "favorites": 104,
           "shop_sales": 83763
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 847,
+          "views": 3478,
+          "favorites": 104,
+          "shop_sales": 83763
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9319,7 +9452,7 @@
       "price": 3.75,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 6,
+      "search_rank": 14,
       "shop_id": 19927359,
       "quantity": 992,
       "views": 137,
@@ -9332,9 +9465,16 @@
           "views": 137,
           "favorites": 15,
           "shop_sales": 14903
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 992,
+          "views": 137,
+          "favorites": 15,
+          "shop_sales": 14903
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9357,7 +9497,7 @@
       "price": 3.98,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 7,
+      "search_rank": 16,
       "shop_id": 60920707,
       "quantity": 999,
       "views": 0,
@@ -9370,9 +9510,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 1381
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 1381
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9395,7 +9542,7 @@
       "price": 2.49,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 8,
+      "search_rank": 17,
       "shop_id": 47991383,
       "quantity": 48,
       "views": 32,
@@ -9408,9 +9555,16 @@
           "views": 32,
           "favorites": 1,
           "shop_sales": 366
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 48,
+          "views": 32,
+          "favorites": 1,
+          "shop_sales": 366
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9433,7 +9587,7 @@
       "price": 3.98,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 9,
+      "search_rank": 3,
       "shop_id": 34666379,
       "quantity": 527,
       "views": 5271,
@@ -9446,9 +9600,16 @@
           "views": 5271,
           "favorites": 230,
           "shop_sales": 31142
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 527,
+          "views": 5271,
+          "favorites": 230,
+          "shop_sales": 31142
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9471,7 +9632,7 @@
       "price": 9.0,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 10,
+      "search_rank": 19,
       "shop_id": 41605160,
       "quantity": 747,
       "views": 4864,
@@ -9484,9 +9645,16 @@
           "views": 4864,
           "favorites": 450,
           "shop_sales": 31968
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 747,
+          "views": 4864,
+          "favorites": 450,
+          "shop_sales": 31968
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9509,7 +9677,7 @@
       "price": 3.0,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 11,
+      "search_rank": 20,
       "shop_id": 62685834,
       "quantity": 713,
       "views": 1894,
@@ -9522,9 +9690,16 @@
           "views": 1894,
           "favorites": 107,
           "shop_sales": 2407
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 713,
+          "views": 1894,
+          "favorites": 107,
+          "shop_sales": 2407
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9547,7 +9722,7 @@
       "price": 3.33,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 12,
+      "search_rank": 22,
       "shop_id": 60627285,
       "quantity": 983,
       "views": 268,
@@ -9560,9 +9735,16 @@
           "views": 268,
           "favorites": 7,
           "shop_sales": 2431
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 983,
+          "views": 268,
+          "favorites": 7,
+          "shop_sales": 2431
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9585,7 +9767,7 @@
       "price": 4.0,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 13,
+      "search_rank": 23,
       "shop_id": 66270093,
       "quantity": 989,
       "views": 119,
@@ -9598,9 +9780,16 @@
           "views": 119,
           "favorites": 3,
           "shop_sales": 60
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 989,
+          "views": 119,
+          "favorites": 3,
+          "shop_sales": 60
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9623,7 +9812,7 @@
       "price": 3.87,
       "currency": "CAD",
       "source_query": "svg bundle",
-      "search_rank": 14,
+      "search_rank": 24,
       "shop_id": 42478391,
       "quantity": 999,
       "views": 0,
@@ -9636,9 +9825,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 16727
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 16727
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9661,7 +9857,7 @@
       "price": 4.98,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 15,
+      "search_rank": 25,
       "shop_id": 13271511,
       "quantity": 861,
       "views": 14423,
@@ -9674,9 +9870,16 @@
           "views": 14423,
           "favorites": 854,
           "shop_sales": 96670
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 861,
+          "views": 14423,
+          "favorites": 854,
+          "shop_sales": 96670
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9699,7 +9902,7 @@
       "price": 1.69,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 16,
+      "search_rank": 26,
       "shop_id": 27011927,
       "quantity": 851,
       "views": 5245,
@@ -9712,9 +9915,16 @@
           "views": 5245,
           "favorites": 150,
           "shop_sales": 28117
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 851,
+          "views": 5245,
+          "favorites": 150,
+          "shop_sales": 28117
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9737,7 +9947,7 @@
       "price": 45000.0,
       "currency": "IDR",
       "source_query": "svg bundle",
-      "search_rank": 17,
+      "search_rank": 13,
       "shop_id": 57995126,
       "quantity": 916,
       "views": 1939,
@@ -9750,9 +9960,16 @@
           "views": 1939,
           "favorites": 76,
           "shop_sales": 9278
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 916,
+          "views": 1939,
+          "favorites": 76,
+          "shop_sales": 9278
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9775,7 +9992,7 @@
       "price": 12.0,
       "currency": "CAD",
       "source_query": "svg bundle",
-      "search_rank": 18,
+      "search_rank": 27,
       "shop_id": 66820648,
       "quantity": 998,
       "views": 20,
@@ -9788,9 +10005,16 @@
           "views": 20,
           "favorites": 3,
           "shop_sales": 16
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 998,
+          "views": 20,
+          "favorites": 3,
+          "shop_sales": 16
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9813,7 +10037,7 @@
       "price": 750.0,
       "currency": "PHP",
       "source_query": "svg bundle",
-      "search_rank": 19,
+      "search_rank": 15,
       "shop_id": 22668838,
       "quantity": 999,
       "views": 22,
@@ -9826,9 +10050,16 @@
           "views": 22,
           "favorites": 1,
           "shop_sales": 12692
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 22,
+          "favorites": 1,
+          "shop_sales": 12692
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9851,7 +10082,7 @@
       "price": 3.0,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 20,
+      "search_rank": 28,
       "shop_id": 32481443,
       "quantity": 489,
       "views": 14230,
@@ -9864,9 +10095,16 @@
           "views": 14230,
           "favorites": 349,
           "shop_sales": 59117
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 489,
+          "views": 14230,
+          "favorites": 349,
+          "shop_sales": 59117
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9889,7 +10127,7 @@
       "price": 5.31,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 21,
+      "search_rank": 29,
       "shop_id": 51809489,
       "quantity": 887,
       "views": 1704,
@@ -9902,9 +10140,16 @@
           "views": 1704,
           "favorites": 88,
           "shop_sales": 3910
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 887,
+          "views": 1704,
+          "favorites": 88,
+          "shop_sales": 3910
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9927,7 +10172,7 @@
       "price": 1.79,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 22,
+      "search_rank": 18,
       "shop_id": 63431937,
       "quantity": 986,
       "views": 131,
@@ -9940,9 +10185,16 @@
           "views": 131,
           "favorites": 7,
           "shop_sales": 1203
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 986,
+          "views": 131,
+          "favorites": 7,
+          "shop_sales": 1203
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -9965,7 +10217,7 @@
       "price": 7.0,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 23,
+      "search_rank": 30,
       "shop_id": 52896142,
       "quantity": 931,
       "views": 0,
@@ -9978,9 +10230,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 567
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 931,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 567
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10003,7 +10262,7 @@
       "price": 6.0,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 24,
+      "search_rank": 31,
       "shop_id": 19584479,
       "quantity": 92,
       "views": 203,
@@ -10016,9 +10275,16 @@
           "views": 203,
           "favorites": 18,
           "shop_sales": 2303
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 92,
+          "views": 203,
+          "favorites": 18,
+          "shop_sales": 2303
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10041,7 +10307,7 @@
       "price": 7.95,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 25,
+      "search_rank": 33,
       "shop_id": 18482040,
       "quantity": 499,
       "views": 50974,
@@ -10054,9 +10320,16 @@
           "views": 50974,
           "favorites": 2041,
           "shop_sales": 38137
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 499,
+          "views": 50974,
+          "favorites": 2041,
+          "shop_sales": 38137
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10079,7 +10352,7 @@
       "price": 3.32,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 26,
+      "search_rank": 35,
       "shop_id": 63656880,
       "quantity": 999,
       "views": 38,
@@ -10092,9 +10365,16 @@
           "views": 38,
           "favorites": 0,
           "shop_sales": 981
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 38,
+          "favorites": 0,
+          "shop_sales": 981
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10117,7 +10397,7 @@
       "price": 1.5,
       "currency": "EUR",
       "source_query": "svg bundle",
-      "search_rank": 27,
+      "search_rank": 36,
       "shop_id": 38352857,
       "quantity": 999,
       "views": 10,
@@ -10130,9 +10410,16 @@
           "views": 10,
           "favorites": 0,
           "shop_sales": 10322
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 10,
+          "favorites": 0,
+          "shop_sales": 10322
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10155,7 +10442,7 @@
       "price": 4.99,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 28,
+      "search_rank": 39,
       "shop_id": 68275462,
       "quantity": 40,
       "views": 0,
@@ -10168,9 +10455,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 40,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10193,7 +10487,7 @@
       "price": 3.09,
       "currency": "GBP",
       "source_query": "svg bundle",
-      "search_rank": 29,
+      "search_rank": 21,
       "shop_id": 21411707,
       "quantity": 930,
       "views": 3737,
@@ -10206,9 +10500,16 @@
           "views": 3737,
           "favorites": 187,
           "shop_sales": 323182
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 930,
+          "views": 3737,
+          "favorites": 187,
+          "shop_sales": 323182
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10231,7 +10532,7 @@
       "price": 3.7,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 30,
+      "search_rank": 44,
       "shop_id": 26467188,
       "quantity": 495,
       "views": 171,
@@ -10244,9 +10545,16 @@
           "views": 171,
           "favorites": 11,
           "shop_sales": 20925
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 495,
+          "views": 171,
+          "favorites": 11,
+          "shop_sales": 20925
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10269,7 +10577,7 @@
       "price": 2.99,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 31,
+      "search_rank": 45,
       "shop_id": 66060881,
       "quantity": 999,
       "views": 0,
@@ -10282,9 +10590,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 256
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 256
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10307,12 +10622,12 @@
       "price": 4.0,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 32,
+      "search_rank": 46,
       "shop_id": 44506712,
       "quantity": 84,
       "views": 211,
       "favorites": 14,
-      "shop_sales": 2907,
+      "shop_sales": 2908,
       "samples": [
         {
           "captured_at": "2026-09-27T13:02:05+00:00",
@@ -10320,9 +10635,16 @@
           "views": 211,
           "favorites": 14,
           "shop_sales": 2907
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 84,
+          "views": 211,
+          "favorites": 14,
+          "shop_sales": 2908
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10345,7 +10667,7 @@
       "price": 2.71,
       "currency": "EUR",
       "source_query": "svg bundle",
-      "search_rank": 33,
+      "search_rank": 47,
       "shop_id": 65347028,
       "quantity": 954,
       "views": 991,
@@ -10358,9 +10680,16 @@
           "views": 991,
           "favorites": 103,
           "shop_sales": 531
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 954,
+          "views": 991,
+          "favorites": 103,
+          "shop_sales": 531
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10383,7 +10712,7 @@
       "price": 2.5,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 34,
+      "search_rank": 50,
       "shop_id": 55108312,
       "quantity": 7,
       "views": 131,
@@ -10396,9 +10725,16 @@
           "views": 131,
           "favorites": 7,
           "shop_sales": 3869
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 7,
+          "views": 131,
+          "favorites": 7,
+          "shop_sales": 3869
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10459,7 +10795,7 @@
       "price": 2.5,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 36,
+      "search_rank": 32,
       "shop_id": 33432995,
       "quantity": 697,
       "views": 6459,
@@ -10472,9 +10808,16 @@
           "views": 6459,
           "favorites": 203,
           "shop_sales": 12011
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 697,
+          "views": 6459,
+          "favorites": 203,
+          "shop_sales": 12011
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10497,7 +10840,7 @@
       "price": 185.0,
       "currency": "TRY",
       "source_query": "svg bundle",
-      "search_rank": 37,
+      "search_rank": 34,
       "shop_id": 67439560,
       "quantity": 999,
       "views": 0,
@@ -10510,9 +10853,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 26
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 26
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10535,7 +10885,7 @@
       "price": 3.49,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 38,
+      "search_rank": 37,
       "shop_id": 34774413,
       "quantity": 999,
       "views": 39,
@@ -10548,9 +10898,16 @@
           "views": 39,
           "favorites": 0,
           "shop_sales": 81
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 39,
+          "favorites": 0,
+          "shop_sales": 81
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10573,7 +10930,7 @@
       "price": 3.44,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 39,
+      "search_rank": 38,
       "shop_id": 65824652,
       "quantity": 998,
       "views": 244,
@@ -10586,9 +10943,16 @@
           "views": 244,
           "favorites": 0,
           "shop_sales": 65
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 998,
+          "views": 244,
+          "favorites": 0,
+          "shop_sales": 65
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10649,7 +11013,7 @@
       "price": 2.55,
       "currency": "EUR",
       "source_query": "svg bundle",
-      "search_rank": 41,
+      "search_rank": 40,
       "shop_id": 55955009,
       "quantity": 978,
       "views": 789,
@@ -10662,9 +11026,16 @@
           "views": 789,
           "favorites": 16,
           "shop_sales": 2381
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 978,
+          "views": 789,
+          "favorites": 16,
+          "shop_sales": 2381
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10725,7 +11096,7 @@
       "price": 2.0,
       "currency": "USD",
       "source_query": "svg bundle",
-      "search_rank": 43,
+      "search_rank": 41,
       "shop_id": 65967675,
       "quantity": 995,
       "views": 65,
@@ -10738,9 +11109,16 @@
           "views": 65,
           "favorites": 5,
           "shop_sales": 109
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 995,
+          "views": 65,
+          "favorites": 5,
+          "shop_sales": 109
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10763,7 +11141,7 @@
       "price": 1.6,
       "currency": "EUR",
       "source_query": "svg bundle",
-      "search_rank": 44,
+      "search_rank": 42,
       "shop_id": 34397116,
       "quantity": 494,
       "views": 7910,
@@ -10776,9 +11154,16 @@
           "views": 7910,
           "favorites": 188,
           "shop_sales": 79127
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 494,
+          "views": 7910,
+          "favorites": 188,
+          "shop_sales": 79127
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -10801,7 +11186,7 @@
       "price": 2.5,
       "currency": "EUR",
       "source_query": "svg bundle",
-      "search_rank": 45,
+      "search_rank": 43,
       "shop_id": 61718482,
       "quantity": 988,
       "views": 518,
@@ -10814,9 +11199,16 @@
           "views": 518,
           "favorites": 50,
           "shop_sales": 639
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 988,
+          "views": 518,
+          "favorites": 50,
+          "shop_sales": 639
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11029,7 +11421,7 @@
       "price": 4.95,
       "currency": "GBP",
       "source_query": "sublimation png",
-      "search_rank": 1,
+      "search_rank": 48,
       "shop_id": 38112890,
       "quantity": 20,
       "views": 234,
@@ -11042,9 +11434,16 @@
           "views": 234,
           "favorites": 49,
           "shop_sales": 14538
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 20,
+          "views": 234,
+          "favorites": 49,
+          "shop_sales": 14538
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11067,7 +11466,7 @@
       "price": 300.0,
       "currency": "INR",
       "source_query": "sublimation png",
-      "search_rank": 2,
+      "search_rank": 5,
       "shop_id": 14973879,
       "quantity": 999,
       "views": 7,
@@ -11080,9 +11479,16 @@
           "views": 7,
           "favorites": 3,
           "shop_sales": 12316
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 7,
+          "favorites": 3,
+          "shop_sales": 12316
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11105,7 +11511,7 @@
       "price": 8.5,
       "currency": "AUD",
       "source_query": "sublimation png",
-      "search_rank": 3,
+      "search_rank": 6,
       "shop_id": 51191537,
       "quantity": 97,
       "views": 48,
@@ -11118,9 +11524,16 @@
           "views": 48,
           "favorites": 9,
           "shop_sales": 1488
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 97,
+          "views": 48,
+          "favorites": 9,
+          "shop_sales": 1488
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11143,7 +11556,7 @@
       "price": 2.5,
       "currency": "EUR",
       "source_query": "sublimation png",
-      "search_rank": 4,
+      "search_rank": 9,
       "shop_id": 50501972,
       "quantity": 999,
       "views": 3,
@@ -11156,9 +11569,16 @@
           "views": 3,
           "favorites": 0,
           "shop_sales": 8143
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 3,
+          "favorites": 0,
+          "shop_sales": 8143
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11181,7 +11601,7 @@
       "price": 3.88,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 5,
+      "search_rank": 10,
       "shop_id": 68073075,
       "quantity": 999,
       "views": 0,
@@ -11194,9 +11614,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 1
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 1
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11213,13 +11640,13 @@
     },
     "4583609077": {
       "listing_id": 4583609077,
-      "title": "7 PNG T Shirt Designs Bundle, Trendy Shirt Graphics, Sublimation PNG, Printable T Shirt Designs, Digital Download, Cricut Design",
+      "title": "7 Cartoon T-Shirt PNG Bundle, Sublimation Graphics, Digital Download",
       "url": "https://www.etsy.com/listing/4583609077/7-png-t-shirt-designs-bundle-trendy",
       "image_url": "https://i.etsystatic.com/61001917/r/il/d8bb66/8585895090/il_570xN.8585895090_4e1x.jpg",
       "price": 2.99,
       "currency": "EUR",
       "source_query": "sublimation png",
-      "search_rank": 6,
+      "search_rank": 1,
       "shop_id": 61001917,
       "quantity": 100,
       "views": 0,
@@ -11232,9 +11659,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 69
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 69
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11257,7 +11691,7 @@
       "price": 2.91,
       "currency": "GBP",
       "source_query": "sublimation png",
-      "search_rank": 7,
+      "search_rank": 2,
       "shop_id": 35504746,
       "quantity": 998,
       "views": 2,
@@ -11270,9 +11704,16 @@
           "views": 2,
           "favorites": 2,
           "shop_sales": 1263
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 998,
+          "views": 2,
+          "favorites": 2,
+          "shop_sales": 1263
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11295,7 +11736,7 @@
       "price": 4.0,
       "currency": "EUR",
       "source_query": "sublimation png",
-      "search_rank": 8,
+      "search_rank": 4,
       "shop_id": 41818100,
       "quantity": 121,
       "views": 1,
@@ -11308,9 +11749,16 @@
           "views": 1,
           "favorites": 0,
           "shop_sales": 17770
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 121,
+          "views": 1,
+          "favorites": 0,
+          "shop_sales": 17770
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11333,7 +11781,7 @@
       "price": 2.39,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 9,
+      "search_rank": 12,
       "shop_id": 67605770,
       "quantity": 999,
       "views": 0,
@@ -11346,9 +11794,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 9
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 9
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11371,7 +11826,7 @@
       "price": 10.0,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 10,
+      "search_rank": 8,
       "shop_id": 33780161,
       "quantity": 1,
       "views": 12906,
@@ -11384,9 +11839,16 @@
           "views": 12906,
           "favorites": 337,
           "shop_sales": 26241
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 1,
+          "views": 12906,
+          "favorites": 337,
+          "shop_sales": 26241
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11409,7 +11871,7 @@
       "price": 2.6,
       "currency": "GBP",
       "source_query": "sublimation png",
-      "search_rank": 11,
+      "search_rank": 13,
       "shop_id": 20479883,
       "quantity": 100,
       "views": 116,
@@ -11422,9 +11884,16 @@
           "views": 116,
           "favorites": 14,
           "shop_sales": 9297
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 116,
+          "favorites": 14,
+          "shop_sales": 9297
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11447,7 +11916,7 @@
       "price": 2.08,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 12,
+      "search_rank": 11,
       "shop_id": 23635632,
       "quantity": 934,
       "views": 400,
@@ -11460,9 +11929,16 @@
           "views": 400,
           "favorites": 24,
           "shop_sales": 102073
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 934,
+          "views": 400,
+          "favorites": 24,
+          "shop_sales": 102073
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11485,7 +11961,7 @@
       "price": 3.0,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 13,
+      "search_rank": 14,
       "shop_id": 24549878,
       "quantity": 964,
       "views": 427,
@@ -11498,9 +11974,16 @@
           "views": 427,
           "favorites": 73,
           "shop_sales": 115920
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 964,
+          "views": 427,
+          "favorites": 73,
+          "shop_sales": 115920
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11523,7 +12006,7 @@
       "price": 2.0,
       "currency": "GBP",
       "source_query": "sublimation png",
-      "search_rank": 14,
+      "search_rank": 16,
       "shop_id": 45452062,
       "quantity": 984,
       "views": 130,
@@ -11536,9 +12019,16 @@
           "views": 130,
           "favorites": 9,
           "shop_sales": 3233
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 984,
+          "views": 130,
+          "favorites": 9,
+          "shop_sales": 3233
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11574,9 +12064,16 @@
           "views": 601,
           "favorites": 61,
           "shop_sales": 17167
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 985,
+          "views": 601,
+          "favorites": 61,
+          "shop_sales": 17167
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11599,7 +12096,7 @@
       "price": 1.99,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 16,
+      "search_rank": 20,
       "shop_id": 67015346,
       "quantity": 100,
       "views": 0,
@@ -11612,9 +12109,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11637,7 +12141,7 @@
       "price": 3.5,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 17,
+      "search_rank": 21,
       "shop_id": 38404137,
       "quantity": 850,
       "views": 134,
@@ -11650,9 +12154,16 @@
           "views": 134,
           "favorites": 43,
           "shop_sales": 100450
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 850,
+          "views": 134,
+          "favorites": 43,
+          "shop_sales": 100450
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11675,7 +12186,7 @@
       "price": 8.0,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 18,
+      "search_rank": 22,
       "shop_id": 64353022,
       "quantity": 999,
       "views": 0,
@@ -11688,9 +12199,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 1
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 1
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11713,7 +12231,7 @@
       "price": 6.5,
       "currency": "EUR",
       "source_query": "sublimation png",
-      "search_rank": 19,
+      "search_rank": 17,
       "shop_id": 38561928,
       "quantity": 999,
       "views": 11,
@@ -11726,9 +12244,16 @@
           "views": 11,
           "favorites": 1,
           "shop_sales": 4933
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 11,
+          "favorites": 1,
+          "shop_sales": 4933
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11751,7 +12276,7 @@
       "price": 20.0,
       "currency": "MAD",
       "source_query": "sublimation png",
-      "search_rank": 20,
+      "search_rank": 18,
       "shop_id": 67977269,
       "quantity": 999,
       "views": 0,
@@ -11764,9 +12289,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11789,7 +12321,7 @@
       "price": 1.8,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 21,
+      "search_rank": 19,
       "shop_id": 41053683,
       "quantity": 987,
       "views": 459,
@@ -11802,9 +12334,16 @@
           "views": 459,
           "favorites": 32,
           "shop_sales": 1730
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 987,
+          "views": 459,
+          "favorites": 32,
+          "shop_sales": 1730
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11827,7 +12366,7 @@
       "price": 2.99,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 22,
+      "search_rank": 23,
       "shop_id": 61910204,
       "quantity": 962,
       "views": 620,
@@ -11840,9 +12379,16 @@
           "views": 620,
           "favorites": 91,
           "shop_sales": 1935
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 962,
+          "views": 620,
+          "favorites": 91,
+          "shop_sales": 1935
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11865,7 +12411,7 @@
       "price": 3.99,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 23,
+      "search_rank": 24,
       "shop_id": 63696978,
       "quantity": 897,
       "views": 17,
@@ -11878,9 +12424,16 @@
           "views": 17,
           "favorites": 5,
           "shop_sales": 140
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 897,
+          "views": 17,
+          "favorites": 5,
+          "shop_sales": 140
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11903,7 +12456,7 @@
       "price": 1.8,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 24,
+      "search_rank": 25,
       "shop_id": 51587105,
       "quantity": 991,
       "views": 0,
@@ -11916,9 +12469,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 10917
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 991,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 10917
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11941,7 +12501,7 @@
       "price": 3.5,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 25,
+      "search_rank": 27,
       "shop_id": 28446254,
       "quantity": 959,
       "views": 759,
@@ -11954,9 +12514,16 @@
           "views": 759,
           "favorites": 69,
           "shop_sales": 7819
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 959,
+          "views": 759,
+          "favorites": 69,
+          "shop_sales": 7819
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -11992,9 +12559,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 51
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 51
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12017,7 +12591,7 @@
       "price": 2.0,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 27,
+      "search_rank": 28,
       "shop_id": 64617264,
       "quantity": 100,
       "views": 0,
@@ -12030,9 +12604,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 326
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 326
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12055,7 +12636,7 @@
       "price": 5.0,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 28,
+      "search_rank": 29,
       "shop_id": 54718224,
       "quantity": 999,
       "views": 0,
@@ -12068,9 +12649,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 2123
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 2123
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12093,7 +12681,7 @@
       "price": 3.95,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 29,
+      "search_rank": 30,
       "shop_id": 48641615,
       "quantity": 117,
       "views": 0,
@@ -12106,9 +12694,16 @@
           "views": 0,
           "favorites": 88,
           "shop_sales": 1359
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 117,
+          "views": 0,
+          "favorites": 88,
+          "shop_sales": 1359
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12131,7 +12726,7 @@
       "price": 2.2,
       "currency": "EUR",
       "source_query": "sublimation png",
-      "search_rank": 30,
+      "search_rank": 32,
       "shop_id": 28701416,
       "quantity": 997,
       "views": 21,
@@ -12144,9 +12739,16 @@
           "views": 21,
           "favorites": 4,
           "shop_sales": 664
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 997,
+          "views": 21,
+          "favorites": 4,
+          "shop_sales": 664
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12169,7 +12771,7 @@
       "price": 2.49,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 31,
+      "search_rank": 33,
       "shop_id": 12203659,
       "quantity": 99,
       "views": 0,
@@ -12182,9 +12784,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 20274
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 99,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 20274
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12207,7 +12816,7 @@
       "price": 2.38,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 32,
+      "search_rank": 34,
       "shop_id": 35127462,
       "quantity": 950,
       "views": 442,
@@ -12220,9 +12829,16 @@
           "views": 442,
           "favorites": 96,
           "shop_sales": 34166
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 950,
+          "views": 442,
+          "favorites": 96,
+          "shop_sales": 34166
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12245,7 +12861,7 @@
       "price": 3.5,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 33,
+      "search_rank": 31,
       "shop_id": 20470126,
       "quantity": 999,
       "views": 0,
@@ -12258,9 +12874,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 85
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 85
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12283,7 +12906,7 @@
       "price": 3.99,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 34,
+      "search_rank": 35,
       "shop_id": 63020108,
       "quantity": 100,
       "views": 0,
@@ -12296,9 +12919,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 23
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 23
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12321,7 +12951,7 @@
       "price": 2.0,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 35,
+      "search_rank": 36,
       "shop_id": 42182703,
       "quantity": 999,
       "views": 0,
@@ -12334,9 +12964,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 259441
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 259441
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12359,7 +12996,7 @@
       "price": 4.29,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 36,
+      "search_rank": 37,
       "shop_id": 58984248,
       "quantity": 996,
       "views": 53,
@@ -12372,9 +13009,16 @@
           "views": 53,
           "favorites": 5,
           "shop_sales": 30
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 996,
+          "views": 53,
+          "favorites": 5,
+          "shop_sales": 30
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12397,7 +13041,7 @@
       "price": 2.99,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 37,
+      "search_rank": 38,
       "shop_id": 67279999,
       "quantity": 999,
       "views": 0,
@@ -12410,9 +13054,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 19
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 19
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12435,7 +13086,7 @@
       "price": 4.5,
       "currency": "GBP",
       "source_query": "sublimation png",
-      "search_rank": 38,
+      "search_rank": 39,
       "shop_id": 10054206,
       "quantity": 2,
       "views": 79,
@@ -12448,9 +13099,16 @@
           "views": 79,
           "favorites": 4,
           "shop_sales": 46379
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 2,
+          "views": 79,
+          "favorites": 4,
+          "shop_sales": 46379
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12473,7 +13131,7 @@
       "price": 15.0,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 39,
+      "search_rank": 40,
       "shop_id": 47085973,
       "quantity": 990,
       "views": 788,
@@ -12486,9 +13144,16 @@
           "views": 788,
           "favorites": 60,
           "shop_sales": 2971
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 990,
+          "views": 788,
+          "favorites": 60,
+          "shop_sales": 2971
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12511,7 +13176,7 @@
       "price": 130000.0,
       "currency": "VND",
       "source_query": "sublimation png",
-      "search_rank": 40,
+      "search_rank": 41,
       "shop_id": 55116121,
       "quantity": 999,
       "views": 0,
@@ -12524,9 +13189,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 6355
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 6355
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12549,7 +13221,7 @@
       "price": 4.62,
       "currency": "EUR",
       "source_query": "sublimation png",
-      "search_rank": 41,
+      "search_rank": 42,
       "shop_id": 65955081,
       "quantity": 991,
       "views": 47,
@@ -12562,9 +13234,16 @@
           "views": 47,
           "favorites": 10,
           "shop_sales": 1324
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 991,
+          "views": 47,
+          "favorites": 10,
+          "shop_sales": 1324
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12587,7 +13266,7 @@
       "price": 3.98,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 42,
+      "search_rank": 43,
       "shop_id": 68086473,
       "quantity": 999,
       "views": 0,
@@ -12600,9 +13279,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12625,7 +13311,7 @@
       "price": 1.9,
       "currency": "CAD",
       "source_query": "sublimation png",
-      "search_rank": 43,
+      "search_rank": 44,
       "shop_id": 57908324,
       "quantity": 999,
       "views": 0,
@@ -12638,9 +13324,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 17
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 17
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12663,12 +13356,12 @@
       "price": 3.33,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 44,
+      "search_rank": 45,
       "shop_id": 58400250,
       "quantity": 986,
       "views": 64,
       "favorites": 7,
-      "shop_sales": 5909,
+      "shop_sales": 5910,
       "samples": [
         {
           "captured_at": "2026-09-27T13:02:05+00:00",
@@ -12676,9 +13369,16 @@
           "views": 64,
           "favorites": 7,
           "shop_sales": 5909
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 986,
+          "views": 64,
+          "favorites": 7,
+          "shop_sales": 5910
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12701,7 +13401,7 @@
       "price": 4.7,
       "currency": "USD",
       "source_query": "sublimation png",
-      "search_rank": 45,
+      "search_rank": 46,
       "shop_id": 66872456,
       "quantity": 999,
       "views": 0,
@@ -12714,9 +13414,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 1619
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 1619
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12739,7 +13446,7 @@
       "price": 100.0,
       "currency": "TRY",
       "source_query": "sublimation png",
-      "search_rank": 46,
+      "search_rank": 47,
       "shop_id": 52934915,
       "quantity": 798,
       "views": 2914,
@@ -12752,9 +13459,16 @@
           "views": 2914,
           "favorites": 198,
           "shop_sales": 9388
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 798,
+          "views": 2914,
+          "favorites": 198,
+          "shop_sales": 9388
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12815,7 +13529,7 @@
       "price": 2.5,
       "currency": "EUR",
       "source_query": "sublimation png",
-      "search_rank": 48,
+      "search_rank": 50,
       "shop_id": 50501972,
       "quantity": 999,
       "views": 6,
@@ -12828,9 +13542,16 @@
           "views": 6,
           "favorites": 0,
           "shop_sales": 8143
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 6,
+          "favorites": 0,
+          "shop_sales": 8143
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12866,9 +13587,16 @@
           "views": 57,
           "favorites": 7,
           "shop_sales": 1488
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 98,
+          "views": 57,
+          "favorites": 7,
+          "shop_sales": 1488
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12929,7 +13657,7 @@
       "price": 4.07,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 3,
+      "search_rank": 5,
       "shop_id": 23423860,
       "quantity": 994,
       "views": 327,
@@ -12942,9 +13670,16 @@
           "views": 327,
           "favorites": 9,
           "shop_sales": 92420
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 994,
+          "views": 327,
+          "favorites": 9,
+          "shop_sales": 92420
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -12967,7 +13702,7 @@
       "price": 10.5,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 4,
+      "search_rank": 7,
       "shop_id": 26103078,
       "quantity": 3,
       "views": 156,
@@ -12980,9 +13715,16 @@
           "views": 156,
           "favorites": 14,
           "shop_sales": 106
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 3,
+          "views": 156,
+          "favorites": 14,
+          "shop_sales": 106
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13005,7 +13747,7 @@
       "price": 7.0,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 5,
+      "search_rank": 48,
       "shop_id": 43659229,
       "quantity": 999,
       "views": 4,
@@ -13018,9 +13760,16 @@
           "views": 4,
           "favorites": 0,
           "shop_sales": 648
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 4,
+          "favorites": 0,
+          "shop_sales": 648
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13043,7 +13792,7 @@
       "price": 6.99,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 6,
+      "search_rank": 11,
       "shop_id": 66445481,
       "quantity": 996,
       "views": 25,
@@ -13056,9 +13805,16 @@
           "views": 25,
           "favorites": 2,
           "shop_sales": 13
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 996,
+          "views": 25,
+          "favorites": 2,
+          "shop_sales": 13
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13081,7 +13837,7 @@
       "price": 4.26,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 8,
+      "search_rank": 3,
       "shop_id": 61830141,
       "quantity": 999,
       "views": 38,
@@ -13094,9 +13850,16 @@
           "views": 38,
           "favorites": 0,
           "shop_sales": 2
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 38,
+          "favorites": 0,
+          "shop_sales": 2
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13119,7 +13882,7 @@
       "price": 17.98,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 9,
+      "search_rank": 13,
       "shop_id": 43777119,
       "quantity": 816,
       "views": 7541,
@@ -13132,9 +13895,16 @@
           "views": 7541,
           "favorites": 363,
           "shop_sales": 2558
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 816,
+          "views": 7541,
+          "favorites": 363,
+          "shop_sales": 2558
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13157,7 +13927,7 @@
       "price": 2.49,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 10,
+      "search_rank": 15,
       "shop_id": 65423145,
       "quantity": 997,
       "views": 82,
@@ -13170,9 +13940,16 @@
           "views": 82,
           "favorites": 2,
           "shop_sales": 462
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 997,
+          "views": 82,
+          "favorites": 2,
+          "shop_sales": 462
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13195,7 +13972,7 @@
       "price": 110.0,
       "currency": "TRY",
       "source_query": "canva template",
-      "search_rank": 11,
+      "search_rank": 6,
       "shop_id": 65849412,
       "quantity": 989,
       "views": 99,
@@ -13208,9 +13985,16 @@
           "views": 99,
           "favorites": 5,
           "shop_sales": 290
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 989,
+          "views": 99,
+          "favorites": 5,
+          "shop_sales": 290
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13233,7 +14017,7 @@
       "price": 9.95,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 12,
+      "search_rank": 19,
       "shop_id": 66942988,
       "quantity": 999,
       "views": 0,
@@ -13246,9 +14030,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 2
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 2
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13271,7 +14062,7 @@
       "price": 3.0,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 13,
+      "search_rank": 20,
       "shop_id": 62092436,
       "quantity": 999,
       "views": 0,
@@ -13284,9 +14075,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 1027
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 1027
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13309,7 +14107,7 @@
       "price": 18.5,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 14,
+      "search_rank": 21,
       "shop_id": 30802376,
       "quantity": 998,
       "views": 224,
@@ -13322,9 +14120,16 @@
           "views": 224,
           "favorites": 8,
           "shop_sales": 27027
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 998,
+          "views": 224,
+          "favorites": 8,
+          "shop_sales": 27027
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13347,7 +14152,7 @@
       "price": 9.29,
       "currency": "GBP",
       "source_query": "canva template",
-      "search_rank": 15,
+      "search_rank": 9,
       "shop_id": 38719773,
       "quantity": 722,
       "views": 7751,
@@ -13360,9 +14165,16 @@
           "views": 7751,
           "favorites": 644,
           "shop_sales": 5994
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 722,
+          "views": 7751,
+          "favorites": 644,
+          "shop_sales": 5994
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13385,7 +14197,7 @@
       "price": 5.0,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 16,
+      "search_rank": 24,
       "shop_id": 65940692,
       "quantity": 998,
       "views": 2,
@@ -13398,9 +14210,16 @@
           "views": 2,
           "favorites": 0,
           "shop_sales": 1
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 998,
+          "views": 2,
+          "favorites": 0,
+          "shop_sales": 1
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13423,7 +14242,7 @@
       "price": 20.0,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 17,
+      "search_rank": 10,
       "shop_id": 39394003,
       "quantity": 994,
       "views": 149,
@@ -13436,9 +14255,16 @@
           "views": 149,
           "favorites": 10,
           "shop_sales": 9205
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 994,
+          "views": 149,
+          "favorites": 10,
+          "shop_sales": 9205
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13461,7 +14287,7 @@
       "price": 18.0,
       "currency": "ILS",
       "source_query": "canva template",
-      "search_rank": 18,
+      "search_rank": 26,
       "shop_id": 48919812,
       "quantity": 999,
       "views": 0,
@@ -13474,9 +14300,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13499,7 +14332,7 @@
       "price": 6.0,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 19,
+      "search_rank": 14,
       "shop_id": 67564014,
       "quantity": 999,
       "views": 0,
@@ -13512,9 +14345,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13537,7 +14377,7 @@
       "price": 7.5,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 20,
+      "search_rank": 28,
       "shop_id": 63191415,
       "quantity": 993,
       "views": 42,
@@ -13550,9 +14390,16 @@
           "views": 42,
           "favorites": 2,
           "shop_sales": 2276
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 993,
+          "views": 42,
+          "favorites": 2,
+          "shop_sales": 2276
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13575,7 +14422,7 @@
       "price": 12.0,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 21,
+      "search_rank": 29,
       "shop_id": 60560105,
       "quantity": 5,
       "views": 0,
@@ -13588,9 +14435,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 51
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 5,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 51
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13613,7 +14467,7 @@
       "price": 2.83,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 22,
+      "search_rank": 30,
       "shop_id": 66453917,
       "quantity": 984,
       "views": 114,
@@ -13626,9 +14480,16 @@
           "views": 114,
           "favorites": 9,
           "shop_sales": 1660
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 984,
+          "views": 114,
+          "favorites": 9,
+          "shop_sales": 1660
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13651,7 +14512,7 @@
       "price": 11.0,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 23,
+      "search_rank": 31,
       "shop_id": 25043137,
       "quantity": 736,
       "views": 7742,
@@ -13664,9 +14525,16 @@
           "views": 7742,
           "favorites": 258,
           "shop_sales": 19468
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 736,
+          "views": 7742,
+          "favorites": 258,
+          "shop_sales": 19468
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13689,7 +14557,7 @@
       "price": 7.99,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 24,
+      "search_rank": 16,
       "shop_id": 66311202,
       "quantity": 28,
       "views": 28,
@@ -13702,9 +14570,16 @@
           "views": 28,
           "favorites": 2,
           "shop_sales": 64
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 28,
+          "views": 28,
+          "favorites": 2,
+          "shop_sales": 64
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13727,7 +14602,7 @@
       "price": 5.95,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 25,
+      "search_rank": 17,
       "shop_id": 68230149,
       "quantity": 999,
       "views": 0,
@@ -13740,9 +14615,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13765,7 +14647,7 @@
       "price": 3.0,
       "currency": "GBP",
       "source_query": "canva template",
-      "search_rank": 26,
+      "search_rank": 18,
       "shop_id": 50708657,
       "quantity": 970,
       "views": 572,
@@ -13778,9 +14660,16 @@
           "views": 572,
           "favorites": 32,
           "shop_sales": 802
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 970,
+          "views": 572,
+          "favorites": 32,
+          "shop_sales": 802
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13803,7 +14692,7 @@
       "price": 25.4,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 27,
+      "search_rank": 32,
       "shop_id": 65924217,
       "quantity": 949,
       "views": 3245,
@@ -13816,9 +14705,16 @@
           "views": 3245,
           "favorites": 62,
           "shop_sales": 249
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 949,
+          "views": 3245,
+          "favorites": 62,
+          "shop_sales": 249
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13841,7 +14737,7 @@
       "price": 7.0,
       "currency": "AUD",
       "source_query": "canva template",
-      "search_rank": 28,
+      "search_rank": 33,
       "shop_id": 67484156,
       "quantity": 8,
       "views": 11,
@@ -13854,9 +14750,16 @@
           "views": 11,
           "favorites": 1,
           "shop_sales": 2
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 8,
+          "views": 11,
+          "favorites": 1,
+          "shop_sales": 2
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13879,7 +14782,7 @@
       "price": 13.5,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 29,
+      "search_rank": 22,
       "shop_id": 37611599,
       "quantity": 997,
       "views": 27,
@@ -13892,9 +14795,16 @@
           "views": 27,
           "favorites": 2,
           "shop_sales": 6997
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 997,
+          "views": 27,
+          "favorites": 2,
+          "shop_sales": 6997
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13917,7 +14827,7 @@
       "price": 6.0,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 30,
+      "search_rank": 23,
       "shop_id": 66729033,
       "quantity": 995,
       "views": 35,
@@ -13930,9 +14840,16 @@
           "views": 35,
           "favorites": 3,
           "shop_sales": 178
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 995,
+          "views": 35,
+          "favorites": 3,
+          "shop_sales": 178
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13955,7 +14872,7 @@
       "price": 8.95,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 31,
+      "search_rank": 34,
       "shop_id": 49814889,
       "quantity": 999,
       "views": 0,
@@ -13968,9 +14885,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 40
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 40
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -13993,7 +14917,7 @@
       "price": 5.49,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 32,
+      "search_rank": 25,
       "shop_id": 59345338,
       "quantity": 997,
       "views": 15,
@@ -14006,9 +14930,16 @@
           "views": 15,
           "favorites": 2,
           "shop_sales": 26
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 997,
+          "views": 15,
+          "favorites": 2,
+          "shop_sales": 26
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14031,7 +14962,7 @@
       "price": 2.99,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 33,
+      "search_rank": 27,
       "shop_id": 65069786,
       "quantity": 786,
       "views": 2144,
@@ -14044,9 +14975,16 @@
           "views": 2144,
           "favorites": 127,
           "shop_sales": 2210
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 786,
+          "views": 2144,
+          "favorites": 127,
+          "shop_sales": 2210
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14107,7 +15045,7 @@
       "price": 2.0,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 35,
+      "search_rank": 38,
       "shop_id": 67584184,
       "quantity": 999,
       "views": 0,
@@ -14120,9 +15058,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 5
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 5
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14145,7 +15090,7 @@
       "price": 500.0,
       "currency": "TRY",
       "source_query": "canva template",
-      "search_rank": 36,
+      "search_rank": 39,
       "shop_id": 29956290,
       "quantity": 10,
       "views": 122,
@@ -14158,9 +15103,16 @@
           "views": 122,
           "favorites": 10,
           "shop_sales": 1526
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 10,
+          "views": 122,
+          "favorites": 10,
+          "shop_sales": 1526
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14183,7 +15135,7 @@
       "price": 1.99,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 37,
+      "search_rank": 40,
       "shop_id": 28068086,
       "quantity": 466,
       "views": 1032,
@@ -14196,9 +15148,16 @@
           "views": 1032,
           "favorites": 95,
           "shop_sales": 20042
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 466,
+          "views": 1032,
+          "favorites": 95,
+          "shop_sales": 20042
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14221,7 +15180,7 @@
       "price": 27.0,
       "currency": "MAD",
       "source_query": "canva template",
-      "search_rank": 38,
+      "search_rank": 41,
       "shop_id": 67794350,
       "quantity": 999,
       "views": 0,
@@ -14234,9 +15193,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 3
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 3
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14259,7 +15225,7 @@
       "price": 120.0,
       "currency": "INR",
       "source_query": "canva template",
-      "search_rank": 39,
+      "search_rank": 42,
       "shop_id": 67266053,
       "quantity": 100,
       "views": 0,
@@ -14272,9 +15238,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 40
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 40
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14297,7 +15270,7 @@
       "price": 5.0,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 40,
+      "search_rank": 35,
       "shop_id": 49882892,
       "quantity": 6,
       "views": 5981,
@@ -14310,9 +15283,16 @@
           "views": 5981,
           "favorites": 179,
           "shop_sales": 6419
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 6,
+          "views": 5981,
+          "favorites": 179,
+          "shop_sales": 6419
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14335,7 +15315,7 @@
       "price": 2.35,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 41,
+      "search_rank": 37,
       "shop_id": 26317973,
       "quantity": 996,
       "views": 349,
@@ -14348,9 +15328,16 @@
           "views": 349,
           "favorites": 2,
           "shop_sales": 112
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 996,
+          "views": 349,
+          "favorites": 2,
+          "shop_sales": 112
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14487,7 +15474,7 @@
       "price": 2.5,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 46,
+      "search_rank": 43,
       "shop_id": 28300350,
       "quantity": 100,
       "views": 1727,
@@ -14500,9 +15487,16 @@
           "views": 1727,
           "favorites": 87,
           "shop_sales": 26355
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 1727,
+          "favorites": 87,
+          "shop_sales": 26355
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14525,7 +15519,7 @@
       "price": 7.0,
       "currency": "EUR",
       "source_query": "canva template",
-      "search_rank": 48,
+      "search_rank": 8,
       "shop_id": 43659229,
       "quantity": 999,
       "views": 8,
@@ -14538,9 +15532,16 @@
           "views": 8,
           "favorites": 0,
           "shop_sales": 648
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 8,
+          "favorites": 0,
+          "shop_sales": 648
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14576,9 +15577,16 @@
           "views": 965,
           "favorites": 32,
           "shop_sales": 27027
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 989,
+          "views": 965,
+          "favorites": 32,
+          "shop_sales": 27027
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14652,9 +15660,16 @@
           "views": 28844,
           "favorites": 763,
           "shop_sales": 17922
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 981,
+          "views": 28844,
+          "favorites": 763,
+          "shop_sales": 17922
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14677,7 +15692,7 @@
       "price": 4.99,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 2,
+      "search_rank": 3,
       "shop_id": 66910244,
       "quantity": 1,
       "views": 0,
@@ -14690,9 +15705,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14715,7 +15737,7 @@
       "price": 3.75,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 3,
+      "search_rank": 4,
       "shop_id": 52435637,
       "quantity": 957,
       "views": 1750,
@@ -14728,9 +15750,16 @@
           "views": 1750,
           "favorites": 90,
           "shop_sales": 145
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 957,
+          "views": 1750,
+          "favorites": 90,
+          "shop_sales": 145
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14753,7 +15782,7 @@
       "price": 2.4,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 4,
+      "search_rank": 2,
       "shop_id": 58953345,
       "quantity": 34,
       "views": 129,
@@ -14766,9 +15795,16 @@
           "views": 129,
           "favorites": 15,
           "shop_sales": 9035
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 34,
+          "views": 129,
+          "favorites": 15,
+          "shop_sales": 9035
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14804,9 +15840,16 @@
           "views": 921,
           "favorites": 27,
           "shop_sales": 2067
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 35,
+          "views": 921,
+          "favorites": 27,
+          "shop_sales": 2067
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14842,9 +15885,16 @@
           "views": 290,
           "favorites": 22,
           "shop_sales": 2339
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 19,
+          "views": 290,
+          "favorites": 22,
+          "shop_sales": 2339
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14880,9 +15930,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 10
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 10
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14918,9 +15975,16 @@
           "views": 104,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 104,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14943,7 +16007,7 @@
       "price": 2.3,
       "currency": "EUR",
       "source_query": "printable planner",
-      "search_rank": 10,
+      "search_rank": 12,
       "shop_id": 11875708,
       "quantity": 57,
       "views": 1139,
@@ -14956,9 +16020,16 @@
           "views": 1139,
           "favorites": 83,
           "shop_sales": 8076
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 57,
+          "views": 1139,
+          "favorites": 83,
+          "shop_sales": 8076
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -14981,7 +16052,7 @@
       "price": 3.32,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 11,
+      "search_rank": 10,
       "shop_id": 64583635,
       "quantity": 999,
       "views": 0,
@@ -14994,9 +16065,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 770
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 770
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15019,7 +16097,7 @@
       "price": 9.99,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 12,
+      "search_rank": 11,
       "shop_id": 7003894,
       "quantity": 1,
       "views": 1464,
@@ -15032,9 +16110,16 @@
           "views": 1464,
           "favorites": 40,
           "shop_sales": 37679
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 1,
+          "views": 1464,
+          "favorites": 40,
+          "shop_sales": 37679
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15070,9 +16155,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 10878
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 978,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 10878
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15095,7 +16187,7 @@
       "price": 6.0,
       "currency": "CAD",
       "source_query": "printable planner",
-      "search_rank": 14,
+      "search_rank": 48,
       "shop_id": 40802347,
       "quantity": 857,
       "views": 793,
@@ -15108,9 +16200,16 @@
           "views": 793,
           "favorites": 48,
           "shop_sales": 419133
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 857,
+          "views": 793,
+          "favorites": 48,
+          "shop_sales": 419133
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15133,7 +16232,7 @@
       "price": 2.95,
       "currency": "AUD",
       "source_query": "printable planner",
-      "search_rank": 15,
+      "search_rank": 14,
       "shop_id": 61320982,
       "quantity": 100,
       "views": 3,
@@ -15146,9 +16245,16 @@
           "views": 3,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 3,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15171,7 +16277,7 @@
       "price": 7.0,
       "currency": "EUR",
       "source_query": "printable planner",
-      "search_rank": 16,
+      "search_rank": 15,
       "shop_id": 10148301,
       "quantity": 695,
       "views": 7874,
@@ -15184,9 +16290,16 @@
           "views": 7874,
           "favorites": 554,
           "shop_sales": 139316
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 695,
+          "views": 7874,
+          "favorites": 554,
+          "shop_sales": 139316
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15209,7 +16322,7 @@
       "price": 5.0,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 17,
+      "search_rank": 16,
       "shop_id": 60659837,
       "quantity": 999,
       "views": 31,
@@ -15222,9 +16335,16 @@
           "views": 31,
           "favorites": 0,
           "shop_sales": 7
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 31,
+          "favorites": 0,
+          "shop_sales": 7
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15260,9 +16380,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15285,7 +16412,7 @@
       "price": 9.95,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 19,
+      "search_rank": 20,
       "shop_id": 61348962,
       "quantity": 999,
       "views": 0,
@@ -15298,9 +16425,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15323,7 +16457,7 @@
       "price": 6.99,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 20,
+      "search_rank": 22,
       "shop_id": 67296931,
       "quantity": 999,
       "views": 0,
@@ -15336,9 +16470,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15361,7 +16502,7 @@
       "price": 1.99,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 21,
+      "search_rank": 19,
       "shop_id": 40940437,
       "quantity": 100,
       "views": 0,
@@ -15374,9 +16515,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 194
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 194
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15399,7 +16547,7 @@
       "price": 2.8,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 22,
+      "search_rank": 21,
       "shop_id": 62225204,
       "quantity": 999,
       "views": 71,
@@ -15412,9 +16560,16 @@
           "views": 71,
           "favorites": 8,
           "shop_sales": 298
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 71,
+          "favorites": 8,
+          "shop_sales": 298
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15442,7 +16597,7 @@
       "quantity": 114,
       "views": 20610,
       "favorites": 386,
-      "shop_sales": 10753,
+      "shop_sales": 10754,
       "samples": [
         {
           "captured_at": "2026-09-27T13:02:05+00:00",
@@ -15450,9 +16605,16 @@
           "views": 20610,
           "favorites": 386,
           "shop_sales": 10753
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 114,
+          "views": 20610,
+          "favorites": 386,
+          "shop_sales": 10754
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15475,7 +16637,7 @@
       "price": 17.9,
       "currency": "EUR",
       "source_query": "printable planner",
-      "search_rank": 24,
+      "search_rank": 25,
       "shop_id": 56728597,
       "quantity": 824,
       "views": 19981,
@@ -15488,9 +16650,16 @@
           "views": 19981,
           "favorites": 216,
           "shop_sales": 1699
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 824,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1699
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15513,7 +16682,7 @@
       "price": 250.0,
       "currency": "PHP",
       "source_query": "printable planner",
-      "search_rank": 25,
+      "search_rank": 26,
       "shop_id": 68224117,
       "quantity": 999,
       "views": 0,
@@ -15526,9 +16695,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15551,7 +16727,7 @@
       "price": 3.49,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 26,
+      "search_rank": 27,
       "shop_id": 68250073,
       "quantity": 999,
       "views": 0,
@@ -15564,9 +16740,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15589,7 +16772,7 @@
       "price": 6.9,
       "currency": "EUR",
       "source_query": "printable planner",
-      "search_rank": 27,
+      "search_rank": 24,
       "shop_id": 68228991,
       "quantity": 999,
       "views": 0,
@@ -15602,9 +16785,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15640,9 +16830,16 @@
           "views": 27388,
           "favorites": 1051,
           "shop_sales": 1402
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 76,
+          "views": 27388,
+          "favorites": 1051,
+          "shop_sales": 1402
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15665,7 +16862,7 @@
       "price": 3.0,
       "currency": "CAD",
       "source_query": "printable planner",
-      "search_rank": 29,
+      "search_rank": 31,
       "shop_id": 21998072,
       "quantity": 998,
       "views": 41,
@@ -15678,9 +16875,16 @@
           "views": 41,
           "favorites": 2,
           "shop_sales": 2220
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 998,
+          "views": 41,
+          "favorites": 2,
+          "shop_sales": 2220
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15703,7 +16907,7 @@
       "price": 2.5,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 30,
+      "search_rank": 32,
       "shop_id": 20132965,
       "quantity": 493,
       "views": 49,
@@ -15716,9 +16920,16 @@
           "views": 49,
           "favorites": 15,
           "shop_sales": 3472
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 493,
+          "views": 49,
+          "favorites": 15,
+          "shop_sales": 3472
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15741,7 +16952,7 @@
       "price": 65.0,
       "currency": "MXN",
       "source_query": "printable planner",
-      "search_rank": 31,
+      "search_rank": 29,
       "shop_id": 11641154,
       "quantity": 45,
       "views": 463,
@@ -15754,9 +16965,16 @@
           "views": 463,
           "favorites": 79,
           "shop_sales": 136416
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 45,
+          "views": 463,
+          "favorites": 79,
+          "shop_sales": 136416
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15779,7 +16997,7 @@
       "price": 4.2,
       "currency": "EUR",
       "source_query": "printable planner",
-      "search_rank": 32,
+      "search_rank": 30,
       "shop_id": 39762006,
       "quantity": 999,
       "views": 0,
@@ -15792,9 +17010,16 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 2
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 2
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15830,9 +17055,16 @@
           "views": 17,
           "favorites": 1,
           "shop_sales": 910
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 17,
+          "favorites": 1,
+          "shop_sales": 910
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15868,9 +17100,16 @@
           "views": 8469,
           "favorites": 466,
           "shop_sales": 4186
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 86,
+          "views": 8469,
+          "favorites": 466,
+          "shop_sales": 4186
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15893,7 +17132,7 @@
       "price": 8.5,
       "currency": "CAD",
       "source_query": "printable planner",
-      "search_rank": 35,
+      "search_rank": 37,
       "shop_id": 32124635,
       "quantity": 100,
       "views": 14,
@@ -15906,9 +17145,16 @@
           "views": 14,
           "favorites": 0,
           "shop_sales": 157
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 14,
+          "favorites": 0,
+          "shop_sales": 157
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15931,7 +17177,7 @@
       "price": 7.0,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 36,
+      "search_rank": 35,
       "shop_id": 46765819,
       "quantity": 999,
       "views": 25,
@@ -15944,9 +17190,16 @@
           "views": 25,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 25,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -15969,7 +17222,7 @@
       "price": 12.0,
       "currency": "CAD",
       "source_query": "printable planner",
-      "search_rank": 48,
+      "search_rank": 17,
       "shop_id": 40802347,
       "quantity": 848,
       "views": 468,
@@ -15982,9 +17235,16 @@
           "views": 468,
           "favorites": 11,
           "shop_sales": 419133
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 848,
+          "views": 468,
+          "favorites": 11,
+          "shop_sales": 419133
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -16020,9 +17280,586 @@
           "views": 41,
           "favorites": 10,
           "shop_sales": 3472
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 495,
+          "views": 41,
+          "favorites": 10,
+          "shop_sales": 3472
         }
       ],
-      "last_seen_at": "2026-09-27T13:02:05+00:00",
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "4327582700": {
+      "listing_id": 4327582700,
+      "title": "Fish SVG Bundle, Fish SVG, Fish Silhouette, Fish Cut Files, Fish Clipart, Fish Vector, Tropical Fish SVG, Bass Svg, Fish Design Svg",
+      "url": "https://www.etsy.com/listing/4327582700/fish-svg-bundle-fish-svg-fish-silhouette",
+      "image_url": "https://i.etsystatic.com/23410646/r/il/09fbd1/6977618920/il_570xN.6977618920_1aqt.jpg",
+      "price": 1.32,
+      "currency": "AUD",
+      "source_query": "svg bundle",
+      "search_rank": 1,
+      "shop_id": 23410646,
+      "quantity": 872,
+      "views": 2089,
+      "favorites": 49,
+      "shop_sales": 188171,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 872,
+          "views": 2089,
+          "favorites": 49,
+          "shop_sales": 188171
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "4542229970": {
+      "listing_id": 4542229970,
+      "title": "Witch SVG Bundle: Halloween Clipart,Flying Witch,Silhouette,Cut Files(Digital Download)",
+      "url": "https://www.etsy.com/listing/4542229970/witch-svg-bundle-halloween-clipartflying",
+      "image_url": "https://i.etsystatic.com/63106465/r/il/915747/8332793121/il_570xN.8332793121_sjvn.jpg",
+      "price": 1.89,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 2,
+      "shop_id": 63106465,
+      "quantity": 973,
+      "views": 353,
+      "favorites": 20,
+      "shop_sales": 5088,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 973,
+          "views": 353,
+          "favorites": 20,
+          "shop_sales": 5088
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "4326624608": {
+      "listing_id": 4326624608,
+      "title": "Witch SVG Bundle, funny witch svg, peeking witch svg,  Halloween svg Clipart, Halloween Laser File, witch Cricut cut file (Digital Download)",
+      "url": "https://www.etsy.com/listing/4326624608/witch-silhouette-svg-bundle-halloween",
+      "image_url": "https://i.etsystatic.com/33883319/r/il/49a82b/6972540220/il_570xN.6972540220_ckmg.jpg",
+      "price": 3.0,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 4,
+      "shop_id": 33883319,
+      "quantity": 968,
+      "views": 446,
+      "favorites": 36,
+      "shop_sales": 35550,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 968,
+          "views": 446,
+          "favorites": 36,
+          "shop_sales": 35550
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "1760612380": {
+      "listing_id": 1760612380,
+      "title": "Bat Svg Bundle, Halloween Bat Svg, Halloween Bat, Night Bat Svg, Halloween Svg, Bat Clipart, Vampire Bat Svg, Cut Files, Instant Download",
+      "url": "https://www.etsy.com/listing/1760612380/bat-svg-bundle-halloween-bat-svg",
+      "image_url": "https://i.etsystatic.com/50178161/r/il/b8616b/6182330168/il_570xN.6182330168_33ym.jpg",
+      "price": 2.0,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 5,
+      "shop_id": 50178161,
+      "quantity": 974,
+      "views": 585,
+      "favorites": 30,
+      "shop_sales": 83763,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 974,
+          "views": 585,
+          "favorites": 30,
+          "shop_sales": 83763
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "4583609059": {
+      "listing_id": 4583609059,
+      "title": "Fantasy SVG Bundle, Middle Earth Vector Files, Wizard Cut Files for Cricut, Elven Ring Clip Art, Medieval Kingdom Decal PNG, 250 Design Pack",
+      "url": "https://www.etsy.com/listing/4583609059/fantasy-svg-bundle-middle-earth-vector",
+      "image_url": "https://i.etsystatic.com/62409328/r/il/334fe1/8585897256/il_570xN.8585897256_oh4p.jpg",
+      "price": 290.0,
+      "currency": "TRY",
+      "source_query": "svg bundle",
+      "search_rank": 6,
+      "shop_id": 62409328,
+      "quantity": 999,
+      "views": 0,
+      "favorites": 0,
+      "shop_sales": 1774,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 1774
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "820089289": {
+      "listing_id": 820089289,
+      "title": "Small World SVG Bundle, Mouse Parks SVG Bundle, Mouse Vacation svg, cut file, clipart, svg files for cricut, svg, dxf, eps, png",
+      "url": "https://www.etsy.com/listing/820089289/small-world-svg-bundle-mouse-parks-svg",
+      "image_url": "https://i.etsystatic.com/17079133/r/il/d65b2a/2395001827/il_570xN.2395001827_qbi6.jpg",
+      "price": 0.97,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 8,
+      "shop_id": 17079133,
+      "quantity": 875,
+      "views": 1941,
+      "favorites": 304,
+      "shop_sales": 69329,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 875,
+          "views": 1941,
+          "favorites": 304,
+          "shop_sales": 69329
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "1308378519": {
+      "listing_id": 1308378519,
+      "title": "Photographer SVG Bundle: Funny Photography Shirt Designs, Camera Cut Files, Cricut Silhouette Cutout",
+      "url": "https://www.etsy.com/listing/1308378519/funny-photographer-svg-quotes",
+      "image_url": "https://i.etsystatic.com/10124652/r/il/b8362a/5547929901/il_570xN.5547929901_geyx.jpg",
+      "price": 3.0,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 9,
+      "shop_id": 10124652,
+      "quantity": 878,
+      "views": 0,
+      "favorites": 55,
+      "shop_sales": 8072,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 878,
+          "views": 0,
+          "favorites": 55,
+          "shop_sales": 8072
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "4519226535": {
+      "listing_id": 4519226535,
+      "title": "Sarcastic SVG Bundle | Funny Adult SVG Bundle | Cranky Old Bastards Club SVG | Procrastinators Club, Sarcastic Adult Shirt Sublimation png",
+      "url": "https://www.etsy.com/listing/4519226535/sarcastic-svg-bundle-funny-adult-svg",
+      "image_url": "https://i.etsystatic.com/33883319/r/il/75c69c/8165386289/il_570xN.8165386289_9ll3.jpg",
+      "price": 3.0,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 48,
+      "shop_id": 33883319,
+      "quantity": 647,
+      "views": 6662,
+      "favorites": 624,
+      "shop_sales": 35550,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 647,
+          "views": 6662,
+          "favorites": 624,
+          "shop_sales": 35550
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "1413829582": {
+      "listing_id": 1413829582,
+      "title": "Teddy Bear, Number 1, Balloons, 1st Birthday, Clipart, Sublimation PNG Instant Digital Download, Neutral Colours, one pngOn the Fold Designs",
+      "url": "https://www.etsy.com/listing/1413829582/teddy-bear-number-1-balloons-1st",
+      "image_url": "https://i.etsystatic.com/38112890/r/il/7e56b0/4675479418/il_570xN.4675479418_284u.jpg",
+      "price": 4.95,
+      "currency": "GBP",
+      "source_query": "sublimation png",
+      "search_rank": 3,
+      "shop_id": 38112890,
+      "quantity": 10,
+      "views": 4347,
+      "favorites": 243,
+      "shop_sales": 14538,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 10,
+          "views": 4347,
+          "favorites": 243,
+          "shop_sales": 14538
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "1871575883": {
+      "listing_id": 1871575883,
+      "title": "Favorite Child Svg, Varsity Svg, Sibling Svg, Funny Family Svg, Cricut Cut File, Sublimation Png",
+      "url": "https://www.etsy.com/listing/1871575883/favorite-child-svg-varsity-svg-sibling",
+      "image_url": "https://i.etsystatic.com/33448170/r/il/07bff7/6679018665/il_570xN.6679018665_soao.jpg",
+      "price": 3.31,
+      "currency": "USD",
+      "source_query": "sublimation png",
+      "search_rank": 7,
+      "shop_id": 33448170,
+      "quantity": 971,
+      "views": 213,
+      "favorites": 29,
+      "shop_sales": 61957,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 971,
+          "views": 213,
+          "favorites": 29,
+          "shop_sales": 61957
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "4309561446": {
+      "listing_id": 4309561446,
+      "title": "Distressed Brush Strokes Photo Frames Canva Template, Editable Drag and Drop Pattern or Image Frame",
+      "url": "https://www.etsy.com/listing/4309561446/canva-photo-frame-template-distressed",
+      "image_url": "https://i.etsystatic.com/19414790/r/il/44d5b3/6931050821/il_570xN.6931050821_ggbq.jpg",
+      "price": 4.99,
+      "currency": "GBP",
+      "source_query": "canva template",
+      "search_rank": 4,
+      "shop_id": 19414790,
+      "quantity": 55,
+      "views": 8,
+      "favorites": 2,
+      "shop_sales": 5835,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 55,
+          "views": 8,
+          "favorites": 2,
+          "shop_sales": 5835
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "4498673696": {
+      "listing_id": 4498673696,
+      "title": "Editable To Do List Printable Canva Template Cute Kids Planner Daily Planner Sheet Task List Instant Download",
+      "url": "https://www.etsy.com/listing/4498673696/editable-to-do-list-printable-canva",
+      "image_url": "https://i.etsystatic.com/41972588/r/il/6ac3e9/8026696679/il_570xN.8026696679_5kc8.jpg",
+      "price": 9.99,
+      "currency": "USD",
+      "source_query": "canva template",
+      "search_rank": 36,
+      "shop_id": 41972588,
+      "quantity": 100,
+      "views": 0,
+      "favorites": 0,
+      "shop_sales": 59,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 59
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "1883111463": {
+      "listing_id": 1883111463,
+      "title": "40 Page Cookbook Canva Template, Family Cookbook , Digital Magazine Template, Printable Recipe Book, Fully Customizable, All Page Numbers",
+      "url": "https://www.etsy.com/listing/1883111463/40-page-cookbook-canva-template-family",
+      "image_url": "https://i.etsystatic.com/28242087/r/il/c035f9/6689660942/il_570xN.6689660942_pcz1.jpg",
+      "price": 6.0,
+      "currency": "USD",
+      "source_query": "canva template",
+      "search_rank": 44,
+      "shop_id": 28242087,
+      "quantity": 11,
+      "views": 0,
+      "favorites": 0,
+      "shop_sales": 38,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 11,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 38
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "4420191352": {
+      "listing_id": 4420191352,
+      "title": "Number photo collage, CANVA template, editable photo collage, from 0 to 9, Ideal for birthdays, anniversaries, CANVA editable, números",
+      "url": "https://www.etsy.com/listing/4420191352/number-photo-collage-canva-template",
+      "image_url": "https://i.etsystatic.com/56844845/r/il/d7ae72/7534702137/il_570xN.7534702137_dqp1.jpg",
+      "price": 2.0,
+      "currency": "USD",
+      "source_query": "canva template",
+      "search_rank": 47,
+      "shop_id": 56844845,
+      "quantity": 34,
+      "views": 5133,
+      "favorites": 198,
+      "shop_sales": 722,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 34,
+          "views": 5133,
+          "favorites": 198,
+          "shop_sales": 722
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "4504540269": {
+      "listing_id": 4504540269,
+      "title": "Editable Kids Routine Bundle Canva Template, Daily Schedule, Chore Chart, Meal Tracker, Weekly Organizer Printable Download",
+      "url": "https://www.etsy.com/listing/4504540269/editable-kids-routine-bundle-canva",
+      "image_url": "https://i.etsystatic.com/41972588/r/il/77637e/8018610138/il_570xN.8018610138_38qg.jpg",
+      "price": 19.99,
+      "currency": "USD",
+      "source_query": "canva template",
+      "search_rank": 50,
+      "shop_id": 41972588,
+      "quantity": 999,
+      "views": 0,
+      "favorites": 0,
+      "shop_sales": 59,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 59
+        }
+      ],
+      "last_seen_at": "2026-09-27T13:05:43+00:00",
       "metrics_ready": false,
       "quantity_delta": 0,
       "stock_movement_24h": 0.0,
@@ -16038,5 +17875,5 @@
       "hot_score": 0.0
     }
   },
-  "last_success_at": "2026-09-27T13:02:05+00:00"
+  "last_success_at": "2026-09-27T13:05:43+00:00"
 }
