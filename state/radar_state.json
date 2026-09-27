@@ -9,7 +9,7 @@
       "price": 9.99,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 1,
+      "search_rank": 7,
       "quantity": 969,
       "views": 225,
       "favorites": 6,
@@ -63,24 +63,31 @@
           "views": 225,
           "favorites": 6,
           "shop_sales": 159
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 969,
+          "views": 225,
+          "favorites": 6,
+          "shop_sales": 159
         }
       ],
-      "last_seen_at": "2026-09-27T18:10:13+00:00",
+      "last_seen_at": "2026-09-27T18:36:20+00:00",
       "quantity_delta": 9.0,
-      "estimated_sales_24h": 20.68,
+      "estimated_sales_24h": 19.86,
       "shop_id": 25630851,
       "metrics_ready": true,
-      "stock_movement_24h": 20.44,
-      "confirmed_sales_24h": 20.44,
+      "stock_movement_24h": 19.63,
+      "confirmed_sales_24h": 19.63,
       "views_24h": 0.0,
-      "favorites_24h": 6.81,
-      "shop_sales_24h": 24.98,
+      "favorites_24h": 6.54,
+      "shop_sales_24h": 24.0,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 338.05,
-      "comparison_hours": 10.57
+      "hot_score": 324.84,
+      "comparison_hours": 11.0
     },
     "4571288199": {
       "listing_id": 4571288199,
@@ -90,12 +97,12 @@
       "price": 2.99,
       "currency": "USD",
       "source_query": "canva template",
-      "search_rank": 18,
+      "search_rank": 50,
       "shop_id": 65069786,
       "quantity": 782,
       "views": 2144,
       "favorites": 130,
-      "shop_sales": 2224,
+      "shop_sales": 2225,
       "samples": [
         {
           "captured_at": "2026-09-27T13:02:05+00:00",
@@ -131,23 +138,30 @@
           "views": 2144,
           "favorites": 130,
           "shop_sales": 2224
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2225
         }
       ],
-      "last_seen_at": "2026-09-27T18:10:13+00:00",
+      "last_seen_at": "2026-09-27T18:36:20+00:00",
       "metrics_ready": true,
       "quantity_delta": 4.0,
-      "stock_movement_24h": 18.69,
-      "confirmed_sales_24h": 18.69,
-      "estimated_sales_24h": 21.15,
+      "stock_movement_24h": 17.23,
+      "confirmed_sales_24h": 17.23,
+      "estimated_sales_24h": 19.73,
       "views_24h": 0.0,
-      "favorites_24h": 14.02,
-      "shop_sales_24h": 65.43,
+      "favorites_24h": 12.92,
+      "shop_sales_24h": 64.62,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 324.7,
-      "comparison_hours": 5.14
+      "hot_score": 300.62,
+      "comparison_hours": 5.57
     },
     "4369278115": {
       "listing_id": 4369278115,
@@ -157,12 +171,12 @@
       "price": 17.9,
       "currency": "EUR",
       "source_query": "printable planner",
-      "search_rank": 12,
+      "search_rank": 4,
       "shop_id": 56728597,
-      "quantity": 822,
+      "quantity": 821,
       "views": 19981,
       "favorites": 216,
-      "shop_sales": 1702,
+      "shop_sales": 1703,
       "samples": [
         {
           "captured_at": "2026-09-27T13:02:05+00:00",
@@ -198,23 +212,30 @@
           "views": 19981,
           "favorites": 216,
           "shop_sales": 1702
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 821,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1703
         }
       ],
-      "last_seen_at": "2026-09-27T18:10:13+00:00",
+      "last_seen_at": "2026-09-27T18:36:20+00:00",
       "metrics_ready": true,
-      "quantity_delta": 2.0,
-      "stock_movement_24h": 9.35,
-      "confirmed_sales_24h": 9.35,
-      "estimated_sales_24h": 9.59,
+      "quantity_delta": 3.0,
+      "stock_movement_24h": 12.92,
+      "confirmed_sales_24h": 12.92,
+      "estimated_sales_24h": 13.15,
       "views_24h": 0.0,
       "favorites_24h": 0.0,
-      "shop_sales_24h": 14.02,
+      "shop_sales_24h": 17.23,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 80,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 154.76,
-      "comparison_hours": 5.14
+      "hot_score": 211.84,
+      "comparison_hours": 5.57
     },
     "4555960599": {
       "listing_id": 4555960599,
@@ -224,12 +245,12 @@
       "price": 3.75,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 6,
+      "search_rank": 13,
       "shop_id": 52435637,
       "quantity": 956,
       "views": 1750,
-      "favorites": 92,
-      "shop_sales": 147,
+      "favorites": 93,
+      "shop_sales": 150,
       "samples": [
         {
           "captured_at": "2026-09-27T13:02:05+00:00",
@@ -265,23 +286,83 @@
           "views": 1750,
           "favorites": 92,
           "shop_sales": 147
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 956,
+          "views": 1750,
+          "favorites": 93,
+          "shop_sales": 150
         }
       ],
-      "last_seen_at": "2026-09-27T18:10:13+00:00",
+      "last_seen_at": "2026-09-27T18:36:20+00:00",
       "metrics_ready": true,
       "quantity_delta": 1.0,
-      "stock_movement_24h": 4.67,
-      "confirmed_sales_24h": 4.67,
-      "estimated_sales_24h": 4.92,
+      "stock_movement_24h": 4.31,
+      "confirmed_sales_24h": 4.31,
+      "estimated_sales_24h": 5.22,
       "views_24h": 0.0,
-      "favorites_24h": 9.35,
-      "shop_sales_24h": 9.35,
+      "favorites_24h": 12.92,
+      "shop_sales_24h": 21.54,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 87.8,
-      "comparison_hours": 5.14
+      "hot_score": 87.54,
+      "comparison_hours": 5.57
+    },
+    "4579601553": {
+      "listing_id": 4579601553,
+      "title": "50+ Christmas Tumbler Wrap Bundle, 20oz Skinny Tumbler Sublimation PNG, Merry Christmas Designs, Holiday Digital Download",
+      "url": "https://www.etsy.com/listing/4579601553/50-christmas-tumbler-wrap-bundle-20oz",
+      "image_url": "https://i.etsystatic.com/58400250/r/il/5d11da/8555601520/il_570xN.8555601520_smm6.jpg",
+      "price": 3.33,
+      "currency": "USD",
+      "source_query": "sublimation png",
+      "search_rank": 10,
+      "shop_id": 58400250,
+      "quantity": 985,
+      "views": 64,
+      "favorites": 8,
+      "shop_sales": 5916,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 986,
+          "views": 64,
+          "favorites": 7,
+          "shop_sales": 5909
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 986,
+          "views": 64,
+          "favorites": 7,
+          "shop_sales": 5910
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 985,
+          "views": 64,
+          "favorites": 8,
+          "shop_sales": 5916
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:36:20+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 1.0,
+      "stock_movement_24h": 4.31,
+      "confirmed_sales_24h": 4.31,
+      "estimated_sales_24h": 5.67,
+      "views_24h": 0.0,
+      "favorites_24h": 4.31,
+      "shop_sales_24h": 30.16,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 90,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 82.45,
+      "comparison_hours": 5.57
     },
     "4572125601": {
       "listing_id": 4572125601,
@@ -344,7 +425,7 @@
       "price": 4.25,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 2,
+      "search_rank": 6,
       "quantity": 43,
       "views": 1741,
       "favorites": 101,
@@ -384,24 +465,31 @@
           "views": 1741,
           "favorites": 101,
           "shop_sales": 20853
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 43,
+          "views": 1741,
+          "favorites": 101,
+          "shop_sales": 20853
         }
       ],
-      "last_seen_at": "2026-09-27T18:10:13+00:00",
+      "last_seen_at": "2026-09-27T18:36:20+00:00",
       "quantity_delta": 1.0,
-      "estimated_sales_24h": 2.51,
+      "estimated_sales_24h": 2.41,
       "shop_id": 28298093,
       "metrics_ready": true,
-      "stock_movement_24h": 2.27,
-      "confirmed_sales_24h": 2.27,
+      "stock_movement_24h": 2.18,
+      "confirmed_sales_24h": 2.18,
       "views_24h": 0.0,
-      "favorites_24h": 2.27,
-      "shop_sales_24h": 6.81,
+      "favorites_24h": 2.18,
+      "shop_sales_24h": 6.54,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 43.7,
-      "comparison_hours": 10.57
+      "hot_score": 42.15,
+      "comparison_hours": 11.0
     },
     "4407632391": {
       "listing_id": 4407632391,
@@ -411,12 +499,12 @@
       "price": 22.0,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 42,
+      "search_rank": 47,
       "shop_id": 31821268,
       "quantity": 981,
       "views": 28844,
       "favorites": 764,
-      "shop_sales": 17927,
+      "shop_sales": 17928,
       "samples": [
         {
           "captured_at": "2026-09-27T13:02:05+00:00",
@@ -452,23 +540,30 @@
           "views": 28844,
           "favorites": 764,
           "shop_sales": 17927
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 981,
+          "views": 28844,
+          "favorites": 764,
+          "shop_sales": 17928
         }
       ],
-      "last_seen_at": "2026-09-27T18:10:13+00:00",
+      "last_seen_at": "2026-09-27T18:36:20+00:00",
       "metrics_ready": true,
       "quantity_delta": 0.0,
       "stock_movement_24h": 0.0,
       "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 1.23,
+      "estimated_sales_24h": 1.36,
       "views_24h": 0.0,
-      "favorites_24h": 4.67,
-      "shop_sales_24h": 23.37,
+      "favorites_24h": 4.31,
+      "shop_sales_24h": 25.85,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 50,
       "basis": "Ölçüm var, satış sinyali yok",
-      "hot_score": 11.66,
-      "comparison_hours": 5.14
+      "hot_score": 11.89,
+      "comparison_hours": 5.57
     },
     "1765315407": {
       "listing_id": 1765315407,
@@ -899,9 +994,16 @@
           "views": 42,
           "favorites": 0,
           "shop_sales": 84
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 999,
+          "views": 42,
+          "favorites": 0,
+          "shop_sales": 84
         }
       ],
-      "last_seen_at": "2026-09-27T18:10:13+00:00",
+      "last_seen_at": "2026-09-27T18:36:20+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 50751829,
@@ -916,7 +1018,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 10.57
+      "comparison_hours": 11.0
     },
     "1394722285": {
       "listing_id": 1394722285,
@@ -13881,51 +13983,6 @@
       "basis": "İlk ölçüm · karşılaştırma bekleniyor",
       "hot_score": 0.0
     },
-    "4579601553": {
-      "listing_id": 4579601553,
-      "title": "50+ Christmas Tumbler Wrap Bundle, 20oz Skinny Tumbler Sublimation PNG, Merry Christmas Designs, Holiday Digital Download",
-      "url": "https://www.etsy.com/listing/4579601553/50-christmas-tumbler-wrap-bundle-20oz",
-      "image_url": "https://i.etsystatic.com/58400250/r/il/5d11da/8555601520/il_570xN.8555601520_smm6.jpg",
-      "price": 3.33,
-      "currency": "USD",
-      "source_query": "sublimation png",
-      "search_rank": 45,
-      "shop_id": 58400250,
-      "quantity": 986,
-      "views": 64,
-      "favorites": 7,
-      "shop_sales": 5910,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 986,
-          "views": 64,
-          "favorites": 7,
-          "shop_sales": 5909
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 986,
-          "views": 64,
-          "favorites": 7,
-          "shop_sales": 5910
-        }
-      ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
-      "metrics_ready": false,
-      "quantity_delta": 0,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
     "4583550396": {
       "listing_id": 4583550396,
       "title": "Christmas Character PNG Bundle, Colorful Santa Snowman Reindeer Highland Cow Nutcracker Sublimation PNG, Xmas Dark Shirt, Funny Christmas",
@@ -18249,5 +18306,5 @@
       "hot_score": 0.0
     }
   },
-  "last_success_at": "2026-09-27T18:10:13+00:00"
+  "last_success_at": "2026-09-27T18:36:20+00:00"
 }
