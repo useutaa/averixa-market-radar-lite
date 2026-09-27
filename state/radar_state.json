@@ -21,11 +21,30 @@
           "views": 88860,
           "favorites": 5167,
           "shop_sales": 160845
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 449,
+          "views": 88860,
+          "favorites": 5167,
+          "shop_sales": 160845
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 9349402,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4371777473": {
       "listing_id": 4371777473,
@@ -47,11 +66,30 @@
           "views": 47232,
           "favorites": 979,
           "shop_sales": 1698
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 867,
+          "views": 47232,
+          "favorites": 979,
+          "shop_sales": 1698
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 56728597,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1760806694": {
       "listing_id": 1760806694,
@@ -73,11 +111,30 @@
           "views": 29714,
           "favorites": 1051,
           "shop_sales": 55446
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 902,
+          "views": 29714,
+          "favorites": 1051,
+          "shop_sales": 55446
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 23483300,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1879968489": {
       "listing_id": 1879968489,
@@ -99,11 +156,30 @@
           "views": 21146,
           "favorites": 1162,
           "shop_sales": 6496
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 22,
+          "views": 21146,
+          "favorites": 1162,
+          "shop_sales": 6496
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 13096480,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1791930465": {
       "listing_id": 1791930465,
@@ -125,11 +201,30 @@
           "views": 15028,
           "favorites": 888,
           "shop_sales": 7862
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 356,
+          "views": 15028,
+          "favorites": 888,
+          "shop_sales": 7862
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 45371450,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1612287725": {
       "listing_id": 1612287725,
@@ -151,11 +246,30 @@
           "views": 12085,
           "favorites": 416,
           "shop_sales": 6021
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 668,
+          "views": 12085,
+          "favorites": 416,
+          "shop_sales": 6021
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 25054950,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4317315335": {
       "listing_id": 4317315335,
@@ -177,11 +291,30 @@
           "views": 10055,
           "favorites": 296,
           "shop_sales": 2406
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 994,
+          "views": 10055,
+          "favorites": 296,
+          "shop_sales": 2406
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 43709680,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1239035243": {
       "listing_id": 1239035243,
@@ -203,11 +336,30 @@
           "views": 7982,
           "favorites": 84,
           "shop_sales": 9502
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 924,
+          "views": 7982,
+          "favorites": 84,
+          "shop_sales": 9502
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 34083993,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4510562799": {
       "listing_id": 4510562799,
@@ -229,11 +381,30 @@
           "views": 7318,
           "favorites": 328,
           "shop_sales": 2383
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 144,
+          "views": 7318,
+          "favorites": 328,
+          "shop_sales": 2383
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 47479654,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4418140359": {
       "listing_id": 4418140359,
@@ -255,11 +426,30 @@
           "views": 6281,
           "favorites": 199,
           "shop_sales": 88398
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 818,
+          "views": 6281,
+          "favorites": 199,
+          "shop_sales": 88398
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 32701791,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1885287494": {
       "listing_id": 1885287494,
@@ -281,11 +471,30 @@
           "views": 6208,
           "favorites": 254,
           "shop_sales": 31137
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 865,
+          "views": 6208,
+          "favorites": 254,
+          "shop_sales": 31137
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 34666379,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4366388619": {
       "listing_id": 4366388619,
@@ -307,11 +516,30 @@
           "views": 4252,
           "favorites": 227,
           "shop_sales": 26076
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 716,
+          "views": 4252,
+          "favorites": 227,
+          "shop_sales": 26076
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 53437318,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1002597217": {
       "listing_id": 1002597217,
@@ -333,11 +561,30 @@
           "views": 4248,
           "favorites": 220,
           "shop_sales": 1043
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 959,
+          "views": 4248,
+          "favorites": 220,
+          "shop_sales": 1043
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 27607996,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4388508526": {
       "listing_id": 4388508526,
@@ -349,7 +596,7 @@
       "source_query": "svg bundle",
       "search_rank": 26,
       "quantity": 44,
-      "views": 4158,
+      "views": 4177,
       "favorites": 239,
       "shop_sales": 7361,
       "samples": [
@@ -359,11 +606,30 @@
           "views": 4158,
           "favorites": 239,
           "shop_sales": 7361
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 44,
+          "views": 4177,
+          "favorites": 239,
+          "shop_sales": 7361
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 30432033,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1388037273": {
       "listing_id": 1388037273,
@@ -385,11 +651,30 @@
           "views": 3540,
           "favorites": 231,
           "shop_sales": 33128
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 100,
+          "views": 3540,
+          "favorites": 231,
+          "shop_sales": 33128
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 20491954,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4530395612": {
       "listing_id": 4530395612,
@@ -411,11 +696,30 @@
           "views": 3370,
           "favorites": 115,
           "shop_sales": 1071
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 54,
+          "views": 3370,
+          "favorites": 115,
+          "shop_sales": 1071
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 55254663,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1860121639": {
       "listing_id": 1860121639,
@@ -427,7 +731,7 @@
       "source_query": "svg bundle",
       "search_rank": 36,
       "quantity": 882,
-      "views": 3048,
+      "views": 3051,
       "favorites": 92,
       "shop_sales": 27784,
       "samples": [
@@ -437,11 +741,30 @@
           "views": 3048,
           "favorites": 92,
           "shop_sales": 27784
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 882,
+          "views": 3051,
+          "favorites": 92,
+          "shop_sales": 27784
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 27442238,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4524009945": {
       "listing_id": 4524009945,
@@ -463,11 +786,30 @@
           "views": 2892,
           "favorites": 170,
           "shop_sales": 1071
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 32,
+          "views": 2892,
+          "favorites": 170,
+          "shop_sales": 1071
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 55254663,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4521042535": {
       "listing_id": 4521042535,
@@ -489,11 +831,30 @@
           "views": 2492,
           "favorites": 127,
           "shop_sales": 414
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 843,
+          "views": 2492,
+          "favorites": 127,
+          "shop_sales": 414
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 60822936,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4384647898": {
       "listing_id": 4384647898,
@@ -507,7 +868,7 @@
       "quantity": 901,
       "views": 2234,
       "favorites": 105,
-      "shop_sales": 5156,
+      "shop_sales": 5157,
       "samples": [
         {
           "captured_at": "2026-09-27T07:36:13+00:00",
@@ -515,11 +876,30 @@
           "views": 2234,
           "favorites": 105,
           "shop_sales": 5156
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 901,
+          "views": 2234,
+          "favorites": 105,
+          "shop_sales": 5157
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 57579412,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1631829018": {
       "listing_id": 1631829018,
@@ -541,11 +921,30 @@
           "views": 2134,
           "favorites": 114,
           "shop_sales": 160305
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 53,
+          "views": 2134,
+          "favorites": 114,
+          "shop_sales": 160305
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 11865871,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1765315407": {
       "listing_id": 1765315407,
@@ -567,11 +966,30 @@
           "views": 2102,
           "favorites": 131,
           "shop_sales": 76921
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 238,
+          "views": 2102,
+          "favorites": 131,
+          "shop_sales": 76921
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 29129702,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1168228492": {
       "listing_id": 1168228492,
@@ -593,11 +1011,30 @@
           "views": 1741,
           "favorites": 100,
           "shop_sales": 20850
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 44,
+          "views": 1741,
+          "favorites": 100,
+          "shop_sales": 20850
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 28298093,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1188122999": {
       "listing_id": 1188122999,
@@ -619,11 +1056,30 @@
           "views": 1642,
           "favorites": 33,
           "shop_sales": 72
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 52,
+          "views": 1642,
+          "favorites": 33,
+          "shop_sales": 72
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 34535694,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4487681964": {
       "listing_id": 4487681964,
@@ -645,11 +1101,30 @@
           "views": 1429,
           "favorites": 180,
           "shop_sales": 4877
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 951,
+          "views": 1429,
+          "favorites": 180,
+          "shop_sales": 4877
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 53685782,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1833425824": {
       "listing_id": 1833425824,
@@ -671,11 +1146,30 @@
           "views": 1358,
           "favorites": 56,
           "shop_sales": 133
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 952,
+          "views": 1358,
+          "favorites": 56,
+          "shop_sales": 133
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 42384685,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4561666281": {
       "listing_id": 4561666281,
@@ -697,11 +1191,30 @@
           "views": 1348,
           "favorites": 31,
           "shop_sales": 27551
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 425,
+          "views": 1348,
+          "favorites": 31,
+          "shop_sales": 27551
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 57927135,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4538734921": {
       "listing_id": 4538734921,
@@ -723,11 +1236,30 @@
           "views": 1285,
           "favorites": 91,
           "shop_sales": 6037
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 918,
+          "views": 1285,
+          "favorites": 91,
+          "shop_sales": 6037
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 59579677,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1058766746": {
       "listing_id": 1058766746,
@@ -749,11 +1281,30 @@
           "views": 1283,
           "favorites": 48,
           "shop_sales": 8076
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 75,
+          "views": 1283,
+          "favorites": 48,
+          "shop_sales": 8076
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 11875708,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1472559656": {
       "listing_id": 1472559656,
@@ -775,11 +1326,30 @@
           "views": 1280,
           "favorites": 242,
           "shop_sales": 46091
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 738,
+          "views": 1280,
+          "favorites": 242,
+          "shop_sales": 46091
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 36269000,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4332603673": {
       "listing_id": 4332603673,
@@ -801,11 +1371,30 @@
           "views": 1114,
           "favorites": 33,
           "shop_sales": 6808
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 960,
+          "views": 1114,
+          "favorites": 33,
+          "shop_sales": 6808
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 60688025,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1841750378": {
       "listing_id": 1841750378,
@@ -827,11 +1416,30 @@
           "views": 1059,
           "favorites": 87,
           "shop_sales": 16722
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 72,
+          "views": 1059,
+          "favorites": 87,
+          "shop_sales": 16722
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 20257987,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1883105418": {
       "listing_id": 1883105418,
@@ -853,11 +1461,30 @@
           "views": 831,
           "favorites": 110,
           "shop_sales": 2697
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 81,
+          "views": 831,
+          "favorites": 110,
+          "shop_sales": 2697
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 34933625,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4393278313": {
       "listing_id": 4393278313,
@@ -879,11 +1506,30 @@
           "views": 786,
           "favorites": 46,
           "shop_sales": 7947
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 849,
+          "views": 786,
+          "favorites": 46,
+          "shop_sales": 7947
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 40536800,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4469068917": {
       "listing_id": 4469068917,
@@ -905,11 +1551,30 @@
           "views": 775,
           "favorites": 42,
           "shop_sales": 3434
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 3,
+          "views": 775,
+          "favorites": 42,
+          "shop_sales": 3434
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 55962478,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4539006014": {
       "listing_id": 4539006014,
@@ -931,11 +1596,30 @@
           "views": 769,
           "favorites": 24,
           "shop_sales": 3025
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 979,
+          "views": 769,
+          "favorites": 24,
+          "shop_sales": 3025
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 31616775,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1666723315": {
       "listing_id": 1666723315,
@@ -957,11 +1641,30 @@
           "views": 739,
           "favorites": 31,
           "shop_sales": 2667
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 967,
+          "views": 739,
+          "favorites": 31,
+          "shop_sales": 2667
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 46852506,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4339661362": {
       "listing_id": 4339661362,
@@ -983,11 +1686,30 @@
           "views": 686,
           "favorites": 53,
           "shop_sales": 139807
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 40,
+          "views": 686,
+          "favorites": 53,
+          "shop_sales": 139807
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 13807533,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4537583093": {
       "listing_id": 4537583093,
@@ -1009,11 +1731,30 @@
           "views": 679,
           "favorites": 45,
           "shop_sales": 258
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 950,
+          "views": 679,
+          "favorites": 45,
+          "shop_sales": 258
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 64146615,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1691163283": {
       "listing_id": 1691163283,
@@ -1035,11 +1776,30 @@
           "views": 643,
           "favorites": 33,
           "shop_sales": 1650
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 19,
+          "views": 643,
+          "favorites": 33,
+          "shop_sales": 1650
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 48870368,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1244187719": {
       "listing_id": 1244187719,
@@ -1061,11 +1821,30 @@
           "views": 625,
           "favorites": 29,
           "shop_sales": 1949
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 74,
+          "views": 625,
+          "favorites": 29,
+          "shop_sales": 1949
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 27232456,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1750277883": {
       "listing_id": 1750277883,
@@ -1087,11 +1866,30 @@
           "views": 593,
           "favorites": 47,
           "shop_sales": 10878
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 958,
+          "views": 593,
+          "favorites": 47,
+          "shop_sales": 10878
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 28186825,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1906035493": {
       "listing_id": 1906035493,
@@ -1113,11 +1911,30 @@
           "views": 565,
           "favorites": 95,
           "shop_sales": 136389
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 41,
+          "views": 565,
+          "favorites": 95,
+          "shop_sales": 136389
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 11641154,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "871406027": {
       "listing_id": 871406027,
@@ -1139,11 +1956,30 @@
           "views": 561,
           "favorites": 21,
           "shop_sales": 48013
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 492,
+          "views": 561,
+          "favorites": 21,
+          "shop_sales": 48013
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 18745730,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4544413952": {
       "listing_id": 4544413952,
@@ -1165,11 +2001,30 @@
           "views": 541,
           "favorites": 57,
           "shop_sales": 55866
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 475,
+          "views": 541,
+          "favorites": 57,
+          "shop_sales": 55866
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 17732091,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1859853434": {
       "listing_id": 1859853434,
@@ -1191,11 +2046,30 @@
           "views": 533,
           "favorites": 12,
           "shop_sales": 5003
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 96,
+          "views": 533,
+          "favorites": 12,
+          "shop_sales": 5003
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 6948903,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "975837030": {
       "listing_id": 975837030,
@@ -1217,11 +2091,30 @@
           "views": 520,
           "favorites": 51,
           "shop_sales": 74601
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 62,
+          "views": 520,
+          "favorites": 51,
+          "shop_sales": 74601
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 18986168,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4316674639": {
       "listing_id": 4316674639,
@@ -1243,11 +2136,30 @@
           "views": 512,
           "favorites": 29,
           "shop_sales": 2146
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 25,
+          "views": 512,
+          "favorites": 29,
+          "shop_sales": 2146
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 25329106,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4493056350": {
       "listing_id": 4493056350,
@@ -1269,11 +2181,30 @@
           "views": 482,
           "favorites": 13,
           "shop_sales": 140
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 970,
+          "views": 482,
+          "favorites": 13,
+          "shop_sales": 140
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 59987740,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4532291465": {
       "listing_id": 4532291465,
@@ -1285,7 +2216,7 @@
       "source_query": "svg bundle",
       "search_rank": 3,
       "quantity": 73,
-      "views": 473,
+      "views": 478,
       "favorites": 27,
       "shop_sales": 1221,
       "samples": [
@@ -1295,11 +2226,30 @@
           "views": 473,
           "favorites": 27,
           "shop_sales": 1221
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 73,
+          "views": 478,
+          "favorites": 27,
+          "shop_sales": 1221
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 62995040,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4549343061": {
       "listing_id": 4549343061,
@@ -1321,11 +2271,30 @@
           "views": 467,
           "favorites": 15,
           "shop_sales": 1269
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 972,
+          "views": 467,
+          "favorites": 15,
+          "shop_sales": 1269
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 54004511,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4477465948": {
       "listing_id": 4477465948,
@@ -1347,11 +2316,30 @@
           "views": 363,
           "favorites": 17,
           "shop_sales": 1550
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 29,
+          "views": 363,
+          "favorites": 17,
+          "shop_sales": 1550
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 17072266,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4474334646": {
       "listing_id": 4474334646,
@@ -1373,11 +2361,30 @@
           "views": 355,
           "favorites": 15,
           "shop_sales": 11042
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 283,
+          "views": 355,
+          "favorites": 15,
+          "shop_sales": 11042
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 58400607,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4572125601": {
       "listing_id": 4572125601,
@@ -1399,11 +2406,30 @@
           "views": 342,
           "favorites": 27,
           "shop_sales": 394
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 967,
+          "views": 342,
+          "favorites": 27,
+          "shop_sales": 394
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 65730041,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4306655020": {
       "listing_id": 4306655020,
@@ -1425,11 +2451,30 @@
           "views": 339,
           "favorites": 4,
           "shop_sales": 124
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 993,
+          "views": 339,
+          "favorites": 4,
+          "shop_sales": 124
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 20702599,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1783729146": {
       "listing_id": 1783729146,
@@ -1451,11 +2496,30 @@
           "views": 305,
           "favorites": 15,
           "shop_sales": 80
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 25,
+          "views": 305,
+          "favorites": 15,
+          "shop_sales": 80
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 25956483,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1249062304": {
       "listing_id": 1249062304,
@@ -1477,11 +2541,30 @@
           "views": 300,
           "favorites": 71,
           "shop_sales": 115018
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 980,
+          "views": 300,
+          "favorites": 71,
+          "shop_sales": 115018
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 30183086,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "939533221": {
       "listing_id": 939533221,
@@ -1503,11 +2586,30 @@
           "views": 244,
           "favorites": 2,
           "shop_sales": 236
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 50,
+          "views": 244,
+          "favorites": 2,
+          "shop_sales": 236
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 14431751,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4557168049": {
       "listing_id": 4557168049,
@@ -1529,11 +2631,30 @@
           "views": 240,
           "favorites": 24,
           "shop_sales": 4877
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 984,
+          "views": 240,
+          "favorites": 24,
+          "shop_sales": 4877
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 53685782,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583085580": {
       "listing_id": 4583085580,
@@ -1555,11 +2676,30 @@
           "views": 225,
           "favorites": 3,
           "shop_sales": 148
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 978,
+          "views": 225,
+          "favorites": 3,
+          "shop_sales": 148
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 25630851,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4557680673": {
       "listing_id": 4557680673,
@@ -1581,11 +2721,30 @@
           "views": 222,
           "favorites": 7,
           "shop_sales": 10169
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 974,
+          "views": 222,
+          "favorites": 7,
+          "shop_sales": 10169
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 57093107,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4536402008": {
       "listing_id": 4536402008,
@@ -1607,11 +2766,30 @@
           "views": 218,
           "favorites": 20,
           "shop_sales": 729
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 991,
+          "views": 218,
+          "favorites": 20,
+          "shop_sales": 729
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 26812040,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4532149021": {
       "listing_id": 4532149021,
@@ -1633,11 +2811,30 @@
           "views": 216,
           "favorites": 8,
           "shop_sales": 312
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 993,
+          "views": 216,
+          "favorites": 8,
+          "shop_sales": 312
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 64256255,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4311175699": {
       "listing_id": 4311175699,
@@ -1659,11 +2856,30 @@
           "views": 204,
           "favorites": 31,
           "shop_sales": 136389
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 72,
+          "views": 204,
+          "favorites": 31,
+          "shop_sales": 136389
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 11641154,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "853943906": {
       "listing_id": 853943906,
@@ -1685,11 +2901,30 @@
           "views": 203,
           "favorites": 24,
           "shop_sales": 28603
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 996,
+          "views": 203,
+          "favorites": 24,
+          "shop_sales": 28603
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 19249845,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1763022467": {
       "listing_id": 1763022467,
@@ -1711,11 +2946,30 @@
           "views": 192,
           "favorites": 11,
           "shop_sales": 64059
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 994,
+          "views": 192,
+          "favorites": 11,
+          "shop_sales": 64059
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 23070958,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1509116859": {
       "listing_id": 1509116859,
@@ -1737,11 +2991,30 @@
           "views": 187,
           "favorites": 0,
           "shop_sales": 24312
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 187,
+          "favorites": 0,
+          "shop_sales": 24312
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 19654750,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4540320998": {
       "listing_id": 4540320998,
@@ -1763,11 +3036,30 @@
           "views": 183,
           "favorites": 11,
           "shop_sales": 198
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 987,
+          "views": 183,
+          "favorites": 11,
+          "shop_sales": 198
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66825455,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1487772373": {
       "listing_id": 1487772373,
@@ -1789,11 +3081,30 @@
           "views": 171,
           "favorites": 44,
           "shop_sales": 46091
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 877,
+          "views": 171,
+          "favorites": 44,
+          "shop_sales": 46091
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 36269000,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1728398669": {
       "listing_id": 1728398669,
@@ -1815,11 +3126,30 @@
           "views": 163,
           "favorites": 7,
           "shop_sales": 498
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 997,
+          "views": 163,
+          "favorites": 7,
+          "shop_sales": 498
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 49864587,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4570877060": {
       "listing_id": 4570877060,
@@ -1841,11 +3171,30 @@
           "views": 159,
           "favorites": 3,
           "shop_sales": 10
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 989,
+          "views": 159,
+          "favorites": 3,
+          "shop_sales": 10
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 49900525,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1665973189": {
       "listing_id": 1665973189,
@@ -1867,11 +3216,30 @@
           "views": 158,
           "favorites": 1,
           "shop_sales": 18381
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 799,
+          "views": 158,
+          "favorites": 1,
+          "shop_sales": 18381
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 24910819,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4576661700": {
       "listing_id": 4576661700,
@@ -1893,11 +3261,30 @@
           "views": 157,
           "favorites": 5,
           "shop_sales": 128
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 985,
+          "views": 157,
+          "favorites": 5,
+          "shop_sales": 128
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 68001095,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1442878797": {
       "listing_id": 1442878797,
@@ -1919,11 +3306,30 @@
           "views": 145,
           "favorites": 13,
           "shop_sales": 5196
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 98,
+          "views": 145,
+          "favorites": 13,
+          "shop_sales": 5196
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 7586010,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4363999806": {
       "listing_id": 4363999806,
@@ -1945,11 +3351,30 @@
           "views": 139,
           "favorites": 15,
           "shop_sales": 9034
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 29,
+          "views": 139,
+          "favorites": 15,
+          "shop_sales": 9034
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 58953345,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4449106736": {
       "listing_id": 4449106736,
@@ -1971,11 +3396,30 @@
           "views": 133,
           "favorites": 15,
           "shop_sales": 47267
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 996,
+          "views": 133,
+          "favorites": 15,
+          "shop_sales": 47267
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 22339593,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4347601659": {
       "listing_id": 4347601659,
@@ -1997,11 +3441,30 @@
           "views": 124,
           "favorites": 11,
           "shop_sales": 52799
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 45,
+          "views": 124,
+          "favorites": 11,
+          "shop_sales": 52799
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 19596312,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1309969251": {
       "listing_id": 1309969251,
@@ -2023,11 +3486,30 @@
           "views": 122,
           "favorites": 5,
           "shop_sales": 17407
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 295,
+          "views": 122,
+          "favorites": 5,
+          "shop_sales": 17407
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 24079675,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4375100586": {
       "listing_id": 4375100586,
@@ -2049,11 +3531,30 @@
           "views": 119,
           "favorites": 0,
           "shop_sales": 15134
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 119,
+          "favorites": 0,
+          "shop_sales": 15134
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 51530619,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1003098434": {
       "listing_id": 1003098434,
@@ -2075,11 +3576,30 @@
           "views": 118,
           "favorites": 7,
           "shop_sales": 6335
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 200,
+          "views": 118,
+          "favorites": 7,
+          "shop_sales": 6335
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 15258753,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4555958635": {
       "listing_id": 4555958635,
@@ -2101,11 +3621,30 @@
           "views": 114,
           "favorites": 4,
           "shop_sales": 1573
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 503,
+          "views": 114,
+          "favorites": 4,
+          "shop_sales": 1573
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 55748859,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4507064673": {
       "listing_id": 4507064673,
@@ -2127,11 +3666,30 @@
           "views": 112,
           "favorites": 6,
           "shop_sales": 1991
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 3,
+          "views": 112,
+          "favorites": 6,
+          "shop_sales": 1991
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 52356278,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4440771553": {
       "listing_id": 4440771553,
@@ -2153,11 +3711,30 @@
           "views": 93,
           "favorites": 9,
           "shop_sales": 1188
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 21,
+          "views": 93,
+          "favorites": 9,
+          "shop_sales": 1188
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 19835147,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4557857708": {
       "listing_id": 4557857708,
@@ -2169,7 +3746,7 @@
       "source_query": "sublimation png",
       "search_rank": 23,
       "quantity": 990,
-      "views": 90,
+      "views": 99,
       "favorites": 4,
       "shop_sales": 5589,
       "samples": [
@@ -2179,11 +3756,30 @@
           "views": 90,
           "favorites": 4,
           "shop_sales": 5589
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 990,
+          "views": 99,
+          "favorites": 4,
+          "shop_sales": 5589
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 54270403,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4578196948": {
       "listing_id": 4578196948,
@@ -2205,11 +3801,30 @@
           "views": 80,
           "favorites": 5,
           "shop_sales": 43972
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 2,
+          "views": 80,
+          "favorites": 5,
+          "shop_sales": 43972
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 13541341,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4568137611": {
       "listing_id": 4568137611,
@@ -2231,11 +3846,30 @@
           "views": 77,
           "favorites": 2,
           "shop_sales": 4
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 47,
+          "views": 77,
+          "favorites": 2,
+          "shop_sales": 4
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 64434716,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4580327709": {
       "listing_id": 4580327709,
@@ -2257,11 +3891,30 @@
           "views": 76,
           "favorites": 2,
           "shop_sales": 757
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 497,
+          "views": 76,
+          "favorites": 2,
+          "shop_sales": 757
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 67263924,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4549054077": {
       "listing_id": 4549054077,
@@ -2283,11 +3936,30 @@
           "views": 72,
           "favorites": 1,
           "shop_sales": 2639
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 43,
+          "views": 72,
+          "favorites": 1,
+          "shop_sales": 2639
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 42782007,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1087531516": {
       "listing_id": 1087531516,
@@ -2309,11 +3981,30 @@
           "views": 64,
           "favorites": 7,
           "shop_sales": 19684
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 499,
+          "views": 64,
+          "favorites": 7,
+          "shop_sales": 19684
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 24492717,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1232667625": {
       "listing_id": 1232667625,
@@ -2335,11 +4026,30 @@
           "views": 61,
           "favorites": 0,
           "shop_sales": 144
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 61,
+          "favorites": 0,
+          "shop_sales": 144
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 35557875,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4568418139": {
       "listing_id": 4568418139,
@@ -2361,11 +4071,30 @@
           "views": 56,
           "favorites": 2,
           "shop_sales": 109
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 995,
+          "views": 56,
+          "favorites": 2,
+          "shop_sales": 109
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66998792,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1482289127": {
       "listing_id": 1482289127,
@@ -2387,11 +4116,30 @@
           "views": 56,
           "favorites": 0,
           "shop_sales": 4
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 69,
+          "views": 56,
+          "favorites": 0,
+          "shop_sales": 4
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 43153090,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4579134760": {
       "listing_id": 4579134760,
@@ -2413,11 +4161,30 @@
           "views": 53,
           "favorites": 1,
           "shop_sales": 8796
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 993,
+          "views": 53,
+          "favorites": 1,
+          "shop_sales": 8796
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 6808926,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4549124601": {
       "listing_id": 4549124601,
@@ -2439,11 +4206,30 @@
           "views": 52,
           "favorites": 0,
           "shop_sales": 53
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 975,
+          "views": 52,
+          "favorites": 0,
+          "shop_sales": 53
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66909612,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1493862618": {
       "listing_id": 1493862618,
@@ -2465,11 +4251,30 @@
           "views": 48,
           "favorites": 5,
           "shop_sales": 9297
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 99,
+          "views": 48,
+          "favorites": 5,
+          "shop_sales": 9297
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 20479883,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511426924": {
       "listing_id": 4511426924,
@@ -2491,11 +4296,30 @@
           "views": 43,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 43,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66187422,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1816113437": {
       "listing_id": 1816113437,
@@ -2517,11 +4341,30 @@
           "views": 42,
           "favorites": 6,
           "shop_sales": 61956
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 996,
+          "views": 42,
+          "favorites": 6,
+          "shop_sales": 61956
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 33448170,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4534042870": {
       "listing_id": 4534042870,
@@ -2543,11 +4386,30 @@
           "views": 42,
           "favorites": 0,
           "shop_sales": 84
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 42,
+          "favorites": 0,
+          "shop_sales": 84
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 50751829,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1588418080": {
       "listing_id": 1588418080,
@@ -2569,11 +4431,30 @@
           "views": 38,
           "favorites": 2,
           "shop_sales": 1952
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 996,
+          "views": 38,
+          "favorites": 2,
+          "shop_sales": 1952
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 24425084,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1638200592": {
       "listing_id": 1638200592,
@@ -2595,11 +4476,30 @@
           "views": 36,
           "favorites": 0,
           "shop_sales": 229
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 36,
+          "favorites": 0,
+          "shop_sales": 229
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 43120366,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4551361923": {
       "listing_id": 4551361923,
@@ -2621,11 +4521,30 @@
           "views": 35,
           "favorites": 5,
           "shop_sales": 9456
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 375,
+          "views": 35,
+          "favorites": 5,
+          "shop_sales": 9456
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 61928409,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4582176176": {
       "listing_id": 4582176176,
@@ -2647,11 +4566,30 @@
           "views": 34,
           "favorites": 3,
           "shop_sales": 43972
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 3,
+          "views": 34,
+          "favorites": 3,
+          "shop_sales": 43972
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 13541341,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1554829592": {
       "listing_id": 1554829592,
@@ -2673,11 +4611,30 @@
           "views": 30,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 1,
+          "views": 30,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 46860835,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4404734594": {
       "listing_id": 4404734594,
@@ -2699,11 +4656,30 @@
           "views": 27,
           "favorites": 3,
           "shop_sales": 31137
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 995,
+          "views": 27,
+          "favorites": 3,
+          "shop_sales": 31137
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 34666379,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1394384315": {
       "listing_id": 1394384315,
@@ -2725,11 +4701,30 @@
           "views": 26,
           "favorites": 1,
           "shop_sales": 1066
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 26,
+          "favorites": 1,
+          "shop_sales": 1066
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 37012702,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1284608666": {
       "listing_id": 1284608666,
@@ -2751,11 +4746,30 @@
           "views": 26,
           "favorites": 6,
           "shop_sales": 16983
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 51,
+          "views": 26,
+          "favorites": 6,
+          "shop_sales": 16983
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 18642205,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4581621743": {
       "listing_id": 4581621743,
@@ -2777,11 +4791,30 @@
           "views": 26,
           "favorites": 2,
           "shop_sales": 375
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 26,
+          "favorites": 2,
+          "shop_sales": 375
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 62269454,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4538564497": {
       "listing_id": 4538564497,
@@ -2803,11 +4836,30 @@
           "views": 24,
           "favorites": 1,
           "shop_sales": 928
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 24,
+          "favorites": 1,
+          "shop_sales": 928
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 43497873,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1380464322": {
       "listing_id": 1380464322,
@@ -2829,11 +4881,30 @@
           "views": 23,
           "favorites": 1,
           "shop_sales": 64
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 23,
+          "favorites": 1,
+          "shop_sales": 64
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 39473215,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1783855314": {
       "listing_id": 1783855314,
@@ -2855,11 +4926,30 @@
           "views": 22,
           "favorites": 0,
           "shop_sales": 3632
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 22,
+          "favorites": 0,
+          "shop_sales": 3632
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 17705408,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1441745296": {
       "listing_id": 1441745296,
@@ -2881,11 +4971,30 @@
           "views": 21,
           "favorites": 8,
           "shop_sales": 1443
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 50,
+          "views": 21,
+          "favorites": 8,
+          "shop_sales": 1443
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 21454465,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511367776": {
       "listing_id": 4511367776,
@@ -2907,11 +5016,30 @@
           "views": 20,
           "favorites": 0,
           "shop_sales": 104
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 20,
+          "favorites": 0,
+          "shop_sales": 104
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 65987580,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1532453877": {
       "listing_id": 1532453877,
@@ -2933,11 +5061,30 @@
           "views": 18,
           "favorites": 1,
           "shop_sales": 3120
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 982,
+          "views": 18,
+          "favorites": 1,
+          "shop_sales": 3120
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 36434625,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4581004676": {
       "listing_id": 4581004676,
@@ -2959,11 +5106,30 @@
           "views": 18,
           "favorites": 0,
           "shop_sales": 6
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 18,
+          "favorites": 0,
+          "shop_sales": 6
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 64550124,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4309470278": {
       "listing_id": 4309470278,
@@ -2985,11 +5151,30 @@
           "views": 17,
           "favorites": 0,
           "shop_sales": 2405
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 988,
+          "views": 17,
+          "favorites": 0,
+          "shop_sales": 2405
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 58380290,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4309464206": {
       "listing_id": 4309464206,
@@ -3011,11 +5196,30 @@
           "views": 17,
           "favorites": 1,
           "shop_sales": 2405
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 988,
+          "views": 17,
+          "favorites": 1,
+          "shop_sales": 2405
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 58380290,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511420469": {
       "listing_id": 4511420469,
@@ -3037,11 +5241,30 @@
           "views": 17,
           "favorites": 0,
           "shop_sales": 46
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 17,
+          "favorites": 0,
+          "shop_sales": 46
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 60997050,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1394722285": {
       "listing_id": 1394722285,
@@ -3063,11 +5286,30 @@
           "views": 16,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 100,
+          "views": 16,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 40377967,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511425497": {
       "listing_id": 4511425497,
@@ -3089,11 +5331,30 @@
           "views": 15,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 15,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 62361095,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4538548641": {
       "listing_id": 4538548641,
@@ -3115,11 +5376,30 @@
           "views": 15,
           "favorites": 1,
           "shop_sales": 928
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 15,
+          "favorites": 1,
+          "shop_sales": 928
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 43497873,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1596664684": {
       "listing_id": 1596664684,
@@ -3141,11 +5421,30 @@
           "views": 14,
           "favorites": 1,
           "shop_sales": 5587
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 14,
+          "favorites": 1,
+          "shop_sales": 5587
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 35806090,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1646791628": {
       "listing_id": 1646791628,
@@ -3167,11 +5466,30 @@
           "views": 14,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 14,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 49442006,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511021015": {
       "listing_id": 4511021015,
@@ -3193,11 +5511,30 @@
           "views": 13,
           "favorites": 0,
           "shop_sales": 146
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 13,
+          "favorites": 0,
+          "shop_sales": 146
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66021435,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4575129021": {
       "listing_id": 4575129021,
@@ -3219,11 +5556,30 @@
           "views": 12,
           "favorites": 2,
           "shop_sales": 4742
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 538,
+          "views": 12,
+          "favorites": 2,
+          "shop_sales": 4742
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 47479457,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4375106313": {
       "listing_id": 4375106313,
@@ -3245,11 +5601,30 @@
           "views": 11,
           "favorites": 0,
           "shop_sales": 2343
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 11,
+          "favorites": 0,
+          "shop_sales": 2343
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 61413812,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4574372191": {
       "listing_id": 4574372191,
@@ -3271,11 +5646,30 @@
           "views": 11,
           "favorites": 2,
           "shop_sales": 1259
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 11,
+          "favorites": 2,
+          "shop_sales": 1259
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 35504746,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4375086676": {
       "listing_id": 4375086676,
@@ -3297,11 +5691,30 @@
           "views": 11,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 11,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 62104567,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4562694412": {
       "listing_id": 4562694412,
@@ -3323,11 +5736,30 @@
           "views": 10,
           "favorites": 1,
           "shop_sales": 59
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 10,
+          "favorites": 1,
+          "shop_sales": 59
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 67589698,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511382463": {
       "listing_id": 4511382463,
@@ -3349,11 +5781,30 @@
           "views": 10,
           "favorites": 0,
           "shop_sales": 46
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 10,
+          "favorites": 0,
+          "shop_sales": 46
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 60997050,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511424032": {
       "listing_id": 4511424032,
@@ -3375,11 +5826,30 @@
           "views": 10,
           "favorites": 1,
           "shop_sales": 368
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 10,
+          "favorites": 1,
+          "shop_sales": 368
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 61639688,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4581702793": {
       "listing_id": 4581702793,
@@ -3401,11 +5871,30 @@
           "views": 9,
           "favorites": 0,
           "shop_sales": 111
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 997,
+          "views": 9,
+          "favorites": 0,
+          "shop_sales": 111
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 65029440,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4309475112": {
       "listing_id": 4309475112,
@@ -3427,11 +5916,30 @@
           "views": 7,
           "favorites": 0,
           "shop_sales": 3000
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 992,
+          "views": 7,
+          "favorites": 0,
+          "shop_sales": 3000
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 58005476,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1442340336": {
       "listing_id": 1442340336,
@@ -3453,11 +5961,30 @@
           "views": 7,
           "favorites": 0,
           "shop_sales": 7902
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 877,
+          "views": 7,
+          "favorites": 0,
+          "shop_sales": 7902
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 19306408,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1083276283": {
       "listing_id": 1083276283,
@@ -3479,11 +6006,30 @@
           "views": 7,
           "favorites": 1,
           "shop_sales": 1131
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 100,
+          "views": 7,
+          "favorites": 1,
+          "shop_sales": 1131
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 25075583,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4375045221": {
       "listing_id": 4375045221,
@@ -3505,11 +6051,30 @@
           "views": 7,
           "favorites": 1,
           "shop_sales": 84
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 7,
+          "favorites": 1,
+          "shop_sales": 84
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 49724555,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4445070583": {
       "listing_id": 4445070583,
@@ -3531,11 +6096,30 @@
           "views": 7,
           "favorites": 0,
           "shop_sales": 3
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 7,
+          "favorites": 0,
+          "shop_sales": 3
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 19619132,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4375112789": {
       "listing_id": 4375112789,
@@ -3557,11 +6141,30 @@
           "views": 6,
           "favorites": 0,
           "shop_sales": 844
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 6,
+          "favorites": 0,
+          "shop_sales": 844
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 59240781,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511394651": {
       "listing_id": 4511394651,
@@ -3583,11 +6186,30 @@
           "views": 5,
           "favorites": 0,
           "shop_sales": 1
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 100,
+          "views": 5,
+          "favorites": 0,
+          "shop_sales": 1
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 64512292,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1541958430": {
       "listing_id": 1541958430,
@@ -3609,11 +6231,30 @@
           "views": 5,
           "favorites": 1,
           "shop_sales": 6176
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 5,
+          "favorites": 1,
+          "shop_sales": 6176
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 21307140,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511407000": {
       "listing_id": 4511407000,
@@ -3635,11 +6276,30 @@
           "views": 5,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 5,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 64728227,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4309459384": {
       "listing_id": 4309459384,
@@ -3661,11 +6321,30 @@
           "views": 5,
           "favorites": 0,
           "shop_sales": 333
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 99,
+          "views": 5,
+          "favorites": 0,
+          "shop_sales": 333
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 13114705,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1734202931": {
       "listing_id": 1734202931,
@@ -3687,11 +6366,30 @@
           "views": 5,
           "favorites": 0,
           "shop_sales": 128
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 95,
+          "views": 5,
+          "favorites": 0,
+          "shop_sales": 128
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 48210524,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4580784485": {
       "listing_id": 4580784485,
@@ -3713,11 +6411,30 @@
           "views": 4,
           "favorites": 0,
           "shop_sales": 4
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 52,
+          "views": 4,
+          "favorites": 0,
+          "shop_sales": 4
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 36167083,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511436458": {
       "listing_id": 4511436458,
@@ -3739,11 +6456,30 @@
           "views": 4,
           "favorites": 0,
           "shop_sales": 1
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 4,
+          "favorites": 0,
+          "shop_sales": 1
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 63805737,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4509018527": {
       "listing_id": 4509018527,
@@ -3765,11 +6501,30 @@
           "views": 4,
           "favorites": 0,
           "shop_sales": 952
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 4,
+          "favorites": 0,
+          "shop_sales": 952
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 46381684,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4582313499": {
       "listing_id": 4582313499,
@@ -3791,11 +6546,30 @@
           "views": 3,
           "favorites": 0,
           "shop_sales": 12583
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 995,
+          "views": 3,
+          "favorites": 0,
+          "shop_sales": 12583
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 63938838,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1862608071": {
       "listing_id": 1862608071,
@@ -3817,11 +6591,30 @@
           "views": 3,
           "favorites": 1,
           "shop_sales": 8378
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 3,
+          "favorites": 1,
+          "shop_sales": 8378
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 29415746,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511431868": {
       "listing_id": 4511431868,
@@ -3843,11 +6636,30 @@
           "views": 2,
           "favorites": 0,
           "shop_sales": 2
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 2,
+          "favorites": 0,
+          "shop_sales": 2
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 65576278,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4582524603": {
       "listing_id": 4582524603,
@@ -3869,11 +6681,30 @@
           "views": 2,
           "favorites": 2,
           "shop_sales": 915
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 64,
+          "views": 2,
+          "favorites": 2,
+          "shop_sales": 915
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 37074852,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511423642": {
       "listing_id": 4511423642,
@@ -3895,11 +6726,30 @@
           "views": 2,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 5,
+          "views": 2,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 65382912,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511412064": {
       "listing_id": 4511412064,
@@ -3921,11 +6771,30 @@
           "views": 2,
           "favorites": 0,
           "shop_sales": 106
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 2,
+          "favorites": 0,
+          "shop_sales": 106
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 51811333,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1660604585": {
       "listing_id": 1660604585,
@@ -3947,11 +6816,30 @@
           "views": 1,
           "favorites": 0,
           "shop_sales": 17
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 10,
+          "views": 1,
+          "favorites": 0,
+          "shop_sales": 17
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 47731449,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4581675984": {
       "listing_id": 4581675984,
@@ -3973,11 +6861,30 @@
           "views": 1,
           "favorites": 0,
           "shop_sales": 1342
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 1,
+          "favorites": 0,
+          "shop_sales": 1342
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 63557907,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4511425062": {
       "listing_id": 4511425062,
@@ -3999,11 +6906,30 @@
           "views": 1,
           "favorites": 0,
           "shop_sales": 368
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 1,
+          "favorites": 0,
+          "shop_sales": 368
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 61639688,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4309437768": {
       "listing_id": 4309437768,
@@ -4025,11 +6951,30 @@
           "views": 1,
           "favorites": 0,
           "shop_sales": 2
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 1,
+          "favorites": 0,
+          "shop_sales": 2
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 59362955,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583499929": {
       "listing_id": 4583499929,
@@ -4051,11 +6996,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 10
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 10
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 63869074,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583510844": {
       "listing_id": 4583510844,
@@ -4077,11 +7041,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 347
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 347
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 63864343,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583499879": {
       "listing_id": 4583499879,
@@ -4103,11 +7086,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 68
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 996,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 68
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 63642179,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583508288": {
       "listing_id": 4583508288,
@@ -4129,11 +7131,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 17
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 17
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66547291,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4582466937": {
       "listing_id": 4582466937,
@@ -4155,11 +7176,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 238
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 99,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 238
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 62367532,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583491773": {
       "listing_id": 4583491773,
@@ -4181,11 +7221,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 63
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 63
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66267027,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583490265": {
       "listing_id": 4583490265,
@@ -4207,11 +7266,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 4790
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 4790
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 51241489,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4488834785": {
       "listing_id": 4488834785,
@@ -4233,11 +7311,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 1900
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 1900
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 32853585,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4580867096": {
       "listing_id": 4580867096,
@@ -4259,11 +7356,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 9578
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 9578
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 41452233,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4578897952": {
       "listing_id": 4578897952,
@@ -4285,11 +7401,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 22
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 22
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 62882517,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583483822": {
       "listing_id": 4583483822,
@@ -4311,11 +7446,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 5,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 60700383,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1229366775": {
       "listing_id": 1229366775,
@@ -4337,11 +7491,30 @@
           "views": 0,
           "favorites": 1,
           "shop_sales": 691
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 998,
+          "views": 0,
+          "favorites": 1,
+          "shop_sales": 691
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 9577079,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4298330273": {
       "listing_id": 4298330273,
@@ -4363,11 +7536,30 @@
           "views": 0,
           "favorites": 25,
           "shop_sales": 102059
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 667,
+          "views": 0,
+          "favorites": 25,
+          "shop_sales": 102059
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 14154850,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583468513": {
       "listing_id": 4583468513,
@@ -4389,11 +7581,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 68136913,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583464931": {
       "listing_id": 4583464931,
@@ -4415,11 +7626,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 6
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 6
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66237841,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583475152": {
       "listing_id": 4583475152,
@@ -4441,11 +7671,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 61410195,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4579260751": {
       "listing_id": 4579260751,
@@ -4467,11 +7716,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 324
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 799,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 324
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 20031762,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583462266": {
       "listing_id": 4583462266,
@@ -4493,11 +7761,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 1439
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 1439
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 62446718,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583464605": {
       "listing_id": 4583464605,
@@ -4519,11 +7806,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 12583
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 12583
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 63938838,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583513378": {
       "listing_id": 4583513378,
@@ -4545,11 +7851,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 360
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 360
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 60753108,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583510146": {
       "listing_id": 4583510146,
@@ -4571,11 +7896,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 6
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 6
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 65852330,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583496959": {
       "listing_id": 4583496959,
@@ -4597,11 +7941,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 68249746,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583504942": {
       "listing_id": 4583504942,
@@ -4623,11 +7986,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 153
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 99,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 153
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 58171679,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583492769": {
       "listing_id": 4583492769,
@@ -4649,11 +8031,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 18
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 18
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66385323,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583492021": {
       "listing_id": 4583492021,
@@ -4675,11 +8076,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 847
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 99,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 847
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 51709258,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583284832": {
       "listing_id": 4583284832,
@@ -4701,11 +8121,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 20,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 67906809,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583494902": {
       "listing_id": 4583494902,
@@ -4727,11 +8166,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 99,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 67875584,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4477338033": {
       "listing_id": 4477338033,
@@ -4753,11 +8211,30 @@
           "views": 0,
           "favorites": 6,
           "shop_sales": 196
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 50,
+          "views": 0,
+          "favorites": 6,
+          "shop_sales": 196
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 61685280,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583487103": {
       "listing_id": 4583487103,
@@ -4779,11 +8256,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 4
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 4
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66467851,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583494746": {
       "listing_id": 4583494746,
@@ -4805,11 +8301,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 769
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 769
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 36563718,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583482165": {
       "listing_id": 4583482165,
@@ -4831,11 +8346,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 24
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 24
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 67854186,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583502524": {
       "listing_id": 4583502524,
@@ -4857,11 +8391,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 18
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 18
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66385323,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583486082": {
       "listing_id": 4583486082,
@@ -4883,11 +8436,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 68255617,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583475795": {
       "listing_id": 4583475795,
@@ -4909,11 +8481,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 5
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 5
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 67955578,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4582913349": {
       "listing_id": 4582913349,
@@ -4935,11 +8526,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 68243250,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583454748": {
       "listing_id": 4583454748,
@@ -4961,11 +8571,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 68005805,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4341379870": {
       "listing_id": 4341379870,
@@ -4987,11 +8616,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 61091415,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583431839": {
       "listing_id": 4583431839,
@@ -5013,11 +8661,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 626
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 100,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 626
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 46864168,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583496128": {
       "listing_id": 4583496128,
@@ -5039,11 +8706,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 64595521,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4375018642": {
       "listing_id": 4375018642,
@@ -5065,11 +8751,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 62157392,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583494960": {
       "listing_id": 4583494960,
@@ -5091,11 +8796,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 38490
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 38490
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 18277878,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583371593": {
       "listing_id": 4583371593,
@@ -5117,11 +8841,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 23
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 23
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 66039970,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583425476": {
       "listing_id": 4583425476,
@@ -5143,11 +8886,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 68250073,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "1334278293": {
       "listing_id": 1334278293,
@@ -5169,11 +8931,30 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 21972120,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     },
     "4583368381": {
       "listing_id": 4583368381,
@@ -5195,12 +8976,31 @@
           "views": 0,
           "favorites": 0,
           "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
         }
       ],
-      "last_seen_at": "2026-09-27T07:36:13+00:00",
+      "last_seen_at": "2026-09-27T07:46:52+00:00",
       "quantity_delta": 0,
-      "estimated_sales_24h": 0.0
+      "estimated_sales_24h": 0.0,
+      "shop_id": 57635926,
+      "metrics_ready": false,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     }
   },
-  "last_success_at": "2026-09-27T07:36:13+00:00"
+  "last_success_at": "2026-09-27T07:46:52+00:00"
 }
