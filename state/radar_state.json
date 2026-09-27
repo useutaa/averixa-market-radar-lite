@@ -9,11 +9,11 @@
       "price": 9.99,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 6,
-      "quantity": 973,
+      "search_rank": 1,
+      "quantity": 969,
       "views": 225,
-      "favorites": 4,
-      "shop_sales": 155,
+      "favorites": 6,
+      "shop_sales": 159,
       "samples": [
         {
           "captured_at": "2026-09-27T07:36:13+00:00",
@@ -42,24 +42,190 @@
           "views": 225,
           "favorites": 4,
           "shop_sales": 155
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 969,
+          "views": 225,
+          "favorites": 6,
+          "shop_sales": 159
         }
       ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
-      "quantity_delta": 5.0,
-      "estimated_sales_24h": 22.31,
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "quantity_delta": 9.0,
+      "estimated_sales_24h": 20.89,
       "shop_id": 25630851,
       "metrics_ready": true,
-      "stock_movement_24h": 21.85,
-      "confirmed_sales_24h": 21.85,
+      "stock_movement_24h": 20.65,
+      "confirmed_sales_24h": 20.65,
       "views_24h": 0.0,
-      "favorites_24h": 4.37,
-      "shop_sales_24h": 30.59,
+      "favorites_24h": 6.88,
+      "shop_sales_24h": 25.24,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 359.54,
-      "comparison_hours": 5.49
+      "hot_score": 341.47,
+      "comparison_hours": 10.46
+    },
+    "4571288199": {
+      "listing_id": 4571288199,
+      "title": "October Booking Flyer Canva Template, Halloween Books Open Flyer, Spooky SZN Beauty Flyer, Hair Braids Nails MUA Lash Locs Wig",
+      "url": "https://www.etsy.com/listing/4571288199/october-booking-flyer-canva-template",
+      "image_url": "https://i.etsystatic.com/65069786/r/il/cda009/8494055080/il_570xN.8494055080_9wvc.jpg",
+      "price": 2.99,
+      "currency": "USD",
+      "source_query": "canva template",
+      "search_rank": 18,
+      "shop_id": 65069786,
+      "quantity": 782,
+      "views": 2144,
+      "favorites": 130,
+      "shop_sales": 2223,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 786,
+          "views": 2144,
+          "favorites": 127,
+          "shop_sales": 2210
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 786,
+          "views": 2144,
+          "favorites": 127,
+          "shop_sales": 2210
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2223
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 4.0,
+      "stock_movement_24h": 19.1,
+      "confirmed_sales_24h": 19.1,
+      "estimated_sales_24h": 21.36,
+      "views_24h": 0.0,
+      "favorites_24h": 14.32,
+      "shop_sales_24h": 62.06,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 90,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 330.7,
+      "comparison_hours": 5.03
+    },
+    "4369278115": {
+      "listing_id": 4369278115,
+      "title": "2027 Bullet Journal Bundle - 600+ Printable Planner Pages with Habit, Mood & Reading Tracker (A5 A4 US Letter)",
+      "url": "https://www.etsy.com/listing/4369278115/2026-bullet-journal-bundle-500-printable",
+      "image_url": "https://i.etsystatic.com/56728597/r/il/04d83a/8548757118/il_570xN.8548757118_myjc.jpg",
+      "price": 17.9,
+      "currency": "EUR",
+      "source_query": "printable planner",
+      "search_rank": 12,
+      "shop_id": 56728597,
+      "quantity": 822,
+      "views": 19981,
+      "favorites": 216,
+      "shop_sales": 1702,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 824,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1699
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 824,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1699
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 822,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1702
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 2.0,
+      "stock_movement_24h": 9.55,
+      "confirmed_sales_24h": 9.55,
+      "estimated_sales_24h": 9.8,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 14.32,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 80,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 158.0,
+      "comparison_hours": 5.03
+    },
+    "4555960599": {
+      "listing_id": 4555960599,
+      "title": "Printable Planner Sticker Bundle | Daily, Work, Home, Self-Care, Appointment (Individual PNG + PDF + SVG)",
+      "url": "https://www.etsy.com/listing/4555960599/daily-planner-sticker-bundle-pdf-work",
+      "image_url": "https://i.etsystatic.com/52435637/r/il/32cd6f/8617353929/il_570xN.8617353929_rtqg.jpg",
+      "price": 3.75,
+      "currency": "USD",
+      "source_query": "printable planner",
+      "search_rank": 6,
+      "shop_id": 52435637,
+      "quantity": 956,
+      "views": 1750,
+      "favorites": 92,
+      "shop_sales": 147,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 957,
+          "views": 1750,
+          "favorites": 90,
+          "shop_sales": 145
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 957,
+          "views": 1750,
+          "favorites": 90,
+          "shop_sales": 145
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 956,
+          "views": 1750,
+          "favorites": 92,
+          "shop_sales": 147
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 1.0,
+      "stock_movement_24h": 4.77,
+      "confirmed_sales_24h": 4.77,
+      "estimated_sales_24h": 5.03,
+      "views_24h": 0.0,
+      "favorites_24h": 9.55,
+      "shop_sales_24h": 9.55,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 90,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 89.6,
+      "comparison_hours": 5.03
     },
     "4572125601": {
       "listing_id": 4572125601,
@@ -113,6 +279,112 @@
       "basis": "Onaylı: stok + mağaza",
       "hot_score": 74.92,
       "comparison_hours": 5.43
+    },
+    "1168228492": {
+      "listing_id": 1168228492,
+      "title": "003 | Hybrid Inbox | Printable Planner Insert | A5 | Plan With Bee | Instant Download",
+      "url": "https://www.etsy.com/listing/1168228492/003-hybrid-inbox-printable-planner",
+      "image_url": "https://i.etsystatic.com/28298093/r/il/a5214e/7438426393/il_570xN.7438426393_dqdf.jpg",
+      "price": 4.25,
+      "currency": "USD",
+      "source_query": "printable planner",
+      "search_rank": 2,
+      "quantity": 43,
+      "views": 1741,
+      "favorites": 101,
+      "shop_sales": 20853,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T07:36:13+00:00",
+          "quantity": 44,
+          "views": 1741,
+          "favorites": 100,
+          "shop_sales": 20850
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 44,
+          "views": 1741,
+          "favorites": 100,
+          "shop_sales": 20850
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 43,
+          "views": 1741,
+          "favorites": 101,
+          "shop_sales": 20853
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "quantity_delta": 1.0,
+      "estimated_sales_24h": 2.54,
+      "shop_id": 28298093,
+      "metrics_ready": true,
+      "stock_movement_24h": 2.29,
+      "confirmed_sales_24h": 2.29,
+      "views_24h": 0.0,
+      "favorites_24h": 2.29,
+      "shop_sales_24h": 6.88,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 90,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 44.08,
+      "comparison_hours": 10.46
+    },
+    "4407632391": {
+      "listing_id": 4407632391,
+      "title": "2027 Journal Bundle, PRINTABLE Planner Bullet Journal, 2027 Agenda, Habit Mood Fitness Reading Yearly Trackers PDF A4 A5 Letter",
+      "url": "https://www.etsy.com/listing/4407632391/2026-journal-planner-bundle-printable",
+      "image_url": "https://i.etsystatic.com/31821268/r/il/ac0b91/8571089359/il_570xN.8571089359_40y5.jpg",
+      "price": 22.0,
+      "currency": "USD",
+      "source_query": "printable planner",
+      "search_rank": 42,
+      "shop_id": 31821268,
+      "quantity": 981,
+      "views": 28844,
+      "favorites": 764,
+      "shop_sales": 17927,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 981,
+          "views": 28844,
+          "favorites": 763,
+          "shop_sales": 17922
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 981,
+          "views": 28844,
+          "favorites": 763,
+          "shop_sales": 17922
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 981,
+          "views": 28844,
+          "favorites": 764,
+          "shop_sales": 17927
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 0.0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 1.26,
+      "views_24h": 0.0,
+      "favorites_24h": 4.77,
+      "shop_sales_24h": 23.87,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 50,
+      "basis": "Ölçüm var, satış sinyali yok",
+      "hot_score": 11.86,
+      "comparison_hours": 5.03
     },
     "1765315407": {
       "listing_id": 1765315407,
@@ -173,6 +445,59 @@
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 4.44,
       "comparison_hours": 5.49
+    },
+    "4534514223": {
+      "listing_id": 4534514223,
+      "title": "Digital Planner Spanish 2027| Printable Planner PDF | Hyperlinked GoodNotes Planner | Canva Editable | Weekly Monthly Calendar | Agenda 2027",
+      "url": "https://www.etsy.com/listing/4534514223/digital-planner-spanish-2027-printable",
+      "image_url": "https://i.etsystatic.com/50895473/r/il/5440a7/8226434096/il_570xN.8226434096_e256.jpg",
+      "price": 6.0,
+      "currency": "USD",
+      "source_query": "printable planner",
+      "search_rank": 44,
+      "shop_id": 50895473,
+      "quantity": 35,
+      "views": 921,
+      "favorites": 27,
+      "shop_sales": 2068,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 35,
+          "views": 921,
+          "favorites": 27,
+          "shop_sales": 2067
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 35,
+          "views": 921,
+          "favorites": 27,
+          "shop_sales": 2067
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 35,
+          "views": 921,
+          "favorites": 27,
+          "shop_sales": 2068
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 0.0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.25,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 4.77,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 40,
+      "basis": "Ölçüm var, satış sinyali yok",
+      "hot_score": 3.6,
+      "comparison_hours": 5.03
     },
     "4578196948": {
       "listing_id": 4578196948,
@@ -455,9 +780,16 @@
           "views": 42,
           "favorites": 0,
           "shop_sales": 84
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 999,
+          "views": 42,
+          "favorites": 0,
+          "shop_sales": 84
         }
       ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 50751829,
@@ -472,7 +804,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 5.49
+      "comparison_hours": 10.46
     },
     "1394722285": {
       "listing_id": 1394722285,
@@ -893,6 +1225,112 @@
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
       "comparison_hours": 5.49
+    },
+    "4583607016": {
+      "listing_id": 4583607016,
+      "title": "Fall Printable Planner Undated Weekly Organizer PDF A4 US Letter Instant Download 2024 2025",
+      "url": "https://www.etsy.com/listing/4583607016/fall-printable-planner-undated-weekly",
+      "image_url": "https://i.etsystatic.com/66910244/r/il/a02ea2/8633543699/il_570xN.8633543699_5m9a.jpg",
+      "price": 4.99,
+      "currency": "USD",
+      "source_query": "printable planner",
+      "search_rank": 43,
+      "shop_id": 66910244,
+      "quantity": 1,
+      "views": 0,
+      "favorites": 0,
+      "shop_sales": 0,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 1,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 0
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 0.0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 40,
+      "basis": "Ölçüm var, satış sinyali yok",
+      "hot_score": 2.6,
+      "comparison_hours": 5.03
+    },
+    "4583587436": {
+      "listing_id": 4583587436,
+      "title": "2027 Printable Planner A5 A4, Custom Planner, 12 Month Planner, 300+ Pages, Planner Stickers, Habit & Goal Tracker",
+      "url": "https://www.etsy.com/listing/4583587436/2027-printable-planner-a5-a4-custom",
+      "image_url": "https://i.etsystatic.com/64588911/r/il/b68d7f/8633442299/il_570xN.8633442299_pzy8.jpg",
+      "price": 649000.0,
+      "currency": "IDR",
+      "source_query": "printable planner",
+      "search_rank": 47,
+      "shop_id": 64588911,
+      "quantity": 999,
+      "views": 0,
+      "favorites": 0,
+      "shop_sales": 10,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 10
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 10
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 10
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 0.0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 40,
+      "basis": "Ölçüm var, satış sinyali yok",
+      "hot_score": 2.6,
+      "comparison_hours": 5.03
     },
     "1269805663": {
       "listing_id": 1269805663,
@@ -1827,51 +2265,6 @@
       "quantity_delta": 0,
       "estimated_sales_24h": 0.0,
       "shop_id": 11865871,
-      "metrics_ready": false,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
-    "1168228492": {
-      "listing_id": 1168228492,
-      "title": "003 | Hybrid Inbox | Printable Planner Insert | A5 | Plan With Bee | Instant Download",
-      "url": "https://www.etsy.com/listing/1168228492/003-hybrid-inbox-printable-planner",
-      "image_url": "https://i.etsystatic.com/28298093/r/il/a5214e/7438426393/il_570xN.7438426393_dqdf.jpg",
-      "price": 4.25,
-      "currency": "USD",
-      "source_query": "printable planner",
-      "search_rank": 38,
-      "quantity": 44,
-      "views": 1741,
-      "favorites": 100,
-      "shop_sales": 20850,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T07:36:13+00:00",
-          "quantity": 44,
-          "views": 1741,
-          "favorites": 100,
-          "shop_sales": 20850
-        },
-        {
-          "captured_at": "2026-09-27T07:46:52+00:00",
-          "quantity": 44,
-          "views": 1741,
-          "favorites": 100,
-          "shop_sales": 20850
-        }
-      ],
-      "last_seen_at": "2026-09-27T07:46:52+00:00",
-      "quantity_delta": 0,
-      "estimated_sales_24h": 0.0,
-      "shop_id": 28298093,
       "metrics_ready": false,
       "stock_movement_24h": 0.0,
       "confirmed_sales_24h": 0.0,
@@ -14954,51 +15347,6 @@
       "basis": "İlk ölçüm · karşılaştırma bekleniyor",
       "hot_score": 0.0
     },
-    "4571288199": {
-      "listing_id": 4571288199,
-      "title": "October Booking Flyer Canva Template, Halloween Books Open Flyer, Spooky SZN Beauty Flyer, Hair Braids Nails MUA Lash Locs Wig",
-      "url": "https://www.etsy.com/listing/4571288199/october-booking-flyer-canva-template",
-      "image_url": "https://i.etsystatic.com/65069786/r/il/cda009/8494055080/il_570xN.8494055080_9wvc.jpg",
-      "price": 2.99,
-      "currency": "USD",
-      "source_query": "canva template",
-      "search_rank": 27,
-      "shop_id": 65069786,
-      "quantity": 786,
-      "views": 2144,
-      "favorites": 127,
-      "shop_sales": 2210,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 786,
-          "views": 2144,
-          "favorites": 127,
-          "shop_sales": 2210
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 786,
-          "views": 2144,
-          "favorites": 127,
-          "shop_sales": 2210
-        }
-      ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
-      "metrics_ready": false,
-      "quantity_delta": 0,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
     "4504414405": {
       "listing_id": 4504414405,
       "title": "Editable Kids Planner Bundle Canva Template, Kids Chore Chart, Reward Chart, Weekly Planner, Printable Routine Bundle",
@@ -15639,141 +15987,6 @@
       "basis": "İlk ölçüm · karşılaştırma bekleniyor",
       "hot_score": 0.0
     },
-    "4407632391": {
-      "listing_id": 4407632391,
-      "title": "2027 Journal Bundle, PRINTABLE Planner Bullet Journal, 2027 Agenda, Habit Mood Fitness Reading Yearly Trackers PDF A4 A5 Letter",
-      "url": "https://www.etsy.com/listing/4407632391/2026-journal-planner-bundle-printable",
-      "image_url": "https://i.etsystatic.com/31821268/r/il/ac0b91/8571089359/il_570xN.8571089359_40y5.jpg",
-      "price": 22.0,
-      "currency": "USD",
-      "source_query": "printable planner",
-      "search_rank": 1,
-      "shop_id": 31821268,
-      "quantity": 981,
-      "views": 28844,
-      "favorites": 763,
-      "shop_sales": 17922,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 981,
-          "views": 28844,
-          "favorites": 763,
-          "shop_sales": 17922
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 981,
-          "views": 28844,
-          "favorites": 763,
-          "shop_sales": 17922
-        }
-      ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
-      "metrics_ready": false,
-      "quantity_delta": 0,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
-    "4583607016": {
-      "listing_id": 4583607016,
-      "title": "Fall Printable Planner Undated Weekly Organizer PDF A4 US Letter Instant Download 2024 2025",
-      "url": "https://www.etsy.com/listing/4583607016/fall-printable-planner-undated-weekly",
-      "image_url": "https://i.etsystatic.com/66910244/r/il/a02ea2/8633543699/il_570xN.8633543699_5m9a.jpg",
-      "price": 4.99,
-      "currency": "USD",
-      "source_query": "printable planner",
-      "search_rank": 3,
-      "shop_id": 66910244,
-      "quantity": 1,
-      "views": 0,
-      "favorites": 0,
-      "shop_sales": 0,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 1,
-          "views": 0,
-          "favorites": 0,
-          "shop_sales": 0
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 1,
-          "views": 0,
-          "favorites": 0,
-          "shop_sales": 0
-        }
-      ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
-      "metrics_ready": false,
-      "quantity_delta": 0,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
-    "4555960599": {
-      "listing_id": 4555960599,
-      "title": "Printable Planner Sticker Bundle | Daily, Work, Home, Self-Care, Appointment (Individual PNG + PDF + SVG)",
-      "url": "https://www.etsy.com/listing/4555960599/daily-planner-sticker-bundle-pdf-work",
-      "image_url": "https://i.etsystatic.com/52435637/r/il/32cd6f/8617353929/il_570xN.8617353929_rtqg.jpg",
-      "price": 3.75,
-      "currency": "USD",
-      "source_query": "printable planner",
-      "search_rank": 4,
-      "shop_id": 52435637,
-      "quantity": 957,
-      "views": 1750,
-      "favorites": 90,
-      "shop_sales": 145,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 957,
-          "views": 1750,
-          "favorites": 90,
-          "shop_sales": 145
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 957,
-          "views": 1750,
-          "favorites": 90,
-          "shop_sales": 145
-        }
-      ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
-      "metrics_ready": false,
-      "quantity_delta": 0,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
     "4381195887": {
       "listing_id": 4381195887,
       "title": "Glitter Headers, Printable Planner Stickers, Bullet Journal Stickers, Erin Condren Stickers - Cut Files",
@@ -15819,51 +16032,6 @@
       "basis": "İlk ölçüm · karşılaştırma bekleniyor",
       "hot_score": 0.0
     },
-    "4534514223": {
-      "listing_id": 4534514223,
-      "title": "Digital Planner Spanish 2027| Printable Planner PDF | Hyperlinked GoodNotes Planner | Canva Editable | Weekly Monthly Calendar | Agenda 2027",
-      "url": "https://www.etsy.com/listing/4534514223/digital-planner-spanish-2027-printable",
-      "image_url": "https://i.etsystatic.com/50895473/r/il/5440a7/8226434096/il_570xN.8226434096_e256.jpg",
-      "price": 6.0,
-      "currency": "USD",
-      "source_query": "printable planner",
-      "search_rank": 5,
-      "shop_id": 50895473,
-      "quantity": 35,
-      "views": 921,
-      "favorites": 27,
-      "shop_sales": 2067,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 35,
-          "views": 921,
-          "favorites": 27,
-          "shop_sales": 2067
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 35,
-          "views": 921,
-          "favorites": 27,
-          "shop_sales": 2067
-        }
-      ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
-      "metrics_ready": false,
-      "quantity_delta": 0,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
     "1181890737": {
       "listing_id": 1181890737,
       "title": "US LETTER - Sakura Collection | Printable Planner Sticker Set",
@@ -15892,51 +16060,6 @@
           "views": 290,
           "favorites": 22,
           "shop_sales": 2339
-        }
-      ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
-      "metrics_ready": false,
-      "quantity_delta": 0,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
-    "4583587436": {
-      "listing_id": 4583587436,
-      "title": "2027 Printable Planner A5 A4, Custom Planner, 12 Month Planner, 300+ Pages, Planner Stickers, Habit & Goal Tracker",
-      "url": "https://www.etsy.com/listing/4583587436/2027-printable-planner-a5-a4-custom",
-      "image_url": "https://i.etsystatic.com/64588911/r/il/b68d7f/8633442299/il_570xN.8633442299_pzy8.jpg",
-      "price": 649000.0,
-      "currency": "IDR",
-      "source_query": "printable planner",
-      "search_rank": 8,
-      "shop_id": 64588911,
-      "quantity": 999,
-      "views": 0,
-      "favorites": 0,
-      "shop_sales": 10,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 999,
-          "views": 0,
-          "favorites": 0,
-          "shop_sales": 10
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 999,
-          "views": 0,
-          "favorites": 0,
-          "shop_sales": 10
         }
       ],
       "last_seen_at": "2026-09-27T13:05:43+00:00",
@@ -16612,51 +16735,6 @@
           "views": 20610,
           "favorites": 386,
           "shop_sales": 10754
-        }
-      ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
-      "metrics_ready": false,
-      "quantity_delta": 0,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
-    "4369278115": {
-      "listing_id": 4369278115,
-      "title": "2027 Bullet Journal Bundle - 600+ Printable Planner Pages with Habit, Mood & Reading Tracker (A5 A4 US Letter)",
-      "url": "https://www.etsy.com/listing/4369278115/2026-bullet-journal-bundle-500-printable",
-      "image_url": "https://i.etsystatic.com/56728597/r/il/04d83a/8548757118/il_570xN.8548757118_myjc.jpg",
-      "price": 17.9,
-      "currency": "EUR",
-      "source_query": "printable planner",
-      "search_rank": 25,
-      "shop_id": 56728597,
-      "quantity": 824,
-      "views": 19981,
-      "favorites": 216,
-      "shop_sales": 1699,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 824,
-          "views": 19981,
-          "favorites": 216,
-          "shop_sales": 1699
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 824,
-          "views": 19981,
-          "favorites": 216,
-          "shop_sales": 1699
         }
       ],
       "last_seen_at": "2026-09-27T13:05:43+00:00",
@@ -17873,7 +17951,121 @@
       "confidence": 0,
       "basis": "İlk ölçüm · karşılaştırma bekleniyor",
       "hot_score": 0.0
+    },
+    "4576526386": {
+      "listing_id": 4576526386,
+      "title": "Christmas Gift Box SVG Bundle, Funny Candy Cart Laser Cut, Wooden Treat Wagon Template",
+      "url": "https://www.etsy.com/listing/4576526386/christmas-gift-box-svg-bundle-funny",
+      "image_url": "https://i.etsystatic.com/63480264/r/il/ec6471/8532696092/il_570xN.8532696092_pdok.jpg",
+      "price": 220000.0,
+      "currency": "VND",
+      "source_query": "svg bundle",
+      "search_rank": 1,
+      "shop_id": 63480264,
+      "quantity": 832,
+      "views": 1171,
+      "favorites": 55,
+      "shop_sales": 6985,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 832,
+          "views": 1171,
+          "favorites": 55,
+          "shop_sales": 6985
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "4583774052": {
+      "listing_id": 4583774052,
+      "title": "Plant Stake SVG Bundle, Garden Marker Laser Cut Files, Mother’s Day Plant Gift Designs, Floral Pot Sign Digital Download",
+      "url": "https://www.etsy.com/listing/4583774052/plant-stake-svg-bundle-garden-marker",
+      "image_url": "https://i.etsystatic.com/64815114/r/il/2aa225/8587096228/il_570xN.8587096228_my11.jpg",
+      "price": 6.99,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 2,
+      "shop_id": 64815114,
+      "quantity": 999,
+      "views": 0,
+      "favorites": 0,
+      "shop_sales": 5,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 999,
+          "views": 0,
+          "favorites": 0,
+          "shop_sales": 5
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
+    },
+    "1748767306": {
+      "listing_id": 1748767306,
+      "title": "Funny Golf Quotes SVG Bundle: Golfer Shirt Designs (Digital Download)",
+      "url": "https://www.etsy.com/listing/1748767306/funny-golf-quotes-svg-bundle-golfer",
+      "image_url": "https://i.etsystatic.com/35149282/r/il/90e6a9/6177806975/il_570xN.6177806975_lr15.jpg",
+      "price": 14.97,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 3,
+      "shop_id": 35149282,
+      "quantity": 5,
+      "views": 8701,
+      "favorites": 39,
+      "shop_sales": 4488,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 5,
+          "views": 8701,
+          "favorites": 39,
+          "shop_sales": 4488
+        }
+      ],
+      "last_seen_at": "2026-09-27T18:03:43+00:00",
+      "metrics_ready": false,
+      "quantity_delta": 0,
+      "stock_movement_24h": 0.0,
+      "confirmed_sales_24h": 0.0,
+      "estimated_sales_24h": 0.0,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 0.0,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 0,
+      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+      "hot_score": 0.0
     }
   },
-  "last_success_at": "2026-09-27T13:05:43+00:00"
+  "last_success_at": "2026-09-27T18:03:43+00:00"
 }
