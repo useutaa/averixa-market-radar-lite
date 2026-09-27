@@ -1,6 +1,87 @@
 {
   "version": 1,
   "items": {
+    "4571288199": {
+      "listing_id": 4571288199,
+      "title": "October Booking Flyer Canva Template, Halloween Books Open Flyer, Spooky SZN Beauty Flyer, Hair Braids Nails MUA Lash Locs Wig",
+      "url": "https://www.etsy.com/listing/4571288199/october-booking-flyer-canva-template",
+      "image_url": "https://i.etsystatic.com/65069786/r/il/cda009/8494055080/il_570xN.8494055080_9wvc.jpg",
+      "price": 2.99,
+      "currency": "USD",
+      "source_query": "canva template",
+      "search_rank": 26,
+      "shop_id": 65069786,
+      "quantity": 779,
+      "views": 2144,
+      "favorites": 133,
+      "shop_sales": 2232,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 786,
+          "views": 2144,
+          "favorites": 127,
+          "shop_sales": 2210
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 786,
+          "views": 2144,
+          "favorites": 127,
+          "shop_sales": 2210
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2223
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2223
+        },
+        {
+          "captured_at": "2026-09-27T18:10:13+00:00",
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2224
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2225
+        },
+        {
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 779,
+          "views": 2144,
+          "favorites": 133,
+          "shop_sales": 2232
+        }
+      ],
+      "last_seen_at": "2026-09-27T21:29:05+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 7.0,
+      "stock_movement_24h": 19.88,
+      "confirmed_sales_24h": 19.88,
+      "estimated_sales_24h": 22.12,
+      "views_24h": 0.0,
+      "favorites_24h": 17.04,
+      "shop_sales_24h": 62.49,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 90,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 345.27,
+      "comparison_hours": 8.45
+    },
     "4583085580": {
       "listing_id": 4583085580,
       "title": "October 2026 Printable Planner Binder | 180-Page Planner PDF",
@@ -9,11 +90,11 @@
       "price": 9.99,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 7,
-      "quantity": 969,
+      "search_rank": 13,
+      "quantity": 967,
       "views": 225,
-      "favorites": 6,
-      "shop_sales": 159,
+      "favorites": 7,
+      "shop_sales": 161,
       "samples": [
         {
           "captured_at": "2026-09-27T07:36:13+00:00",
@@ -70,98 +151,31 @@
           "views": 225,
           "favorites": 6,
           "shop_sales": 159
+        },
+        {
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 967,
+          "views": 225,
+          "favorites": 7,
+          "shop_sales": 161
         }
       ],
-      "last_seen_at": "2026-09-27T18:36:20+00:00",
-      "quantity_delta": 9.0,
-      "estimated_sales_24h": 19.86,
+      "last_seen_at": "2026-09-27T21:29:05+00:00",
+      "quantity_delta": 11.0,
+      "estimated_sales_24h": 19.2,
       "shop_id": 25630851,
       "metrics_ready": true,
-      "stock_movement_24h": 19.63,
-      "confirmed_sales_24h": 19.63,
+      "stock_movement_24h": 19.02,
+      "confirmed_sales_24h": 19.02,
       "views_24h": 0.0,
-      "favorites_24h": 6.54,
-      "shop_sales_24h": 24.0,
+      "favorites_24h": 6.92,
+      "shop_sales_24h": 22.48,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 324.84,
-      "comparison_hours": 11.0
-    },
-    "4571288199": {
-      "listing_id": 4571288199,
-      "title": "October Booking Flyer Canva Template, Halloween Books Open Flyer, Spooky SZN Beauty Flyer, Hair Braids Nails MUA Lash Locs Wig",
-      "url": "https://www.etsy.com/listing/4571288199/october-booking-flyer-canva-template",
-      "image_url": "https://i.etsystatic.com/65069786/r/il/cda009/8494055080/il_570xN.8494055080_9wvc.jpg",
-      "price": 2.99,
-      "currency": "USD",
-      "source_query": "canva template",
-      "search_rank": 50,
-      "shop_id": 65069786,
-      "quantity": 782,
-      "views": 2144,
-      "favorites": 130,
-      "shop_sales": 2225,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 786,
-          "views": 2144,
-          "favorites": 127,
-          "shop_sales": 2210
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 786,
-          "views": 2144,
-          "favorites": 127,
-          "shop_sales": 2210
-        },
-        {
-          "captured_at": "2026-09-27T18:03:43+00:00",
-          "quantity": 782,
-          "views": 2144,
-          "favorites": 130,
-          "shop_sales": 2223
-        },
-        {
-          "captured_at": "2026-09-27T18:08:02+00:00",
-          "quantity": 782,
-          "views": 2144,
-          "favorites": 130,
-          "shop_sales": 2223
-        },
-        {
-          "captured_at": "2026-09-27T18:10:13+00:00",
-          "quantity": 782,
-          "views": 2144,
-          "favorites": 130,
-          "shop_sales": 2224
-        },
-        {
-          "captured_at": "2026-09-27T18:36:20+00:00",
-          "quantity": 782,
-          "views": 2144,
-          "favorites": 130,
-          "shop_sales": 2225
-        }
-      ],
-      "last_seen_at": "2026-09-27T18:36:20+00:00",
-      "metrics_ready": true,
-      "quantity_delta": 4.0,
-      "stock_movement_24h": 17.23,
-      "confirmed_sales_24h": 17.23,
-      "estimated_sales_24h": 19.73,
-      "views_24h": 0.0,
-      "favorites_24h": 12.92,
-      "shop_sales_24h": 64.62,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 90,
-      "basis": "Onaylı: stok + mağaza",
-      "hot_score": 300.62,
-      "comparison_hours": 5.57
+      "hot_score": 315.17,
+      "comparison_hours": 13.88
     },
     "4369278115": {
       "listing_id": 4369278115,
@@ -171,7 +185,7 @@
       "price": 17.9,
       "currency": "EUR",
       "source_query": "printable planner",
-      "search_rank": 4,
+      "search_rank": 25,
       "shop_id": 56728597,
       "quantity": 821,
       "views": 19981,
@@ -219,97 +233,83 @@
           "views": 19981,
           "favorites": 216,
           "shop_sales": 1703
+        },
+        {
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 821,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1703
         }
       ],
-      "last_seen_at": "2026-09-27T18:36:20+00:00",
+      "last_seen_at": "2026-09-27T21:29:05+00:00",
       "metrics_ready": true,
       "quantity_delta": 3.0,
-      "stock_movement_24h": 12.92,
-      "confirmed_sales_24h": 12.92,
-      "estimated_sales_24h": 13.15,
+      "stock_movement_24h": 8.52,
+      "confirmed_sales_24h": 8.52,
+      "estimated_sales_24h": 8.67,
       "views_24h": 0.0,
       "favorites_24h": 0.0,
-      "shop_sales_24h": 17.23,
+      "shop_sales_24h": 11.36,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 80,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 211.84,
-      "comparison_hours": 5.57
+      "hot_score": 141.12,
+      "comparison_hours": 8.45
     },
-    "4555960599": {
-      "listing_id": 4555960599,
-      "title": "Printable Planner Sticker Bundle | Daily, Work, Home, Self-Care, Appointment (Individual PNG + PDF + SVG)",
-      "url": "https://www.etsy.com/listing/4555960599/daily-planner-sticker-bundle-pdf-work",
-      "image_url": "https://i.etsystatic.com/52435637/r/il/32cd6f/8617353929/il_570xN.8617353929_rtqg.jpg",
-      "price": 3.75,
+    "4510562799": {
+      "listing_id": 4510562799,
+      "title": "Split Monogram SVG Bundle for Cricut, Alphabet Split Letters PNG DXF, Family Name Monogram Fonts, Fancy Script Circle Monogram",
+      "url": "https://www.etsy.com/listing/4510562799/split-monogram-svg-bundle-for-cricut",
+      "image_url": "https://i.etsystatic.com/47479654/r/il/52ed07/8055871556/il_570xN.8055871556_4fo7.jpg",
+      "price": 12.0,
       "currency": "USD",
-      "source_query": "printable planner",
-      "search_rank": 13,
-      "shop_id": 52435637,
-      "quantity": 956,
-      "views": 1750,
-      "favorites": 93,
-      "shop_sales": 150,
+      "source_query": "svg bundle",
+      "search_rank": 5,
+      "quantity": 141,
+      "views": 7318,
+      "favorites": 329,
+      "shop_sales": 2388,
       "samples": [
         {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 957,
-          "views": 1750,
-          "favorites": 90,
-          "shop_sales": 145
+          "captured_at": "2026-09-27T07:36:13+00:00",
+          "quantity": 144,
+          "views": 7318,
+          "favorites": 328,
+          "shop_sales": 2383
         },
         {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 957,
-          "views": 1750,
-          "favorites": 90,
-          "shop_sales": 145
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 144,
+          "views": 7318,
+          "favorites": 328,
+          "shop_sales": 2383
         },
         {
-          "captured_at": "2026-09-27T18:03:43+00:00",
-          "quantity": 956,
-          "views": 1750,
-          "favorites": 92,
-          "shop_sales": 147
-        },
-        {
-          "captured_at": "2026-09-27T18:08:02+00:00",
-          "quantity": 956,
-          "views": 1750,
-          "favorites": 92,
-          "shop_sales": 147
-        },
-        {
-          "captured_at": "2026-09-27T18:10:13+00:00",
-          "quantity": 956,
-          "views": 1750,
-          "favorites": 92,
-          "shop_sales": 147
-        },
-        {
-          "captured_at": "2026-09-27T18:36:20+00:00",
-          "quantity": 956,
-          "views": 1750,
-          "favorites": 93,
-          "shop_sales": 150
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 141,
+          "views": 7318,
+          "favorites": 329,
+          "shop_sales": 2388
         }
       ],
-      "last_seen_at": "2026-09-27T18:36:20+00:00",
+      "last_seen_at": "2026-09-27T21:29:05+00:00",
+      "quantity_delta": 3.0,
+      "estimated_sales_24h": 5.37,
+      "shop_id": 47479654,
       "metrics_ready": true,
-      "quantity_delta": 1.0,
-      "stock_movement_24h": 4.31,
-      "confirmed_sales_24h": 4.31,
-      "estimated_sales_24h": 5.22,
+      "stock_movement_24h": 5.19,
+      "confirmed_sales_24h": 5.19,
       "views_24h": 0.0,
-      "favorites_24h": 12.92,
-      "shop_sales_24h": 21.54,
+      "favorites_24h": 1.73,
+      "shop_sales_24h": 8.64,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 87.54,
-      "comparison_hours": 5.57
+      "hot_score": 89.74,
+      "comparison_hours": 13.88
     },
     "4579601553": {
       "listing_id": 4579601553,
@@ -417,6 +417,193 @@
       "hot_score": 74.92,
       "comparison_hours": 5.43
     },
+    "4579134760": {
+      "listing_id": 4579134760,
+      "title": "Halloween SVG Bundle, 500+ Spooky Season, Trick or Treat Designs For Cricut, Silhouette, Sublimation, Spooky SVG, Instant Digital Download",
+      "url": "https://www.etsy.com/listing/4579134760/halloween-svg-bundle-500-spooky-season",
+      "image_url": "https://i.etsystatic.com/6808926/r/il/fe239d/8623037259/il_570xN.8623037259_tjdk.jpg",
+      "price": 7.95,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 28,
+      "quantity": 991,
+      "views": 53,
+      "favorites": 2,
+      "shop_sales": 8799,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T07:36:13+00:00",
+          "quantity": 993,
+          "views": 53,
+          "favorites": 1,
+          "shop_sales": 8796
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 993,
+          "views": 53,
+          "favorites": 1,
+          "shop_sales": 8796
+        },
+        {
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 991,
+          "views": 53,
+          "favorites": 2,
+          "shop_sales": 8799
+        }
+      ],
+      "last_seen_at": "2026-09-27T21:29:05+00:00",
+      "quantity_delta": 2.0,
+      "estimated_sales_24h": 3.55,
+      "shop_id": 6808926,
+      "metrics_ready": true,
+      "stock_movement_24h": 3.46,
+      "confirmed_sales_24h": 3.46,
+      "views_24h": 0.0,
+      "favorites_24h": 1.73,
+      "shop_sales_24h": 5.19,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 90,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 61.7,
+      "comparison_hours": 13.88
+    },
+    "4555960599": {
+      "listing_id": 4555960599,
+      "title": "Printable Planner Sticker Bundle | Daily, Work, Home, Self-Care, Appointment (Individual PNG + PDF + SVG)",
+      "url": "https://www.etsy.com/listing/4555960599/daily-planner-sticker-bundle-pdf-work",
+      "image_url": "https://i.etsystatic.com/52435637/r/il/32cd6f/8617353929/il_570xN.8617353929_rtqg.jpg",
+      "price": 3.75,
+      "currency": "USD",
+      "source_query": "printable planner",
+      "search_rank": 34,
+      "shop_id": 52435637,
+      "quantity": 956,
+      "views": 1750,
+      "favorites": 94,
+      "shop_sales": 150,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 957,
+          "views": 1750,
+          "favorites": 90,
+          "shop_sales": 145
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 957,
+          "views": 1750,
+          "favorites": 90,
+          "shop_sales": 145
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 956,
+          "views": 1750,
+          "favorites": 92,
+          "shop_sales": 147
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 956,
+          "views": 1750,
+          "favorites": 92,
+          "shop_sales": 147
+        },
+        {
+          "captured_at": "2026-09-27T18:10:13+00:00",
+          "quantity": 956,
+          "views": 1750,
+          "favorites": 92,
+          "shop_sales": 147
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 956,
+          "views": 1750,
+          "favorites": 93,
+          "shop_sales": 150
+        },
+        {
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 956,
+          "views": 1750,
+          "favorites": 94,
+          "shop_sales": 150
+        }
+      ],
+      "last_seen_at": "2026-09-27T21:29:05+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 1.0,
+      "stock_movement_24h": 2.84,
+      "confirmed_sales_24h": 2.84,
+      "estimated_sales_24h": 3.44,
+      "views_24h": 0.0,
+      "favorites_24h": 11.36,
+      "shop_sales_24h": 14.2,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 90,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 61.53,
+      "comparison_hours": 8.45
+    },
+    "4538091715": {
+      "listing_id": 4538091715,
+      "title": "Layered Mountain Wall Decor SVG Bundle, Forest Bear Scene, Laser Cut Files",
+      "url": "https://www.etsy.com/listing/4538091715/layered-mountain-wall-decor-svg-bundle",
+      "image_url": "https://i.etsystatic.com/65347028/r/il/7a5d6f/8301654537/il_570xN.8301654537_mdqj.jpg",
+      "price": 2.71,
+      "currency": "EUR",
+      "source_query": "svg bundle",
+      "search_rank": 9,
+      "shop_id": 65347028,
+      "quantity": 953,
+      "views": 991,
+      "favorites": 103,
+      "shop_sales": 534,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 954,
+          "views": 991,
+          "favorites": 103,
+          "shop_sales": 531
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 954,
+          "views": 991,
+          "favorites": 103,
+          "shop_sales": 531
+        },
+        {
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 953,
+          "views": 991,
+          "favorites": 103,
+          "shop_sales": 534
+        }
+      ],
+      "last_seen_at": "2026-09-27T21:29:05+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 1.0,
+      "stock_movement_24h": 2.84,
+      "confirmed_sales_24h": 2.84,
+      "estimated_sales_24h": 3.14,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 8.52,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 80,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 50.84,
+      "comparison_hours": 8.45
+    },
     "1168228492": {
       "listing_id": 1168228492,
       "title": "003 | Hybrid Inbox | Printable Planner Insert | A5 | Plan With Bee | Instant Download",
@@ -425,7 +612,7 @@
       "price": 4.25,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 6,
+      "search_rank": 28,
       "quantity": 43,
       "views": 1741,
       "favorites": 101,
@@ -472,24 +659,31 @@
           "views": 1741,
           "favorites": 101,
           "shop_sales": 20853
+        },
+        {
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 43,
+          "views": 1741,
+          "favorites": 101,
+          "shop_sales": 20853
         }
       ],
-      "last_seen_at": "2026-09-27T18:36:20+00:00",
+      "last_seen_at": "2026-09-27T21:29:05+00:00",
       "quantity_delta": 1.0,
-      "estimated_sales_24h": 2.41,
+      "estimated_sales_24h": 1.91,
       "shop_id": 28298093,
       "metrics_ready": true,
-      "stock_movement_24h": 2.18,
-      "confirmed_sales_24h": 2.18,
+      "stock_movement_24h": 1.73,
+      "confirmed_sales_24h": 1.73,
       "views_24h": 0.0,
-      "favorites_24h": 2.18,
-      "shop_sales_24h": 6.54,
+      "favorites_24h": 1.73,
+      "shop_sales_24h": 5.19,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 42.15,
-      "comparison_hours": 11.0
+      "hot_score": 34.38,
+      "comparison_hours": 13.88
     },
     "4407632391": {
       "listing_id": 4407632391,
@@ -1001,9 +1195,16 @@
           "views": 42,
           "favorites": 0,
           "shop_sales": 84
+        },
+        {
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 999,
+          "views": 42,
+          "favorites": 0,
+          "shop_sales": 84
         }
       ],
-      "last_seen_at": "2026-09-27T18:36:20+00:00",
+      "last_seen_at": "2026-09-27T21:29:05+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 50751829,
@@ -1018,7 +1219,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 11.0
+      "comparison_hours": 13.88
     },
     "1394722285": {
       "listing_id": 1394722285,
@@ -1922,51 +2123,6 @@
       "quantity_delta": 0,
       "estimated_sales_24h": 0.0,
       "shop_id": 34083993,
-      "metrics_ready": false,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
-    "4510562799": {
-      "listing_id": 4510562799,
-      "title": "Split Monogram SVG Bundle for Cricut, Alphabet Split Letters PNG DXF, Family Name Monogram Fonts, Fancy Script Circle Monogram",
-      "url": "https://www.etsy.com/listing/4510562799/split-monogram-svg-bundle-for-cricut",
-      "image_url": "https://i.etsystatic.com/47479654/r/il/52ed07/8055871556/il_570xN.8055871556_4fo7.jpg",
-      "price": 12.0,
-      "currency": "USD",
-      "source_query": "svg bundle",
-      "search_rank": 32,
-      "quantity": 144,
-      "views": 7318,
-      "favorites": 328,
-      "shop_sales": 2383,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T07:36:13+00:00",
-          "quantity": 144,
-          "views": 7318,
-          "favorites": 328,
-          "shop_sales": 2383
-        },
-        {
-          "captured_at": "2026-09-27T07:46:52+00:00",
-          "quantity": 144,
-          "views": 7318,
-          "favorites": 328,
-          "shop_sales": 2383
-        }
-      ],
-      "last_seen_at": "2026-09-27T07:46:52+00:00",
-      "quantity_delta": 0,
-      "estimated_sales_24h": 0.0,
-      "shop_id": 47479654,
       "metrics_ready": false,
       "stock_movement_24h": 0.0,
       "confirmed_sales_24h": 0.0,
@@ -5342,51 +5498,6 @@
       "quantity_delta": 0,
       "estimated_sales_24h": 0.0,
       "shop_id": 43153090,
-      "metrics_ready": false,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
-    "4579134760": {
-      "listing_id": 4579134760,
-      "title": "Halloween SVG Bundle, 500+ Spooky Season, Trick or Treat Designs For Cricut, Silhouette, Sublimation, Spooky SVG, Instant Digital Download",
-      "url": "https://www.etsy.com/listing/4579134760/halloween-svg-bundle-500-spooky-season",
-      "image_url": "https://i.etsystatic.com/6808926/r/il/fe239d/8623037259/il_570xN.8623037259_tjdk.jpg",
-      "price": 7.95,
-      "currency": "USD",
-      "source_query": "svg bundle",
-      "search_rank": 41,
-      "quantity": 993,
-      "views": 53,
-      "favorites": 1,
-      "shop_sales": 8796,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T07:36:13+00:00",
-          "quantity": 993,
-          "views": 53,
-          "favorites": 1,
-          "shop_sales": 8796
-        },
-        {
-          "captured_at": "2026-09-27T07:46:52+00:00",
-          "quantity": 993,
-          "views": 53,
-          "favorites": 1,
-          "shop_sales": 8796
-        }
-      ],
-      "last_seen_at": "2026-09-27T07:46:52+00:00",
-      "quantity_delta": 0,
-      "estimated_sales_24h": 0.0,
-      "shop_id": 6808926,
       "metrics_ready": false,
       "stock_movement_24h": 0.0,
       "confirmed_sales_24h": 0.0,
@@ -11277,51 +11388,6 @@
           "views": 211,
           "favorites": 14,
           "shop_sales": 2908
-        }
-      ],
-      "last_seen_at": "2026-09-27T13:05:43+00:00",
-      "metrics_ready": false,
-      "quantity_delta": 0,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "estimated_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
-    "4538091715": {
-      "listing_id": 4538091715,
-      "title": "Layered Mountain Wall Decor SVG Bundle, Forest Bear Scene, Laser Cut Files",
-      "url": "https://www.etsy.com/listing/4538091715/layered-mountain-wall-decor-svg-bundle",
-      "image_url": "https://i.etsystatic.com/65347028/r/il/7a5d6f/8301654537/il_570xN.8301654537_mdqj.jpg",
-      "price": 2.71,
-      "currency": "EUR",
-      "source_query": "svg bundle",
-      "search_rank": 47,
-      "shop_id": 65347028,
-      "quantity": 954,
-      "views": 991,
-      "favorites": 103,
-      "shop_sales": 531,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 954,
-          "views": 991,
-          "favorites": 103,
-          "shop_sales": 531
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 954,
-          "views": 991,
-          "favorites": 103,
-          "shop_sales": 531
         }
       ],
       "last_seen_at": "2026-09-27T13:05:43+00:00",
@@ -18306,5 +18372,5 @@
       "hot_score": 0.0
     }
   },
-  "last_success_at": "2026-09-27T18:36:20+00:00"
+  "last_success_at": "2026-09-27T21:29:05+00:00"
 }
