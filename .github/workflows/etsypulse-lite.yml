@@ -1,0 +1,53 @@
+name: EtsyPulse Lite Cloud
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub cron is UTC: 00:23 / 12:23 UTC is 03:23 / 15:23 in Türkiye.
+    - cron: "23 0,12 * * *"
+
+permissions:
+  # The workflow commits only compact public Etsy observations. Secrets never
+  # leave GitHub's encrypted Actions secret store.
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "etsypulse-lite-pages"
+  cancel-in-progress: false
+
+jobs:
+  collect-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ETSY_KEYSTRING: ${{ secrets.ETSY_KEYSTRING }}
+      ETSY_SHARED_SECRET: ${{ secrets.ETSY_SHARED_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate required secrets
+        run: |
+          test -n "$ETSY_KEYSTRING"
+          test -n "$ETSY_SHARED_SECRET"
+
+      - name: Collect one compact public-market snapshot
+        run: python radar_lite.py --state state/radar_state.json --site site
+
+      - name: Persist compact public state
+        run: |
+          git config user.name "Averixa Radar Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/radar_state.json
+          git diff --cached --quiet || git commit -m "Update Market Radar snapshot"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
