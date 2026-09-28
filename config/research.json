@@ -1,0 +1,23 @@
+{
+  "keywords": [
+    "svg bundle", "sublimation png", "canva template", "printable planner",
+    "monogram svg", "wedding svg", "baby svg", "teacher svg",
+    "christmas svg", "halloween svg", "sports svg", "laser cut file",
+    "sticker png", "tumbler wrap png", "seamless pattern", "digital clipart",
+    "watercolor clipart", "embroidery design", "crochet pattern", "sewing pattern",
+    "wedding invitation template", "baby shower template", "party invitation template", "business card template",
+    "social media template", "resume template", "printable wall art", "printable worksheet",
+    "digital planner", "spreadsheet template", "digital paper", "stl file"
+  ],
+  "search_requests_per_run": 10,
+  "search_page_size": 100,
+  "max_search_pages": 20,
+  "max_candidates": 20000,
+  "max_tracked": 5000,
+  "refresh_per_run": 2000,
+  "priority_per_run": 1000,
+  "new_tracked_per_run": 500,
+  "minimum_tracking_hours": 36,
+  "history_samples": 48,
+  "max_daily_requests": 1000
+}

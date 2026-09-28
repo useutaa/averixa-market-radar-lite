@@ -6,12 +6,15 @@ import io
 import json
 import tempfile
 import unittest
+from dataclasses import replace
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
 from urllib.error import HTTPError
 
 import radar_lite as radar
+
+TEST_CONFIG = replace(radar.DEFAULT_CONFIG, keywords=radar.KEYWORDS[:4], search_requests_per_run=4, search_page_size=50)
 
 
 class Response:
@@ -88,7 +91,7 @@ class QuotaTests(unittest.TestCase):
 
     @patch("radar_lite.time.sleep")
     def test_missing_subsequent_headers_decrement_known_quota(self, sleep):
-        budget = radar.RequestBudget()
+        budget = radar.RequestBudget(max_requests=8)
         budget.record({"x-limit-per-day": "1000", "x-remaining-today": "108"})
         budget.before_request()
         budget.record({})
@@ -118,7 +121,7 @@ class QuotaTests(unittest.TestCase):
         urlopen.side_effect = [Response({"results": page}, {"x-limit-per-day": "10000",
                               "x-remaining-today": str(9000 - i)}) for i, page in enumerate(pages)]
         budget = radar.RequestBudget()
-        observations = radar.collect("dummy-key", "dummy-secret", budget=budget)
+        observations = radar.collect("dummy-key", "dummy-secret", budget=budget, config=TEST_CONFIG)
         self.assertEqual(len(observations), 200)
         self.assertEqual(budget.requests, 6)
         self.assertEqual(urlopen.call_count, 6)
@@ -131,8 +134,8 @@ class PoolRefreshTests(unittest.TestCase):
         old = {"listing_id": 99, "title": "Old SVG title", "views": 100,
                "source_query": "svg bundle", "search_rank": 9}
         new = {"listing_id": 99, "title": "New SVG title", "listing_type": "download", "views": 125}
-        urlopen.side_effect = [Response({"results": []}) for _ in radar.KEYWORDS] + [Response({"results": [new]})]
-        result = radar.collect("dummy-key", "dummy-secret", tracked_items={"99": old})
+        urlopen.side_effect = [Response({"results": []}) for _ in range(TEST_CONFIG.search_requests_per_run)] + [Response({"results": [new]})]
+        result = radar.collect("dummy-key", "dummy-secret", tracked_items={"99": old}, config=TEST_CONFIG)
         self.assertEqual(result[0]["views"], 125)
         self.assertEqual(result[0]["title"], "New SVG title")
         self.assertEqual(result[0]["source_query"], "svg bundle")
@@ -141,23 +144,26 @@ class PoolRefreshTests(unittest.TestCase):
 
     @patch("radar_lite.time.sleep")
     @patch("radar_lite.urlopen")
-    def test_full_pool_refreshes_all_400_with_eight_calls(self, urlopen, sleep):
+    def test_existing_400_are_preserved_while_new_candidates_are_admitted(self, urlopen, sleep):
         tracked = {str(i): {"listing_id": i, "source_query": "svg bundle", "views": 10}
                    for i in range(1, 401)}
         candidates = [{"listing_id": i, "listing_type": "download", "title": f"New SVG {i}"}
                       for i in range(1001, 1201)]
-        details = [{"listing_id": i, "listing_type": "download", "title": f"Tracked SVG {i}", "views": 20}
-                   for i in range(1, 401)]
-        pages = [candidates[i:i + 50] for i in range(0, 200, 50)]
-        pages += [details[i:i + 100] for i in range(0, 400, 100)]
-        urlopen.side_effect = [Response({"results": page}, {"x-limit-per-day": "5000",
-                              "x-remaining-today": str(4999 - i)}) for i, page in enumerate(pages)]
+        searches = iter([candidates[i:i + 50] for i in range(0, 200, 50)])
+        def respond(request, **kwargs):
+            from urllib.parse import parse_qs, urlsplit
+            params = parse_qs(urlsplit(request.full_url).query)
+            page = next(searches) if "/active?" in request.full_url else [
+                {"listing_id": int(i), "listing_type": "download", "title": f"SVG {i}", "views": 20}
+                for i in params["listing_ids"][0].split(",")]
+            return Response({"results": page}, {"x-limit-per-day": "5000", "x-remaining-today": "4900"})
+        urlopen.side_effect = respond
         budget = radar.RequestBudget()
-        result = radar.collect("dummy-key", "dummy-secret", budget=budget, tracked_items=tracked)
-        self.assertEqual({row["listing_id"] for row in result}, set(range(1, 401)))
+        result = radar.collect("dummy-key", "dummy-secret", budget=budget, tracked_items=tracked, config=TEST_CONFIG)
+        self.assertEqual({row["listing_id"] for row in result}, set(range(1, 401)) | set(range(1001, 1201)))
         self.assertTrue(all(row["views"] == 20 for row in result))
-        self.assertEqual(budget.requests, 8)
-        self.assertEqual(urlopen.call_count, 8)
+        self.assertEqual(budget.requests, 10)
+        self.assertEqual(urlopen.call_count, 10)
 
     @patch("radar_lite.time.sleep")
     @patch("radar_lite.urlopen")
@@ -165,7 +171,7 @@ class PoolRefreshTests(unittest.TestCase):
         urlopen.side_effect = [Response({"results": []}) for _ in range(5)]
         result = radar.collect("dummy-key", "dummy-secret", tracked_items={
             "99": {"listing_id": 99, "title": "Cached SVG", "views": 123}
-        })
+        }, config=TEST_CONFIG)
         self.assertEqual(result, [])
 
     @patch("radar_lite.time.sleep")
@@ -174,7 +180,7 @@ class PoolRefreshTests(unittest.TestCase):
         search = {"listing_id": 99, "listing_type": "download", "title": "SVG", "views": 22}
         detail = {**search, "views": None}
         urlopen.side_effect = [Response({"results": [search]})] + [Response({"results": []}) for _ in range(3)] + [Response({"results": [detail]})]
-        result = radar.collect("dummy-key", "dummy-secret")
+        result = radar.collect("dummy-key", "dummy-secret", config=TEST_CONFIG)
         self.assertEqual(result[0]["views"], 22)
         self.assertEqual(result[0]["views_source"], "listing_search")
 
@@ -182,10 +188,10 @@ class PoolRefreshTests(unittest.TestCase):
     @patch("radar_lite.urlopen")
     def test_missing_batch_counter_does_not_copy_saved_views(self, urlopen, sleep):
         detail = {"listing_id": 99, "listing_type": "download", "title": "SVG"}
-        urlopen.side_effect = [Response({"results": []}) for _ in radar.KEYWORDS] + [Response({"results": [detail]})]
+        urlopen.side_effect = [Response({"results": []}) for _ in range(TEST_CONFIG.search_requests_per_run)] + [Response({"results": [detail]})]
         result = radar.collect("dummy-key", "dummy-secret", tracked_items={"99": {
             "listing_id": 99, "views": 123, "source_query": "svg bundle"
-        }})
+        }}, config=TEST_CONFIG)
         self.assertIsNone(result[0]["views"])
         self.assertIsNone(result[0]["views_source"])
 
@@ -218,6 +224,9 @@ class SnapshotTests(unittest.TestCase):
             result = json.loads(state_path.read_text(encoding="utf-8"))
             status = json.loads((site / "data/status.json").read_text(encoding="utf-8"))
             self.assertTrue((site / "index.html").exists())
+            exported_rows = json.loads((site / "data/radar.json").read_text(encoding="utf-8"))
+            self.assertTrue(all("samples" not in row for row in exported_rows))
+            self.assertTrue((site / "data/candidates.json").exists())
             self.assertNotIn("dummy-secret", json.dumps(result) + json.dumps(status))
             return result, status
 

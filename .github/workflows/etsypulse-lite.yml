@@ -33,11 +33,11 @@ jobs:
           test -n "$ETSY_KEYSTRING"
           test -n "$ETSY_SHARED_SECRET"
 
-      - name: Test quota protection
+      - name: Test discovery, monitoring and quota protection
         run: python -m unittest discover -s tests -v
 
-      - name: Collect one quota-guarded public-market snapshot
-        run: python radar_lite.py --state state/radar_state.json --site site
+      - name: Discover candidates and collect a quota-guarded measured snapshot
+        run: python radar_lite.py --config config/research.json --state state/radar_state.json --site site
 
       - name: Persist compact public state
         run: |
