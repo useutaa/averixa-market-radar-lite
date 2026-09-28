@@ -124,6 +124,72 @@ class QuotaTests(unittest.TestCase):
         self.assertEqual(urlopen.call_count, 6)
 
 
+class PoolRefreshTests(unittest.TestCase):
+    @patch("radar_lite.time.sleep")
+    @patch("radar_lite.urlopen")
+    def test_tracked_listing_outside_search_is_refreshed_by_id(self, urlopen, sleep):
+        old = {"listing_id": 99, "title": "Old SVG title", "views": 100,
+               "source_query": "svg bundle", "search_rank": 9}
+        new = {"listing_id": 99, "title": "New SVG title", "listing_type": "download", "views": 125}
+        urlopen.side_effect = [Response({"results": []}) for _ in radar.KEYWORDS] + [Response({"results": [new]})]
+        result = radar.collect("dummy-key", "dummy-secret", tracked_items={"99": old})
+        self.assertEqual(result[0]["views"], 125)
+        self.assertEqual(result[0]["title"], "New SVG title")
+        self.assertEqual(result[0]["source_query"], "svg bundle")
+        self.assertEqual(result[0]["views_source"], "listing_batch")
+        self.assertIn("listing_ids=99", urlopen.call_args.args[0].full_url)
+
+    @patch("radar_lite.time.sleep")
+    @patch("radar_lite.urlopen")
+    def test_full_pool_refreshes_all_400_with_eight_calls(self, urlopen, sleep):
+        tracked = {str(i): {"listing_id": i, "source_query": "svg bundle", "views": 10}
+                   for i in range(1, 401)}
+        candidates = [{"listing_id": i, "listing_type": "download", "title": f"New SVG {i}"}
+                      for i in range(1001, 1201)]
+        details = [{"listing_id": i, "listing_type": "download", "title": f"Tracked SVG {i}", "views": 20}
+                   for i in range(1, 401)]
+        pages = [candidates[i:i + 50] for i in range(0, 200, 50)]
+        pages += [details[i:i + 100] for i in range(0, 400, 100)]
+        urlopen.side_effect = [Response({"results": page}, {"x-limit-per-day": "5000",
+                              "x-remaining-today": str(4999 - i)}) for i, page in enumerate(pages)]
+        budget = radar.RequestBudget()
+        result = radar.collect("dummy-key", "dummy-secret", budget=budget, tracked_items=tracked)
+        self.assertEqual({row["listing_id"] for row in result}, set(range(1, 401)))
+        self.assertTrue(all(row["views"] == 20 for row in result))
+        self.assertEqual(budget.requests, 8)
+        self.assertEqual(urlopen.call_count, 8)
+
+    @patch("radar_lite.time.sleep")
+    @patch("radar_lite.urlopen")
+    def test_missing_api_row_does_not_reuse_cached_counter(self, urlopen, sleep):
+        urlopen.side_effect = [Response({"results": []}) for _ in range(5)]
+        result = radar.collect("dummy-key", "dummy-secret", tracked_items={
+            "99": {"listing_id": 99, "title": "Cached SVG", "views": 123}
+        })
+        self.assertEqual(result, [])
+
+    @patch("radar_lite.time.sleep")
+    @patch("radar_lite.urlopen")
+    def test_fresh_search_counter_can_fill_missing_batch_counter(self, urlopen, sleep):
+        search = {"listing_id": 99, "listing_type": "download", "title": "SVG", "views": 22}
+        detail = {**search, "views": None}
+        urlopen.side_effect = [Response({"results": [search]})] + [Response({"results": []}) for _ in range(3)] + [Response({"results": [detail]})]
+        result = radar.collect("dummy-key", "dummy-secret")
+        self.assertEqual(result[0]["views"], 22)
+        self.assertEqual(result[0]["views_source"], "listing_search")
+
+    @patch("radar_lite.time.sleep")
+    @patch("radar_lite.urlopen")
+    def test_missing_batch_counter_does_not_copy_saved_views(self, urlopen, sleep):
+        detail = {"listing_id": 99, "listing_type": "download", "title": "SVG"}
+        urlopen.side_effect = [Response({"results": []}) for _ in radar.KEYWORDS] + [Response({"results": [detail]})]
+        result = radar.collect("dummy-key", "dummy-secret", tracked_items={"99": {
+            "listing_id": 99, "views": 123, "source_query": "svg bundle"
+        }})
+        self.assertIsNone(result[0]["views"])
+        self.assertIsNone(result[0]["views_source"])
+
+
 class SnapshotTests(unittest.TestCase):
     def setUp(self):
         self.fixed = datetime(2026, 9, 28, 12, tzinfo=timezone.utc)
@@ -187,6 +253,60 @@ class SnapshotTests(unittest.TestCase):
         self.assertEqual(item["confirmed_sales_view_24h"], 30)
         self.assertEqual(result["last_success_at"], self.fixed.isoformat())
         self.assertEqual(status["collection_status"], "ok")
+
+    def test_missing_view_value_has_no_fake_zero_or_ratio(self):
+        observation = {**self.original["items"]["1"], "views": None}
+        result, status = self.invoke(self.original, lambda *args, **kwargs: [observation])
+        self.assertIsNone(result["items"]["1"]["views_24h"])
+        self.assertIsNone(result["items"]["1"]["confirmed_sales_view_24h"])
+        self.assertEqual(result["items"]["1"]["view_status"], "unavailable")
+        self.assertEqual(status["views_unavailable_listings"], 1)
+
+    def test_missing_baseline_is_not_a_huge_view_increase(self):
+        self.original["items"]["1"]["samples"][0]["views"] = None
+        observation = {**self.original["items"]["1"], "views": 110}
+        result, status = self.invoke(self.original, lambda *args, **kwargs: [observation])
+        self.assertIsNone(result["items"]["1"]["views_24h"])
+        self.assertEqual(status["view_increase_listings"], 0)
+
+    def test_zero_counter_is_valid_unchanged_data(self):
+        self.original["items"]["1"]["samples"][0]["views"] = 0
+        observation = {**self.original["items"]["1"], "views": 0}
+        result, status = self.invoke(self.original, lambda *args, **kwargs: [observation])
+        self.assertEqual(result["items"]["1"]["views_24h"], 0)
+        self.assertEqual(result["items"]["1"]["view_status"], "unchanged")
+
+    def test_counter_decrease_is_an_unavailable_comparison(self):
+        observation = {**self.original["items"]["1"], "views": 90}
+        result, status = self.invoke(self.original, lambda *args, **kwargs: [observation])
+        self.assertIsNone(result["items"]["1"]["views_24h"])
+        self.assertEqual(result["items"]["1"]["view_status"], "counter_decreased")
+
+    def test_unrefreshed_listing_cannot_keep_old_positive_metrics(self):
+        self.original["items"]["1"].update({"metrics_ready": True, "views_24h": 4.32,
+                                             "confirmed_sales_24h": 20, "hot_score": 100})
+        result, status = self.invoke(self.original, lambda *args, **kwargs: [])
+        item = result["items"]["1"]
+        self.assertIsNone(item["views_24h"])
+        self.assertIsNone(item["confirmed_sales_24h"])
+        self.assertFalse(item["metrics_ready"])
+        self.assertEqual(item["view_status"], "stale")
+        self.assertEqual(status["updated_listings"], 0)
+        self.assertEqual(status["view_increase_listings"], 0)
+
+    def test_whole_pool_snapshot_reports_all_400_refreshed(self):
+        prototype = self.original["items"]["1"]
+        self.original["items"] = {str(i): {**prototype, "listing_id": i,
+            "samples": [dict(prototype["samples"][0])]} for i in range(1, 401)}
+        observations = [{**item, "views": 110} for item in self.original["items"].values()]
+        def collect(*args, **kwargs):
+            self.assertEqual(len(kwargs["tracked_items"]), 400)
+            return observations
+        result, status = self.invoke(self.original, collect)
+        self.assertEqual(status["updated_listings"], 400)
+        self.assertEqual(status["comparable"], 400)
+        self.assertEqual(status["view_increase_listings"], 400)
+        self.assertEqual(status["views_24h"], 4000)
 
 
 if __name__ == "__main__":

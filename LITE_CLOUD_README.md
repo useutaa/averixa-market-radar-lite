@@ -11,6 +11,15 @@ remain untouched.
 - It tracks a capped 400-listing pool, retaining at most 75 observations per
   listing (roughly three days at hourly cadence) and removing listings unseen
   for 35 days. The 24-hour comparison fits within this bounded history.
+- Every saved listing ID is requested in each successful run, regardless of
+  its current keyword search position. Search results fill empty pool slots;
+  the full pool remains stable for continuous measurement. Missing API rows
+  are not replaced with cached values and are labelled as not refreshed.
+- View changes need two real numeric counters. Missing counters, decreases,
+  and missing baselines display `—` rather than a fabricated zero or ratio.
+  Older interval metrics are cleared when the listing was not refreshed.
+- `View artışı / 24s` is a rate normalised from the displayed comparison
+  window, not the difference between the two most recent hourly runs.
 - It is a periodic static radar, not the full always-on FastAPI dashboard.
 - `state/radar_state.json` contains public observed listing values and is
   committed so the next free run has a comparison baseline.
@@ -45,9 +54,9 @@ python -m unittest discover -s tests -v
 ## API quota protection
 
 - Schedule: once per hour, about 24 runs per day.
-- Current request count: four searches and up to two listing-detail batches;
-  normally six calls per run (144/day). A hard cap of eight calls per run
-  allows for pool growth (192/day maximum, excluding other applications).
+- Request count: four searches and up to four 100-listing detail batches;
+  a full 400-listing pool needs eight calls per run (192/day maximum,
+  excluding other applications). A cold start with 200 listings uses six.
 - Requests are spaced at least 1.1 seconds apart.
 - Etsy's live `x-limit-per-day` and `x-remaining-today` headers determine the
   daily reserve: 10% of the limit, with a 25-call minimum. A run stops before

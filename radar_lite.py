@@ -193,6 +193,7 @@ def normalise(raw: dict[str, Any], keyword: str, rank: int) -> dict[str, Any] | 
         "shop_id": number(shop.get("shop_id") if isinstance(shop, dict) and shop.get("shop_id") is not None else raw.get("shop_id")),
         "quantity": number(raw.get("quantity")),
         "views": number(raw.get("views")),
+        "views_source": raw.get("_views_source") if number(raw.get("views")) is not None else None,
         "favorites": number(raw.get("num_favorers") if raw.get("num_favorers") is not None else raw.get("favorites")),
         "shop_sales": number(shop.get("transaction_sold_count") if shop.get("transaction_sold_count") is not None else shop.get("sales")),
     }
@@ -240,38 +241,54 @@ def recalculate_metrics(state: dict[str, Any], captured_at: str) -> None:
     decrease must be corroborated by the public shop sales-counter increase in
     the same interval.  It is never represented as private Etsy order data.
     """
-    current: list[dict[str, Any]] = [
-        item for item in state["items"].values() if item.get("last_seen_at") == captured_at
-    ]
     intervals: dict[str, dict[str, Any]] = {}
-    for item in current:
+    for item in state["items"].values():
+        refreshed = item.get("last_seen_at") == captured_at
+        item["updated_in_latest"] = refreshed
         found = _comparison(list(item.get("samples") or []))
-        if not found:
+        if not refreshed or not found:
             item.update({
                 "metrics_ready": False,
-                "quantity_delta": 0,
-                "stock_movement_24h": 0.0,
-                "confirmed_sales_24h": 0.0,
-                "estimated_sales_24h": 0.0,
-                "views_24h": 0.0,
-                "favorites_24h": 0.0,
-                "shop_sales_24h": 0.0,
+                "comparison_hours": None,
+                "quantity_delta": None,
+                "stock_movement_24h": None,
+                "confirmed_sales_24h": None,
+                "estimated_sales_24h": None,
+                "views_24h": None,
+                "view_delta_observed": None,
+                "view_status": "stale" if not refreshed else "unavailable" if item.get("views") is None else "waiting",
+                "favorites_24h": None,
+                "shop_sales_24h": None,
                 "confirmed_sales_view_24h": None,
                 "estimated_sales_view_24h": None,
                 "confidence": 0,
-                "basis": "İlk ölçüm · karşılaştırma bekleniyor",
+                "basis": "Bu taramada güncellenmedi" if not refreshed else "Karşılaştırma bekleniyor",
                 "hot_score": 0.0,
             })
             continue
         before, hours = found
         current_sample = item["samples"][-1]
-        delta = lambda field: max((number(current_sample.get(field)) or 0) - (number(before.get(field)) or 0), 0)
-        stock = max((number(before.get("quantity")) or 0) - (number(current_sample.get("quantity")) or 0), 0)
+        def delta(field: str) -> float:
+            latest, previous = number(current_sample.get(field)), number(before.get(field))
+            return max(float(latest) - float(previous), 0.0) if latest is not None and previous is not None else 0.0
+        latest_views, previous_views = number(current_sample.get("views")), number(before.get("views"))
+        view_delta: float | None = None
+        if latest_views is None or previous_views is None:
+            view_status = "unavailable"
+        elif latest_views < previous_views:
+            view_status = "counter_decreased"
+        else:
+            view_delta = float(latest_views) - float(previous_views)
+            view_status = "increased" if view_delta > 0 else "unchanged"
+        latest_stock, previous_stock = number(current_sample.get("quantity")), number(before.get("quantity"))
+        stock = max(float(previous_stock) - float(latest_stock), 0.0) if latest_stock is not None and previous_stock is not None else 0.0
         intervals[str(item["listing_id"])] = {
             "item": item,
             "hours": hours,
             "stock": stock,
-            "views": delta("views"),
+            "views": view_delta or 0.0,
+            "view_delta": view_delta,
+            "view_status": view_status,
             "favorites": delta("favorites"),
             "shop_sales": delta("shop_sales"),
         }
@@ -300,11 +317,11 @@ def recalculate_metrics(state: dict[str, Any], captured_at: str) -> None:
         allocated = residual * momentum / group_momentum * coverage if group_momentum else 0.0
         estimated = confirmed + unconfirmed * 0.35 + allocated
         scale = 24 / hours
-        views_24h = round(float(interval["views"]) * scale, 2)
+        views_24h = round(float(interval["view_delta"]) * scale, 2) if interval["view_delta"] is not None else None
         confirmed_24h = round(confirmed * scale, 2)
         estimated_24h = round(estimated * scale, 2)
         stock_24h = round(float(interval["stock"]) * scale, 2)
-        ratio_ready = views_24h >= 5
+        ratio_ready = views_24h is not None and views_24h >= 5
         confidence = min(100, int(40 + (20 if interval["views"] > 0 else 0) + (10 if interval["favorites"] > 0 else 0) + (30 if corroborated else 0) + (10 if interval["stock"] > 0 else 0)))
         if corroborated and interval["views"] > 0:
             basis = "Onaylı: stok + mağaza + view"
@@ -324,13 +341,15 @@ def recalculate_metrics(state: dict[str, Any], captured_at: str) -> None:
             "confirmed_sales_24h": confirmed_24h,
             "estimated_sales_24h": estimated_24h,
             "views_24h": views_24h,
+            "view_delta_observed": interval["view_delta"],
+            "view_status": interval["view_status"],
             "favorites_24h": round(float(interval["favorites"]) * scale, 2),
             "shop_sales_24h": round(float(interval["shop_sales"]) * scale, 2),
             "confirmed_sales_view_24h": round(confirmed_24h / views_24h * 100, 2) if ratio_ready else None,
             "estimated_sales_view_24h": round(estimated_24h / views_24h * 100, 2) if ratio_ready else None,
             "confidence": confidence,
             "basis": basis,
-            "hot_score": round(confirmed_24h * 12 + estimated_24h * 4 + (views_24h + 1) ** 0.5 + float(interval["favorites"]) * scale * 0.8 + confidence / 25, 2),
+            "hot_score": round(confirmed_24h * 12 + estimated_24h * 4 + ((views_24h or 0) + 1) ** 0.5 + float(interval["favorites"]) * scale * 0.8 + confidence / 25, 2),
         })
 
 
@@ -338,7 +357,7 @@ def merge(state: dict[str, Any], observation: dict[str, Any], captured_at: str) 
     key = str(observation["listing_id"])
     old = state["items"].get(key, {})
     samples = list(old.get("samples") or [])
-    snapshot = {"captured_at": captured_at, **{field: observation.get(field) for field in ("quantity", "views", "favorites", "shop_sales")}}
+    snapshot = {"captured_at": captured_at, **{field: observation.get(field) for field in ("quantity", "views", "views_source", "favorites", "shop_sales")}}
     if samples and samples[-1].get("captured_at") == captured_at:
         samples[-1] = snapshot
     else:
@@ -346,7 +365,6 @@ def merge(state: dict[str, Any], observation: dict[str, Any], captured_at: str) 
     cutoff = now() - timedelta(days=KEEP_DAYS)
     samples = [item for item in samples if (parse_time(item.get("captured_at")) or now()) >= cutoff][-75:]
     state["items"][key] = {**old, **observation, "samples": samples, "last_seen_at": captured_at}
-    recalculate_metrics(state, captured_at)
 
 
 def prune(state: dict[str, Any]) -> None:
@@ -356,22 +374,49 @@ def prune(state: dict[str, Any]) -> None:
     state["items"] = {str(item["listing_id"]): item for item in current[:MAX_ITEMS]}
 
 
-def collect(keystring: str, secret: str, *, budget: RequestBudget | None = None) -> list[dict[str, Any]]:
+def collect(keystring: str, secret: str, *, budget: RequestBudget | None = None, tracked_items: dict[str, Any] | None = None) -> list[dict[str, Any]]:
+    """Refresh the saved pool by ID, independently of changing search ranks.
+
+    Search discovers candidates to fill empty pool slots. A full pool stays
+    stable: its saved counters are never reused as new API observations.
+    """
     budget = budget if budget is not None else RequestBudget()
+    tracked_items = tracked_items or {}
     found: dict[int, tuple[dict[str, Any], str, int]] = {}
     for keyword in KEYWORDS:
         response = get("/listings/active", keystring, secret, budget=budget, keywords=keyword, limit=50, sort_on="score", sort_order="desc", is_safe="true", currency="USD")
         for rank, item in enumerate(response.get("results", []), start=1):
-            if item.get("listing_id"):
+            if item.get("listing_id") and digital(item):
                 found.setdefault(int(item["listing_id"]), (dict(item), keyword, rank))
     details: dict[int, dict[str, Any]] = {}
-    ids = list(found)[:MAX_ITEMS]
+    ids = list(dict.fromkeys(int(item["listing_id"]) for item in tracked_items.values()))[:MAX_ITEMS]
+    selected = set(ids)
+    for listing_id in found:
+        if len(ids) >= MAX_ITEMS:
+            break
+        if listing_id not in selected:
+            ids.append(listing_id)
+            selected.add(listing_id)
     for start in range(0, len(ids), 100):
         response = get("/listings/batch", keystring, secret, budget=budget, listing_ids=",".join(map(str, ids[start:start + 100])), includes="Shop,Images", currency="USD")
         details.update({int(item["listing_id"]): item for item in response.get("results", []) if item.get("listing_id")})
     output: list[dict[str, Any]] = []
-    for listing_id, (search_row, keyword, rank) in found.items():
-        row = normalise({**search_row, **details.get(listing_id, {})}, keyword, rank)
+    for listing_id in ids:
+        old = tracked_items.get(str(listing_id), {})
+        search_row, keyword, rank = found.get(listing_id, ({}, str(old.get("source_query") or "tracked"), int(old.get("search_rank") or 100)))
+        detail_row = details.get(listing_id, {})
+        if not search_row and not detail_row:
+            continue
+        raw = {**search_row, **detail_row}
+        if number(detail_row.get("views")) is not None:
+            raw["_views_source"] = "listing_batch"
+        elif number(search_row.get("views")) is not None:
+            raw["views"] = search_row["views"]
+            raw["_views_source"] = "listing_search"
+        else:
+            raw["views"] = None
+            raw["_views_source"] = None
+        row = normalise(raw, keyword, rank)
         if row:
             output.append(row)
     return output
@@ -386,17 +431,28 @@ HTML = r"""<!doctype html>
 <main><div class="top"><div class="brand"><h1>EtsyPulse</h1><p>Averixa market intelligence · public Etsy signals · <span id="updated">yükleniyor…</span></p></div><span class="pill">PC kapalıyken de çalışır</span></div>
 <section class="cards" id="cards"></section>
 <div class="panel"><div class="tabs"><button class="tab active" data-view="products">Ürün sinyalleri</button><button class="tab" data-view="niches">Niş özeti</button></div>
-<section id="products" class="view active"><div class="filters"><input id="q" placeholder="Ürün veya anahtar kelime ara"><select id="sort"><option value="confirmed_sales_view_24h">Onaylı S/View</option><option value="confirmed_sales_24h">Onaylı satış</option><option value="estimated_sales_24h">Tahmini satış</option><option value="hot_score">Fırsat skoru</option><option value="views_24h">View artışı</option></select><select id="quality"><option value="all">Tüm kayıtlar</option><option value="ready">Ölçümü olanlar</option><option value="confirmed">Onaylı sinyaller</option></select><button id="download-csv" type="button">Tüm ilanları CSV indir</button></div><div class="sub">Toplam view = Etsy’deki ilan sayacı · View Δ = son iki tarama arasındaki artış · CSV filtrelerden bağımsız tüm takip ilanlarını indirir</div><div id="product-rows"></div></section>
+<section id="products" class="view active"><div class="filters"><input id="q" placeholder="Ürün veya anahtar kelime ara"><select id="sort"><option value="confirmed_sales_view_24h">Onaylı S/View</option><option value="confirmed_sales_24h">Onaylı satış</option><option value="estimated_sales_24h">Tahmini satış</option><option value="hot_score">Fırsat skoru</option><option value="views_24h">View artışı</option></select><select id="quality"><option value="all">Tüm kayıtlar</option><option value="ready">Ölçümü olanlar</option><option value="confirmed">Onaylı sinyaller</option><option value="views">View artışı olanlar</option></select><button id="download-csv" type="button">Tüm ilanları CSV indir</button></div><div class="sub">Toplam view = ilan sayacı · View artışı / 24s = belirtilen ölçüm aralığındaki artışın 24 saate uyarlanmış hızı · — = geçerli karşılaştırma yok · CSV tüm takip ilanlarını indirir</div><div id="product-rows"></div></section>
 <section id="niches" class="view"><div class="filters"><input id="nq" placeholder="Niş ara"></div><div class="niche-grid" id="niche-rows"></div></section></div>
 <p class="foot"><b>Onaylı</b>: aynı ölçüm aralığında stok düşüşü, public mağaza satış sayacıyla desteklenmiş sinyal. <b>Tahmini</b>: public stok/view/favori sinyallerinden ihtiyatlı tahmin. Rakiplerin özel Etsy sipariş verisi değildir.</p></main>
 <script>
 const n=v=>Number(v||0), f=v=>v==null?'—':n(v).toLocaleString(undefined,{maximumFractionDigits:2}), pct=v=>v==null?'—':f(v)+'%', esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let products=[], niches=[];
 function metric(v,cls=''){return `<span class="${cls}">${f(v)}</span>`}
-function drawProducts(){const q=document.querySelector('#q').value.toLowerCase(),sort=document.querySelector('#sort').value,quality=document.querySelector('#quality').value;let rows=products.filter(r=>(r.title+' '+r.source_query).toLowerCase().includes(q)).filter(r=>quality==='all'||(quality==='ready'&&r.metrics_ready)||(quality==='confirmed'&&n(r.confirmed_sales_24h)>0)).sort((a,b)=>n(b[sort])-n(a[sort])).slice(0,150);document.querySelector('#product-rows').innerHTML=rows.length?`<div class="table-wrap"><table><tr><th>Ürün</th><th>Onaylı<br>24s</th><th>Tahmini<br>24s</th><th>İlanın toplam<br>view’ı</th><th>Son tarama<br>view Δ</th><th>Onaylı<br>S/View</th><th>Tahmini<br>S/View</th><th>Stok<br>hareketi</th><th>Fiyat</th><th>Güven</th><th>Dayanak</th></tr>${rows.map(r=>`<tr><td class="product"><a href="${esc(r.url)}" target="_blank" rel="noreferrer">${esc(r.title)}</a><div class="sub"><span class="badge">${esc(r.source_query)}</span> · ${r.metrics_ready?f(r.comparison_hours)+'s ölçüm':'ilk ölçüm'}</div></td><td>${metric(r.confirmed_sales_24h,'confirmed')}</td><td>${metric(r.estimated_sales_24h,'estimated')}</td><td>${f(r.views)}</td><td>${f(r.views_24h)}</td><td class="ratio">${pct(r.confirmed_sales_view_24h)}</td><td class="ratio">${pct(r.estimated_sales_view_24h)}</td><td>${f(r.stock_movement_24h)}</td><td>${esc(r.currency||'')} ${f(r.price)}</td><td>${r.metrics_ready?'%'+f(r.confidence):'—'}</td><td><span class="badge">${esc(r.basis||'—')}</span></td></tr>`).join('')}</table></div>`:'<p class="muted">Bu filtrede kayıt yok.</p>'}
-function downloadCsv(){const head=['listing_id','title','url','keyword','price','currency','search_rank','quantity','total_views','view_delta_24h','favorites','shop_sales','confirmed_sales_24h','estimated_sales_24h','stock_movement_24h','confidence','basis'];const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"';const allRows=[...products].sort((a,b)=>n(b.hot_score)-n(a.hot_score));const body=allRows.map(r=>[r.listing_id,r.title,r.url,r.source_query,r.price,r.currency,r.search_rank,r.quantity,r.views,r.views_24h,r.favorites,r.shop_sales,r.confirmed_sales_24h,r.estimated_sales_24h,r.stock_movement_24h,r.confidence,r.basis]);const csv='\ufeff'+[head,...body].map(row=>row.map(quote).join(';')).join('\r\n');const file=new Blob([csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(file),link=document.createElement('a');link.href=url;link.download='etsypulse-all-listings-'+new Date().toISOString().slice(0,10)+'.csv';document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+function viewCell(r){const labels={increased:'Artış var',unchanged:'Sayaç değişmedi',waiting:'Karşılaştırma bekleniyor',unavailable:'View verisi eksik',counter_decreased:'Sayaç azaldı',stale:'Güncel ölçüm yok'};return `<span title="Ölçülen artış: ${f(r.view_delta_observed)} · pencere: ${f(r.comparison_hours)} saat">${f(r.views_24h)}</span><div class="sub">${esc(labels[r.view_status]||'Karşılaştırma bekleniyor')}</div>`}
+function drawProducts(){
+ const q=document.querySelector('#q').value.toLowerCase(),sort=document.querySelector('#sort').value,quality=document.querySelector('#quality').value;
+ const rows=products.filter(r=>(r.title+' '+r.source_query).toLowerCase().includes(q)).filter(r=>quality==='all'||(quality==='ready'&&r.metrics_ready)||(quality==='confirmed'&&n(r.confirmed_sales_24h)>0)||(quality==='views'&&n(r.views_24h)>0)).sort((a,b)=>n(b[sort])-n(a[sort])).slice(0,150);
+ document.querySelector('#product-rows').innerHTML=rows.length?`<div class="table-wrap"><table><tr><th>Ürün</th><th>Onaylı<br>24s</th><th>Tahmini<br>24s</th><th>İlanın toplam<br>view’ı</th><th>View artışı<br>/ 24s</th><th>Onaylı<br>S/View</th><th>Tahmini<br>S/View</th><th>Stok<br>hareketi</th><th>Fiyat</th><th>Güven</th><th>Dayanak</th></tr>${rows.map(r=>`<tr><td class="product"><a href="${esc(r.url)}" target="_blank" rel="noreferrer">${esc(r.title)}</a><div class="sub"><span class="badge">${esc(r.source_query)}</span> · ${r.metrics_ready?f(r.comparison_hours)+'s ölçüm':'karşılaştırma bekleniyor'}</div><div class="sub">Son kontrol: ${r.last_seen_at?esc(new Date(r.last_seen_at).toLocaleString('tr-TR')):'—'}</div></td><td>${metric(r.confirmed_sales_24h,'confirmed')}</td><td>${metric(r.estimated_sales_24h,'estimated')}</td><td>${f(r.views)}</td><td>${viewCell(r)}</td><td class="ratio">${pct(r.confirmed_sales_view_24h)}</td><td class="ratio">${pct(r.estimated_sales_view_24h)}</td><td>${f(r.stock_movement_24h)}</td><td>${esc(r.currency||'')} ${f(r.price)}</td><td>${r.metrics_ready?'%'+f(r.confidence):'—'}</td><td><span class="badge">${esc(r.basis||'—')}</span></td></tr>`).join('')}</table></div>`:'<p class="muted">Bu filtrede kayıt yok.</p>';
+}
+function downloadCsv(){
+ const head=['listing_id','title','url','keyword','price','currency','search_rank','quantity','total_views','view_delta_24h','view_delta_observed','view_status','comparison_hours','last_seen_at','updated_in_latest','favorites','shop_sales','confirmed_sales_24h','estimated_sales_24h','stock_movement_24h','confidence','basis'];
+ const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"',allRows=[...products].sort((a,b)=>n(b.hot_score)-n(a.hot_score));
+ const body=allRows.map(r=>[r.listing_id,r.title,r.url,r.source_query,r.price,r.currency,r.search_rank,r.quantity,r.views,r.views_24h,r.view_delta_observed,r.view_status,r.comparison_hours,r.last_seen_at,r.updated_in_latest,r.favorites,r.shop_sales,r.confirmed_sales_24h,r.estimated_sales_24h,r.stock_movement_24h,r.confidence,r.basis]);
+ const csv='\ufeff'+[head,...body].map(row=>row.map(quote).join(';')).join('\r\n'),file=new Blob([csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(file),link=document.createElement('a');
+ link.href=url;link.download='etsypulse-all-listings-'+new Date().toISOString().slice(0,10)+'.csv';document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
 function drawNiches(){const q=document.querySelector('#nq').value.toLowerCase(),rows=niches.filter(x=>x.niche_name.toLowerCase().includes(q));document.querySelector('#niche-rows').innerHTML=rows.length?rows.map(x=>`<article class="panel niche"><h3>${esc(x.niche_name)}</h3><div class="muted">${f(x.comparable)} / ${f(x.observed_listing_count)} ölçülebilir ilan · örnek: <a href="${esc(x.sample_url||'#')}" target="_blank" rel="noreferrer">${esc(x.sample_title||'—')}</a></div><div class="niche-metrics"><div><span class="label">Onaylı 24s</span><b>${f(x.confirmed_sales_24h)}</b></div><div><span class="label">Tahmini 24s</span><b>${f(x.estimated_sales_24h)}</b></div><div><span class="label">S/View</span><b>${pct(x.confirmed_sales_view_24h)}</b></div><div><span class="label">Fırsat</span><b>${f(x.opportunity_score)}</b></div></div></article>`).join(''):'<p class="muted">Bu filtrede niş yok.</p>'}
-const cacheBust='?v='+Date.now();Promise.all(['data/status.json','data/radar.json','data/niches.json'].map(x=>fetch(x+cacheBust,{cache:'no-store'}).then(r=>r.json()))).then(([s,r,ns])=>{products=r;niches=ns;document.querySelector('#updated').textContent=(s.generated_at?'son ölçüm: '+new Date(s.generated_at).toLocaleString('tr-TR'):'henüz ölçüm yok')+(s.collection_message?' · '+s.collection_message:'');document.querySelector('#cards').innerHTML=[['Takipteki ilan',s.listings],['Ölçümü olan',s.comparable],['Toplam view',s.total_views],['Onaylı satış · 24s',s.confirmed_sales_24h],['Tahmini satış · 24s',s.estimated_sales_24h],['En iyi onaylı S/View',pct(s.top_confirmed_sales_view_24h)],['Niş',s.keywords]].map(([k,v])=>`<div class="card"><div class="label">${k}</div><div class="value">${v}</div></div>`).join('');drawProducts();drawNiches();document.querySelector('#q').oninput=drawProducts;document.querySelector('#sort').onchange=drawProducts;document.querySelector('#quality').onchange=drawProducts;document.querySelector('#download-csv').onclick=downloadCsv;document.querySelector('#nq').oninput=drawNiches;document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab,.view').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelector('#'+b.dataset.view).classList.add('active')})});
+const cacheBust='?v='+Date.now();Promise.all(['data/status.json','data/radar.json','data/niches.json'].map(x=>fetch(x+cacheBust,{cache:'no-store'}).then(r=>r.json()))).then(([s,r,ns])=>{products=r;niches=ns;document.querySelector('#updated').textContent=(s.generated_at?'son ölçüm: '+new Date(s.generated_at).toLocaleString('tr-TR'):'henüz ölçüm yok')+(s.collection_message?' · '+s.collection_message:'');document.querySelector('#cards').innerHTML=[['Takipteki ilan',s.listings],['Bu taramada yenilenen',s.updated_listings],['Karşılaştırılabilen',s.comparable],['View artışı olan',s.view_increase_listings],['Toplam view',s.total_views],['Onaylı satış · 24s',s.confirmed_sales_24h],['Tahmini satış · 24s',s.estimated_sales_24h],['En iyi onaylı S/View',pct(s.top_confirmed_sales_view_24h)],['Niş',s.keywords]].map(([k,v])=>`<div class="card"><div class="label">${k}</div><div class="value">${v}</div></div>`).join('');drawProducts();drawNiches();document.querySelector('#q').oninput=drawProducts;document.querySelector('#sort').onchange=drawProducts;document.querySelector('#quality').onchange=drawProducts;document.querySelector('#download-csv').onclick=downloadCsv;document.querySelector('#nq').oninput=drawNiches;document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab,.view').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelector('#'+b.dataset.view).classList.add('active')})});
 </script></html>"""
 
 
@@ -442,7 +498,10 @@ def write_site(state: dict[str, Any], site: Path) -> None:
         "collection_message": state.get("collection_message"),
         "api_usage": state.get("api_usage", {}),
         "listings": len(rows),
+        "updated_listings": sum(row.get("last_seen_at") == state.get("last_success_at") for row in rows),
         "comparable": len(ready),
+        "view_increase_listings": sum(float(row.get("views_24h") or 0) > 0 for row in ready),
+        "views_unavailable_listings": sum(row.get("view_status") == "unavailable" for row in rows),
         "keywords": len(KEYWORDS),
         "confirmed_sales_24h": round(sum(float(row.get("confirmed_sales_24h") or 0) for row in ready), 2),
         "estimated_sales_24h": round(sum(float(row.get("estimated_sales_24h") or 0) for row in ready), 2),
@@ -472,7 +531,7 @@ def main() -> None:
         if retry_at is not None and retry_at > now():
             budget.retry_at = retry_at.isoformat()
             raise QuotaDeferred("Etsy quota pause still active; saved snapshot preserved.")
-        observations = collect(keystring, secret, budget=budget)
+        observations = collect(keystring, secret, budget=budget, tracked_items=state["items"])
     except QuotaDeferred as exc:
         state["collection_status"] = "quota_deferred"
         state["collection_message"] = "Kota nedeniyle tarama ertelendi; son başarılı ölçüm gösteriliyor."
