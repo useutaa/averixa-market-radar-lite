@@ -61,7 +61,7 @@ class DiscoveryTests(unittest.TestCase):
         for change in ({"search_page_size": 101}, {"max_search_pages": 122},
                        {"max_candidates": 10}, {"refresh_per_run": 5001},
                        {"new_tracked_per_run": 1000}, {"search_requests_per_run": True},
-                       {"keywords": ("svg", "svg")}, {"history_samples": 2}):
+                       {"keywords": ("svg", "svg")}, {"keywords": ("svg", 12)}, {"history_samples": 2}):
             with self.subTest(change=change), self.assertRaises(ValueError):
                 replace(self.config, **change)
 

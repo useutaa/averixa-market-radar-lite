@@ -23,7 +23,7 @@ class ResearchConfig:
     max_daily_requests: int = 1000
 
     def __post_init__(self) -> None:
-        if not self.keywords or len(set(self.keywords)) != len(self.keywords) or any(not word.strip() for word in self.keywords):
+        if not self.keywords or any(not isinstance(word, str) or not word.strip() for word in self.keywords) or len(set(self.keywords)) != len(self.keywords):
             raise ValueError("keywords must contain unique, non-empty search phrases")
         for name in self.__dataclass_fields__:
             if name != "keywords" and (type(getattr(self, name)) is not int or getattr(self, name) <= 0):

@@ -498,7 +498,8 @@ function downloadCsv(){
  saveCsv(head,body,'etsypulse-all-listings-');
 }
 function saveCsv(head,body,prefix){
- const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"';
+ // Quoting alone does not stop spreadsheet formula injection from titles.
+ const quote=v=>'"'+String(typeof v==='string'&&/^[=+\-@\t\r]/.test(v)?"'"+v:v??'').replaceAll('"','""')+'"';
  const csv='\ufeff'+[head,...body].map(row=>row.map(quote).join(';')).join('\r\n'),file=new Blob([csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(file),link=document.createElement('a');
  link.href=url;link.download=prefix+new Date().toISOString().slice(0,10)+'.csv';document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
