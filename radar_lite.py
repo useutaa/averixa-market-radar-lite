@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import math
 import os
 import statistics
 import time
@@ -23,10 +24,87 @@ API_ROOT = "https://api.etsy.com/v3/application"
 KEYWORDS = ("svg bundle", "sublimation png", "canva template", "printable planner")
 MAX_ITEMS = 400
 KEEP_DAYS = 35
+# Four search calls and up to four 100-listing detail batches. This cap also
+# covers future growth of the tracked pool without an unbounded API loop.
+MAX_API_REQUESTS = len(KEYWORDS) + math.ceil(MAX_ITEMS / 100)
+MIN_REQUEST_INTERVAL = 1.1
 
 
 class RadarError(RuntimeError):
     """Safe-to-print error that contains no headers or API secrets."""
+
+
+class QuotaDeferred(RadarError):
+    """A collection was deferred; keep the last complete snapshot."""
+
+
+class RequestBudget:
+    """Pace requests and retain a reserve from Etsy's live quota headers.
+
+    The reserve is 10% of the reported daily limit, with a 25-call minimum.
+    Limits belong to the API key, so other applications can consume them too.
+    Missing headers leave the daily quota unknown rather than inventing one.
+    """
+
+    def __init__(self, max_requests: int = MAX_API_REQUESTS) -> None:
+        self.max_requests = max_requests
+        self.requests = 0
+        self.daily_limit: int | None = None
+        self.remaining_today: int | None = None
+        self.second_limit: int | None = None
+        self.remaining_second: int | None = None
+        self.last_request_at: float | None = None
+        self.retry_at: str | None = None
+
+    @property
+    def reserve(self) -> int:
+        return max(25, math.ceil((self.daily_limit or 0) * 0.1))
+
+    def before_request(self) -> None:
+        if self.requests >= self.max_requests:
+            raise QuotaDeferred("Etsy collection request budget exhausted; saved snapshot preserved.")
+        # Reserve enough room for the entire remainder of this capped run.
+        needed = self.reserve + self.max_requests - self.requests
+        if self.remaining_today is not None and self.remaining_today < needed:
+            raise QuotaDeferred("Etsy daily quota reserve reached; saved snapshot preserved.")
+        if self.last_request_at is not None:
+            wait = MIN_REQUEST_INTERVAL - (time.monotonic() - self.last_request_at)
+            if wait > 0:
+                time.sleep(wait)
+        self.last_request_at = time.monotonic()
+        self.requests += 1
+        if self.remaining_today is not None:
+            self.remaining_today = max(0, self.remaining_today - 1)
+
+    def record(self, headers: Any) -> None:
+        # The Etsy guide currently spells one header without the final 'd'.
+        values = {str(key).lower(): value for key, value in headers.items()}
+        fields = {
+            "daily_limit": ("x-limit-per-day",),
+            "remaining_today": ("x-remaining-today",),
+            "second_limit": ("x-limit-per-second",),
+            "remaining_second": ("x-remaining-this-second", "x-remaining-this-secon"),
+        }
+        for attribute, names in fields.items():
+            for name in names:
+                try:
+                    value = int(values[name])
+                except (KeyError, TypeError, ValueError):
+                    continue
+                if value >= 0:
+                    setattr(self, attribute, value)
+                    break
+
+    def summary(self) -> dict[str, Any]:
+        return {
+            "requests": self.requests,
+            "max_requests_per_run": self.max_requests,
+            "daily_limit": self.daily_limit,
+            "remaining_today": self.remaining_today,
+            "daily_reserve": self.reserve,
+            "second_limit": self.second_limit,
+            "retry_at": self.retry_at,
+        }
 
 
 def now() -> datetime:
@@ -49,7 +127,9 @@ def parse_time(value: Any) -> datetime | None:
     return result.replace(tzinfo=timezone.utc) if result.tzinfo is None else result.astimezone(timezone.utc)
 
 
-def get(path: str, keystring: str, secret: str, **params: Any) -> dict[str, Any]:
+def get(path: str, keystring: str, secret: str, *, budget: RequestBudget | None = None, **params: Any) -> dict[str, Any]:
+    if budget is not None:
+        budget.before_request()
     request = Request(
         f"{API_ROOT}{path}?{urlencode(params, doseq=True)}",
         headers={
@@ -60,12 +140,22 @@ def get(path: str, keystring: str, secret: str, **params: Any) -> dict[str, Any]
     )
     try:
         with urlopen(request, timeout=30) as response:  # nosec B310: fixed HTTPS API root
+            if budget is not None:
+                budget.record(response.headers)
             return json.loads(response.read().decode("utf-8"))
     except HTTPError as exc:
+        exc.close()
         if exc.code in {401, 403}:
             raise RadarError("Etsy rejected the configured credentials.") from exc
         if exc.code == 429:
-            raise RadarError("Etsy quota/rate limit reached; a later scheduled run will retry.") from exc
+            if budget is not None:
+                budget.record(exc.headers or {})
+                try:
+                    delay = max(1, int(exc.headers.get("Retry-After", "3600")))
+                except (AttributeError, TypeError, ValueError):
+                    delay = 3600
+                budget.retry_at = (now() + timedelta(seconds=delay)).isoformat()
+            raise QuotaDeferred("Etsy requested a quota pause; saved snapshot preserved.") from exc
         raise RadarError(f"Etsy API returned HTTP {exc.code}.") from exc
     except (URLError, TimeoutError, json.JSONDecodeError) as exc:
         raise RadarError("Etsy API network response failed.") from exc
@@ -123,8 +213,8 @@ def load_state(path: Path) -> dict[str, Any]:
 def _comparison(samples: list[dict[str, Any]]) -> tuple[dict[str, Any], float] | None:
     """Choose the observation closest to 24 hours before the latest sample.
 
-    The free job runs twice daily, so the first usable comparison is normally
-    12 hours long and is transparently normalised to a 24-hour rate.  Once a
+    The hourly job needs at least two hours of observations before comparing.
+    Shorter windows are transparently normalised to a 24-hour rate. Once a
     24-hour sample exists it wins over the shorter comparison.
     """
     if len(samples) < 2:
@@ -266,20 +356,19 @@ def prune(state: dict[str, Any]) -> None:
     state["items"] = {str(item["listing_id"]): item for item in current[:MAX_ITEMS]}
 
 
-def collect(keystring: str, secret: str) -> list[dict[str, Any]]:
+def collect(keystring: str, secret: str, *, budget: RequestBudget | None = None) -> list[dict[str, Any]]:
+    budget = budget if budget is not None else RequestBudget()
     found: dict[int, tuple[dict[str, Any], str, int]] = {}
     for keyword in KEYWORDS:
-        response = get("/listings/active", keystring, secret, keywords=keyword, limit=50, sort_on="score", sort_order="desc", is_safe="true", currency="USD")
+        response = get("/listings/active", keystring, secret, budget=budget, keywords=keyword, limit=50, sort_on="score", sort_order="desc", is_safe="true", currency="USD")
         for rank, item in enumerate(response.get("results", []), start=1):
             if item.get("listing_id"):
                 found.setdefault(int(item["listing_id"]), (dict(item), keyword, rank))
-        time.sleep(0.25)
     details: dict[int, dict[str, Any]] = {}
     ids = list(found)[:MAX_ITEMS]
     for start in range(0, len(ids), 100):
-        response = get("/listings/batch", keystring, secret, listing_ids=",".join(map(str, ids[start:start + 100])), includes="Shop,Images", currency="USD")
+        response = get("/listings/batch", keystring, secret, budget=budget, listing_ids=",".join(map(str, ids[start:start + 100])), includes="Shop,Images", currency="USD")
         details.update({int(item["listing_id"]): item for item in response.get("results", []) if item.get("listing_id")})
-        time.sleep(0.25)
     output: list[dict[str, Any]] = []
     for listing_id, (search_row, keyword, rank) in found.items():
         row = normalise({**search_row, **details.get(listing_id, {})}, keyword, rank)
@@ -307,7 +396,7 @@ function metric(v,cls=''){return `<span class="${cls}">${f(v)}</span>`}
 function drawProducts(){const q=document.querySelector('#q').value.toLowerCase(),sort=document.querySelector('#sort').value,quality=document.querySelector('#quality').value;let rows=products.filter(r=>(r.title+' '+r.source_query).toLowerCase().includes(q)).filter(r=>quality==='all'||(quality==='ready'&&r.metrics_ready)||(quality==='confirmed'&&n(r.confirmed_sales_24h)>0)).sort((a,b)=>n(b[sort])-n(a[sort])).slice(0,150);document.querySelector('#product-rows').innerHTML=rows.length?`<div class="table-wrap"><table><tr><th>Ürün</th><th>Onaylı<br>24s</th><th>Tahmini<br>24s</th><th>İlanın toplam<br>view’ı</th><th>Son tarama<br>view Δ</th><th>Onaylı<br>S/View</th><th>Tahmini<br>S/View</th><th>Stok<br>hareketi</th><th>Fiyat</th><th>Güven</th><th>Dayanak</th></tr>${rows.map(r=>`<tr><td class="product"><a href="${esc(r.url)}" target="_blank" rel="noreferrer">${esc(r.title)}</a><div class="sub"><span class="badge">${esc(r.source_query)}</span> · ${r.metrics_ready?f(r.comparison_hours)+'s ölçüm':'ilk ölçüm'}</div></td><td>${metric(r.confirmed_sales_24h,'confirmed')}</td><td>${metric(r.estimated_sales_24h,'estimated')}</td><td>${f(r.views)}</td><td>${f(r.views_24h)}</td><td class="ratio">${pct(r.confirmed_sales_view_24h)}</td><td class="ratio">${pct(r.estimated_sales_view_24h)}</td><td>${f(r.stock_movement_24h)}</td><td>${esc(r.currency||'')} ${f(r.price)}</td><td>${r.metrics_ready?'%'+f(r.confidence):'—'}</td><td><span class="badge">${esc(r.basis||'—')}</span></td></tr>`).join('')}</table></div>`:'<p class="muted">Bu filtrede kayıt yok.</p>'}
 function downloadCsv(){const head=['listing_id','title','url','keyword','price','currency','search_rank','quantity','total_views','view_delta_24h','favorites','shop_sales','confirmed_sales_24h','estimated_sales_24h','stock_movement_24h','confidence','basis'];const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"';const allRows=[...products].sort((a,b)=>n(b.hot_score)-n(a.hot_score));const body=allRows.map(r=>[r.listing_id,r.title,r.url,r.source_query,r.price,r.currency,r.search_rank,r.quantity,r.views,r.views_24h,r.favorites,r.shop_sales,r.confirmed_sales_24h,r.estimated_sales_24h,r.stock_movement_24h,r.confidence,r.basis]);const csv='\ufeff'+[head,...body].map(row=>row.map(quote).join(';')).join('\r\n');const file=new Blob([csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(file),link=document.createElement('a');link.href=url;link.download='etsypulse-all-listings-'+new Date().toISOString().slice(0,10)+'.csv';document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)}
 function drawNiches(){const q=document.querySelector('#nq').value.toLowerCase(),rows=niches.filter(x=>x.niche_name.toLowerCase().includes(q));document.querySelector('#niche-rows').innerHTML=rows.length?rows.map(x=>`<article class="panel niche"><h3>${esc(x.niche_name)}</h3><div class="muted">${f(x.comparable)} / ${f(x.observed_listing_count)} ölçülebilir ilan · örnek: <a href="${esc(x.sample_url||'#')}" target="_blank" rel="noreferrer">${esc(x.sample_title||'—')}</a></div><div class="niche-metrics"><div><span class="label">Onaylı 24s</span><b>${f(x.confirmed_sales_24h)}</b></div><div><span class="label">Tahmini 24s</span><b>${f(x.estimated_sales_24h)}</b></div><div><span class="label">S/View</span><b>${pct(x.confirmed_sales_view_24h)}</b></div><div><span class="label">Fırsat</span><b>${f(x.opportunity_score)}</b></div></div></article>`).join(''):'<p class="muted">Bu filtrede niş yok.</p>'}
-const cacheBust='?v='+Date.now();Promise.all(['data/status.json','data/radar.json','data/niches.json'].map(x=>fetch(x+cacheBust,{cache:'no-store'}).then(r=>r.json()))).then(([s,r,ns])=>{products=r;niches=ns;document.querySelector('#updated').textContent='son ölçüm: '+new Date(s.generated_at).toLocaleString('tr-TR');document.querySelector('#cards').innerHTML=[['Takipteki ilan',s.listings],['Ölçümü olan',s.comparable],['Toplam view',s.total_views],['Onaylı satış · 24s',s.confirmed_sales_24h],['Tahmini satış · 24s',s.estimated_sales_24h],['En iyi onaylı S/View',pct(s.top_confirmed_sales_view_24h)],['Niş',s.keywords]].map(([k,v])=>`<div class="card"><div class="label">${k}</div><div class="value">${v}</div></div>`).join('');drawProducts();drawNiches();document.querySelector('#q').oninput=drawProducts;document.querySelector('#sort').onchange=drawProducts;document.querySelector('#quality').onchange=drawProducts;document.querySelector('#download-csv').onclick=downloadCsv;document.querySelector('#nq').oninput=drawNiches;document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab,.view').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelector('#'+b.dataset.view).classList.add('active')})});
+const cacheBust='?v='+Date.now();Promise.all(['data/status.json','data/radar.json','data/niches.json'].map(x=>fetch(x+cacheBust,{cache:'no-store'}).then(r=>r.json()))).then(([s,r,ns])=>{products=r;niches=ns;document.querySelector('#updated').textContent=(s.generated_at?'son ölçüm: '+new Date(s.generated_at).toLocaleString('tr-TR'):'henüz ölçüm yok')+(s.collection_message?' · '+s.collection_message:'');document.querySelector('#cards').innerHTML=[['Takipteki ilan',s.listings],['Ölçümü olan',s.comparable],['Toplam view',s.total_views],['Onaylı satış · 24s',s.confirmed_sales_24h],['Tahmini satış · 24s',s.estimated_sales_24h],['En iyi onaylı S/View',pct(s.top_confirmed_sales_view_24h)],['Niş',s.keywords]].map(([k,v])=>`<div class="card"><div class="label">${k}</div><div class="value">${v}</div></div>`).join('');drawProducts();drawNiches();document.querySelector('#q').oninput=drawProducts;document.querySelector('#sort').onchange=drawProducts;document.querySelector('#quality').onchange=drawProducts;document.querySelector('#download-csv').onclick=downloadCsv;document.querySelector('#nq').oninput=drawNiches;document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab,.view').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelector('#'+b.dataset.view).classList.add('active')})});
 </script></html>"""
 
 
@@ -348,6 +437,10 @@ def write_site(state: dict[str, Any], site: Path) -> None:
     ratios = [float(row["confirmed_sales_view_24h"]) for row in ready if row.get("confirmed_sales_view_24h") is not None]
     status = {
         "generated_at": state.get("last_success_at"),
+        "last_attempt_at": state.get("last_attempt_at"),
+        "collection_status": state.get("collection_status", "ok"),
+        "collection_message": state.get("collection_message"),
+        "api_usage": state.get("api_usage", {}),
         "listings": len(rows),
         "comparable": len(ready),
         "keywords": len(KEYWORDS),
@@ -372,15 +465,31 @@ def main() -> None:
     if not keystring or not secret:
         raise SystemExit("ETSY_KEYSTRING and ETSY_SHARED_SECRET GitHub secrets are required.")
     state, captured_at = load_state(args.state), now().isoformat()
-    for row in collect(keystring, secret):
-        merge(state, row, captured_at)
-    recalculate_metrics(state, captured_at)
-    state["last_success_at"] = captured_at
-    prune(state)
+    budget = RequestBudget()
+    retry_at = parse_time(state.get("api_usage", {}).get("retry_at"))
+    state["last_attempt_at"] = captured_at
+    try:
+        if retry_at is not None and retry_at > now():
+            budget.retry_at = retry_at.isoformat()
+            raise QuotaDeferred("Etsy quota pause still active; saved snapshot preserved.")
+        observations = collect(keystring, secret, budget=budget)
+    except QuotaDeferred as exc:
+        state["collection_status"] = "quota_deferred"
+        state["collection_message"] = "Kota nedeniyle tarama ertelendi; son başarılı ölçüm gösteriliyor."
+        print(str(exc))
+    else:
+        for row in observations:
+            merge(state, row, captured_at)
+        recalculate_metrics(state, captured_at)
+        state["last_success_at"] = captured_at
+        state["collection_status"] = "ok"
+        state["collection_message"] = None
+        prune(state)
+    state["api_usage"] = budget.summary()
     args.state.parent.mkdir(parents=True, exist_ok=True)
     args.state.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     write_site(state, args.site)
-    print(json.dumps({"listings": len(state["items"]), "generated_at": captured_at}))
+    print(json.dumps({"listings": len(state["items"]), "generated_at": state["last_success_at"], "collection_status": state["collection_status"], "api_usage": state["api_usage"]}))
 
 
 if __name__ == "__main__":

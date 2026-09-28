@@ -3,9 +3,9 @@ name: EtsyPulse Cloud
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron is UTC: 00:23 / 06:23 / 12:23 / 18:23 UTC is
-    # 03:23 / 09:23 / 15:23 / 21:23 in Türkiye.
-    - cron: "23 0,6,12,18 * * *"
+    # Every hour at :23 UTC (also :23 in Türkiye); avoid busy hour boundaries.
+    # Collector caps requests, paces them and reserves live Etsy daily quota.
+    - cron: "23 * * * *"
 
 permissions:
   # The workflow commits only compact public Etsy observations. Secrets never
@@ -33,7 +33,10 @@ jobs:
           test -n "$ETSY_KEYSTRING"
           test -n "$ETSY_SHARED_SECRET"
 
-      - name: Collect one compact public-market snapshot
+      - name: Test quota protection
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect one quota-guarded public-market snapshot
         run: python radar_lite.py --state state/radar_state.json --site site
 
       - name: Persist compact public state
