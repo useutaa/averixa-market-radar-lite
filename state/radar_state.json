@@ -1,87 +1,6 @@
 {
   "version": 1,
   "items": {
-    "4571288199": {
-      "listing_id": 4571288199,
-      "title": "October Booking Flyer Canva Template, Halloween Books Open Flyer, Spooky SZN Beauty Flyer, Hair Braids Nails MUA Lash Locs Wig",
-      "url": "https://www.etsy.com/listing/4571288199/october-booking-flyer-canva-template",
-      "image_url": "https://i.etsystatic.com/65069786/r/il/cda009/8494055080/il_570xN.8494055080_9wvc.jpg",
-      "price": 2.99,
-      "currency": "USD",
-      "source_query": "canva template",
-      "search_rank": 26,
-      "shop_id": 65069786,
-      "quantity": 779,
-      "views": 2144,
-      "favorites": 133,
-      "shop_sales": 2232,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 786,
-          "views": 2144,
-          "favorites": 127,
-          "shop_sales": 2210
-        },
-        {
-          "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 786,
-          "views": 2144,
-          "favorites": 127,
-          "shop_sales": 2210
-        },
-        {
-          "captured_at": "2026-09-27T18:03:43+00:00",
-          "quantity": 782,
-          "views": 2144,
-          "favorites": 130,
-          "shop_sales": 2223
-        },
-        {
-          "captured_at": "2026-09-27T18:08:02+00:00",
-          "quantity": 782,
-          "views": 2144,
-          "favorites": 130,
-          "shop_sales": 2223
-        },
-        {
-          "captured_at": "2026-09-27T18:10:13+00:00",
-          "quantity": 782,
-          "views": 2144,
-          "favorites": 130,
-          "shop_sales": 2224
-        },
-        {
-          "captured_at": "2026-09-27T18:36:20+00:00",
-          "quantity": 782,
-          "views": 2144,
-          "favorites": 130,
-          "shop_sales": 2225
-        },
-        {
-          "captured_at": "2026-09-27T21:29:05+00:00",
-          "quantity": 779,
-          "views": 2144,
-          "favorites": 133,
-          "shop_sales": 2232
-        }
-      ],
-      "last_seen_at": "2026-09-27T21:29:05+00:00",
-      "metrics_ready": true,
-      "quantity_delta": 7.0,
-      "stock_movement_24h": 19.88,
-      "confirmed_sales_24h": 19.88,
-      "estimated_sales_24h": 22.12,
-      "views_24h": 0.0,
-      "favorites_24h": 17.04,
-      "shop_sales_24h": 62.49,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 90,
-      "basis": "Onaylı: stok + mağaza",
-      "hot_score": 345.27,
-      "comparison_hours": 8.45
-    },
     "4583085580": {
       "listing_id": 4583085580,
       "title": "October 2026 Printable Planner Binder | 180-Page Planner PDF",
@@ -90,11 +9,11 @@
       "price": 9.99,
       "currency": "USD",
       "source_query": "printable planner",
-      "search_rank": 9,
-      "quantity": 966,
+      "search_rank": 1,
+      "quantity": 961,
       "views": 225,
       "favorites": 7,
-      "shop_sales": 162,
+      "shop_sales": 167,
       "samples": [
         {
           "captured_at": "2026-09-27T07:36:13+00:00",
@@ -165,105 +84,119 @@
           "views": 225,
           "favorites": 7,
           "shop_sales": 162
+        },
+        {
+          "captured_at": "2026-09-28T05:33:38+00:00",
+          "quantity": 961,
+          "views": 225,
+          "favorites": 7,
+          "shop_sales": 167
         }
       ],
-      "last_seen_at": "2026-09-28T00:16:39+00:00",
-      "quantity_delta": 12.0,
-      "estimated_sales_24h": 17.42,
+      "last_seen_at": "2026-09-28T05:33:38+00:00",
+      "quantity_delta": 17.0,
+      "estimated_sales_24h": 18.7,
       "shop_id": 25630851,
       "metrics_ready": true,
-      "stock_movement_24h": 17.27,
-      "confirmed_sales_24h": 17.27,
+      "stock_movement_24h": 18.58,
+      "confirmed_sales_24h": 18.58,
       "views_24h": 0.0,
-      "favorites_24h": 5.76,
-      "shop_sales_24h": 20.15,
+      "favorites_24h": 4.37,
+      "shop_sales_24h": 20.77,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
       "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 286.13,
-      "comparison_hours": 16.67
+      "hot_score": 305.86,
+      "comparison_hours": 21.96
     },
-    "4369278115": {
-      "listing_id": 4369278115,
-      "title": "2027 Bullet Journal Bundle - 600+ Printable Planner Pages with Habit, Mood & Reading Tracker (A5 A4 US Letter)",
-      "url": "https://www.etsy.com/listing/4369278115/2026-bullet-journal-bundle-500-printable",
-      "image_url": "https://i.etsystatic.com/56728597/r/il/04d83a/8548757118/il_570xN.8548757118_myjc.jpg",
-      "price": 17.9,
-      "currency": "EUR",
-      "source_query": "printable planner",
-      "search_rank": 25,
-      "shop_id": 56728597,
-      "quantity": 821,
-      "views": 19981,
-      "favorites": 216,
-      "shop_sales": 1703,
+    "4571288199": {
+      "listing_id": 4571288199,
+      "title": "October Booking Flyer Canva Template, Halloween Books Open Flyer, Spooky SZN Beauty Flyer, Hair Braids Nails MUA Lash Locs Wig",
+      "url": "https://www.etsy.com/listing/4571288199/october-booking-flyer-canva-template",
+      "image_url": "https://i.etsystatic.com/65069786/r/il/cda009/8494055080/il_570xN.8494055080_9wvc.jpg",
+      "price": 2.99,
+      "currency": "USD",
+      "source_query": "canva template",
+      "search_rank": 13,
+      "shop_id": 65069786,
+      "quantity": 775,
+      "views": 2144,
+      "favorites": 140,
+      "shop_sales": 2248,
       "samples": [
         {
           "captured_at": "2026-09-27T13:02:05+00:00",
-          "quantity": 824,
-          "views": 19981,
-          "favorites": 216,
-          "shop_sales": 1699
+          "quantity": 786,
+          "views": 2144,
+          "favorites": 127,
+          "shop_sales": 2210
         },
         {
           "captured_at": "2026-09-27T13:05:43+00:00",
-          "quantity": 824,
-          "views": 19981,
-          "favorites": 216,
-          "shop_sales": 1699
+          "quantity": 786,
+          "views": 2144,
+          "favorites": 127,
+          "shop_sales": 2210
         },
         {
           "captured_at": "2026-09-27T18:03:43+00:00",
-          "quantity": 822,
-          "views": 19981,
-          "favorites": 216,
-          "shop_sales": 1702
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2223
         },
         {
           "captured_at": "2026-09-27T18:08:02+00:00",
-          "quantity": 822,
-          "views": 19981,
-          "favorites": 216,
-          "shop_sales": 1702
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2223
         },
         {
           "captured_at": "2026-09-27T18:10:13+00:00",
-          "quantity": 822,
-          "views": 19981,
-          "favorites": 216,
-          "shop_sales": 1702
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2224
         },
         {
           "captured_at": "2026-09-27T18:36:20+00:00",
-          "quantity": 821,
-          "views": 19981,
-          "favorites": 216,
-          "shop_sales": 1703
+          "quantity": 782,
+          "views": 2144,
+          "favorites": 130,
+          "shop_sales": 2225
         },
         {
           "captured_at": "2026-09-27T21:29:05+00:00",
-          "quantity": 821,
-          "views": 19981,
-          "favorites": 216,
-          "shop_sales": 1703
+          "quantity": 779,
+          "views": 2144,
+          "favorites": 133,
+          "shop_sales": 2232
+        },
+        {
+          "captured_at": "2026-09-28T05:33:38+00:00",
+          "quantity": 775,
+          "views": 2144,
+          "favorites": 140,
+          "shop_sales": 2248
         }
       ],
-      "last_seen_at": "2026-09-27T21:29:05+00:00",
+      "last_seen_at": "2026-09-28T05:33:38+00:00",
       "metrics_ready": true,
-      "quantity_delta": 3.0,
-      "stock_movement_24h": 8.52,
-      "confirmed_sales_24h": 8.52,
-      "estimated_sales_24h": 8.67,
+      "quantity_delta": 11.0,
+      "stock_movement_24h": 15.97,
+      "confirmed_sales_24h": 15.97,
+      "estimated_sales_24h": 18.04,
       "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 11.36,
+      "favorites_24h": 18.88,
+      "shop_sales_24h": 55.19,
       "confirmed_sales_view_24h": null,
       "estimated_sales_view_24h": null,
-      "confidence": 80,
+      "confidence": 90,
       "basis": "Onaylı: stok + mağaza",
-      "hot_score": 141.12,
-      "comparison_hours": 8.45
+      "hot_score": 283.5,
+      "comparison_hours": 16.53
     },
     "4572125601": {
       "listing_id": 4572125601,
@@ -324,6 +257,154 @@
       "basis": "Onaylı: stok + mağaza",
       "hot_score": 122.47,
       "comparison_hours": 16.67
+    },
+    "4369278115": {
+      "listing_id": 4369278115,
+      "title": "2027 Bullet Journal Bundle - 600+ Printable Planner Pages with Habit, Mood & Reading Tracker (A5 A4 US Letter)",
+      "url": "https://www.etsy.com/listing/4369278115/2026-bullet-journal-bundle-500-printable",
+      "image_url": "https://i.etsystatic.com/56728597/r/il/04d83a/8548757118/il_570xN.8548757118_myjc.jpg",
+      "price": 17.9,
+      "currency": "EUR",
+      "source_query": "printable planner",
+      "search_rank": 13,
+      "shop_id": 56728597,
+      "quantity": 820,
+      "views": 19981,
+      "favorites": 220,
+      "shop_sales": 1708,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T13:02:05+00:00",
+          "quantity": 824,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1699
+        },
+        {
+          "captured_at": "2026-09-27T13:05:43+00:00",
+          "quantity": 824,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1699
+        },
+        {
+          "captured_at": "2026-09-27T18:03:43+00:00",
+          "quantity": 822,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1702
+        },
+        {
+          "captured_at": "2026-09-27T18:08:02+00:00",
+          "quantity": 822,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1702
+        },
+        {
+          "captured_at": "2026-09-27T18:10:13+00:00",
+          "quantity": 822,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1702
+        },
+        {
+          "captured_at": "2026-09-27T18:36:20+00:00",
+          "quantity": 821,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1703
+        },
+        {
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 821,
+          "views": 19981,
+          "favorites": 216,
+          "shop_sales": 1703
+        },
+        {
+          "captured_at": "2026-09-28T05:33:38+00:00",
+          "quantity": 820,
+          "views": 19981,
+          "favorites": 220,
+          "shop_sales": 1708
+        }
+      ],
+      "last_seen_at": "2026-09-28T05:33:38+00:00",
+      "metrics_ready": true,
+      "quantity_delta": 4.0,
+      "stock_movement_24h": 5.81,
+      "confirmed_sales_24h": 5.81,
+      "estimated_sales_24h": 6.19,
+      "views_24h": 0.0,
+      "favorites_24h": 5.81,
+      "shop_sales_24h": 13.07,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 90,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 103.73,
+      "comparison_hours": 16.53
+    },
+    "4579134760": {
+      "listing_id": 4579134760,
+      "title": "Halloween SVG Bundle, 500+ Spooky Season, Trick or Treat Designs For Cricut, Silhouette, Sublimation, Spooky SVG, Instant Digital Download",
+      "url": "https://www.etsy.com/listing/4579134760/halloween-svg-bundle-500-spooky-season",
+      "image_url": "https://i.etsystatic.com/6808926/r/il/fe239d/8623037259/il_570xN.8623037259_tjdk.jpg",
+      "price": 7.95,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 41,
+      "quantity": 988,
+      "views": 53,
+      "favorites": 3,
+      "shop_sales": 8807,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T07:36:13+00:00",
+          "quantity": 993,
+          "views": 53,
+          "favorites": 1,
+          "shop_sales": 8796
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 993,
+          "views": 53,
+          "favorites": 1,
+          "shop_sales": 8796
+        },
+        {
+          "captured_at": "2026-09-27T21:29:05+00:00",
+          "quantity": 991,
+          "views": 53,
+          "favorites": 2,
+          "shop_sales": 8799
+        },
+        {
+          "captured_at": "2026-09-28T05:33:38+00:00",
+          "quantity": 988,
+          "views": 53,
+          "favorites": 3,
+          "shop_sales": 8807
+        }
+      ],
+      "last_seen_at": "2026-09-28T05:33:38+00:00",
+      "quantity_delta": 5.0,
+      "estimated_sales_24h": 5.81,
+      "shop_id": 6808926,
+      "metrics_ready": true,
+      "stock_movement_24h": 5.47,
+      "confirmed_sales_24h": 5.47,
+      "views_24h": 0.0,
+      "favorites_24h": 2.19,
+      "shop_sales_24h": 12.02,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 90,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 95.23,
+      "comparison_hours": 21.96
     },
     "4510562799": {
       "listing_id": 4510562799,
@@ -490,59 +571,6 @@
       "basis": "Onaylı: stok + mağaza",
       "hot_score": 78.59,
       "comparison_hours": 11.24
-    },
-    "4579134760": {
-      "listing_id": 4579134760,
-      "title": "Halloween SVG Bundle, 500+ Spooky Season, Trick or Treat Designs For Cricut, Silhouette, Sublimation, Spooky SVG, Instant Digital Download",
-      "url": "https://www.etsy.com/listing/4579134760/halloween-svg-bundle-500-spooky-season",
-      "image_url": "https://i.etsystatic.com/6808926/r/il/fe239d/8623037259/il_570xN.8623037259_tjdk.jpg",
-      "price": 7.95,
-      "currency": "USD",
-      "source_query": "svg bundle",
-      "search_rank": 28,
-      "quantity": 991,
-      "views": 53,
-      "favorites": 2,
-      "shop_sales": 8799,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T07:36:13+00:00",
-          "quantity": 993,
-          "views": 53,
-          "favorites": 1,
-          "shop_sales": 8796
-        },
-        {
-          "captured_at": "2026-09-27T07:46:52+00:00",
-          "quantity": 993,
-          "views": 53,
-          "favorites": 1,
-          "shop_sales": 8796
-        },
-        {
-          "captured_at": "2026-09-27T21:29:05+00:00",
-          "quantity": 991,
-          "views": 53,
-          "favorites": 2,
-          "shop_sales": 8799
-        }
-      ],
-      "last_seen_at": "2026-09-27T21:29:05+00:00",
-      "quantity_delta": 2.0,
-      "estimated_sales_24h": 3.55,
-      "shop_id": 6808926,
-      "metrics_ready": true,
-      "stock_movement_24h": 3.46,
-      "confirmed_sales_24h": 3.46,
-      "views_24h": 0.0,
-      "favorites_24h": 1.73,
-      "shop_sales_24h": 5.19,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 90,
-      "basis": "Onaylı: stok + mağaza",
-      "hot_score": 61.7,
-      "comparison_hours": 13.88
     },
     "4555960599": {
       "listing_id": 4555960599,
@@ -784,6 +812,112 @@
       "hot_score": 50.84,
       "comparison_hours": 8.45
     },
+    "4544413952": {
+      "listing_id": 4544413952,
+      "title": "Laser Honeycomb Pins SVG Bundle, Honeycomb Hold Down Clamps, Glowforge xTool LightBurn",
+      "url": "https://www.etsy.com/listing/4544413952/laser-honeycomb-pins-svg-bundle",
+      "image_url": "https://i.etsystatic.com/17732091/r/il/d7281d/8300193778/il_570xN.8300193778_kx6v.jpg",
+      "price": 2.45,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 23,
+      "quantity": 473,
+      "views": 541,
+      "favorites": 57,
+      "shop_sales": 55902,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T07:36:13+00:00",
+          "quantity": 475,
+          "views": 541,
+          "favorites": 57,
+          "shop_sales": 55866
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 475,
+          "views": 541,
+          "favorites": 57,
+          "shop_sales": 55866
+        },
+        {
+          "captured_at": "2026-09-28T05:33:38+00:00",
+          "quantity": 473,
+          "views": 541,
+          "favorites": 57,
+          "shop_sales": 55902
+        }
+      ],
+      "last_seen_at": "2026-09-28T05:33:38+00:00",
+      "quantity_delta": 2.0,
+      "estimated_sales_24h": 4.14,
+      "shop_id": 17732091,
+      "metrics_ready": true,
+      "stock_movement_24h": 2.19,
+      "confirmed_sales_24h": 2.19,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 39.35,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 80,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 47.04,
+      "comparison_hours": 21.96
+    },
+    "4570877060": {
+      "listing_id": 4570877060,
+      "title": "Editable MatchBox Canva Template | Romantic Scrapbook Poster | Anniversary Valentine’s Gift | Digital Download",
+      "url": "https://www.etsy.com/listing/4570877060/editable-matchbox-canva-template-o",
+      "image_url": "https://i.etsystatic.com/49900525/r/il/78a246/8490670692/il_570xN.8490670692_s7uw.jpg",
+      "price": 3.0,
+      "currency": "USD",
+      "source_query": "canva template",
+      "search_rank": 39,
+      "quantity": 987,
+      "views": 159,
+      "favorites": 3,
+      "shop_sales": 12,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T07:36:13+00:00",
+          "quantity": 989,
+          "views": 159,
+          "favorites": 3,
+          "shop_sales": 10
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 989,
+          "views": 159,
+          "favorites": 3,
+          "shop_sales": 10
+        },
+        {
+          "captured_at": "2026-09-28T05:33:38+00:00",
+          "quantity": 987,
+          "views": 159,
+          "favorites": 3,
+          "shop_sales": 12
+        }
+      ],
+      "last_seen_at": "2026-09-28T05:33:38+00:00",
+      "quantity_delta": 2.0,
+      "estimated_sales_24h": 2.19,
+      "shop_id": 49900525,
+      "metrics_ready": true,
+      "stock_movement_24h": 2.19,
+      "confirmed_sales_24h": 2.19,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 2.19,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 80,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 39.24,
+      "comparison_hours": 21.96
+    },
     "4582176176": {
       "listing_id": 4582176176,
       "title": "Horror Fan Printable Planner Stickers | Bookish Halloween | Dark Academia Weekly Kit Erin Condren Vertical | Cricut PNG + Sil Cutfiles",
@@ -924,6 +1058,59 @@
       "basis": "Onaylı: stok + mağaza",
       "hot_score": 29.39,
       "comparison_hours": 16.67
+    },
+    "4557168049": {
+      "listing_id": 4557168049,
+      "title": "Western Cowboy Ghost SVG Bundle, Halloween Fall Ghost Shelf Decor, Rustic Western Laser Cut Files, Digital Download",
+      "url": "https://www.etsy.com/listing/4557168049/western-cowboy-ghost-svg-bundle",
+      "image_url": "https://i.etsystatic.com/53685782/r/il/925bdf/8439972527/il_570xN.8439972527_msd8.jpg",
+      "price": 6.3,
+      "currency": "USD",
+      "source_query": "svg bundle",
+      "search_rank": 17,
+      "quantity": 983,
+      "views": 240,
+      "favorites": 24,
+      "shop_sales": 4895,
+      "samples": [
+        {
+          "captured_at": "2026-09-27T07:36:13+00:00",
+          "quantity": 984,
+          "views": 240,
+          "favorites": 24,
+          "shop_sales": 4877
+        },
+        {
+          "captured_at": "2026-09-27T07:46:52+00:00",
+          "quantity": 984,
+          "views": 240,
+          "favorites": 24,
+          "shop_sales": 4877
+        },
+        {
+          "captured_at": "2026-09-28T05:33:38+00:00",
+          "quantity": 983,
+          "views": 240,
+          "favorites": 24,
+          "shop_sales": 4895
+        }
+      ],
+      "last_seen_at": "2026-09-28T05:33:38+00:00",
+      "quantity_delta": 1.0,
+      "estimated_sales_24h": 2.07,
+      "shop_id": 53685782,
+      "metrics_ready": true,
+      "stock_movement_24h": 1.09,
+      "confirmed_sales_24h": 1.09,
+      "views_24h": 0.0,
+      "favorites_24h": 0.0,
+      "shop_sales_24h": 19.67,
+      "confirmed_sales_view_24h": null,
+      "estimated_sales_view_24h": null,
+      "confidence": 80,
+      "basis": "Onaylı: stok + mağaza",
+      "hot_score": 25.56,
+      "comparison_hours": 21.96
     },
     "4407632391": {
       "listing_id": 4407632391,
@@ -1449,9 +1636,16 @@
           "views": 42,
           "favorites": 0,
           "shop_sales": 84
+        },
+        {
+          "captured_at": "2026-09-28T05:33:38+00:00",
+          "quantity": 999,
+          "views": 42,
+          "favorites": 0,
+          "shop_sales": 84
         }
       ],
-      "last_seen_at": "2026-09-28T00:16:39+00:00",
+      "last_seen_at": "2026-09-28T05:33:38+00:00",
       "quantity_delta": 0.0,
       "estimated_sales_24h": 0.0,
       "shop_id": 50751829,
@@ -1466,7 +1660,7 @@
       "confidence": 40,
       "basis": "Ölçüm var, satış sinyali yok",
       "hot_score": 2.6,
-      "comparison_hours": 16.67
+      "comparison_hours": 21.96
     },
     "1394722285": {
       "listing_id": 1394722285,
@@ -3687,51 +3881,6 @@
       "basis": "İlk ölçüm · karşılaştırma bekleniyor",
       "hot_score": 0.0
     },
-    "4544413952": {
-      "listing_id": 4544413952,
-      "title": "Laser Honeycomb Pins SVG Bundle, Honeycomb Hold Down Clamps, Glowforge xTool LightBurn",
-      "url": "https://www.etsy.com/listing/4544413952/laser-honeycomb-pins-svg-bundle",
-      "image_url": "https://i.etsystatic.com/17732091/r/il/d7281d/8300193778/il_570xN.8300193778_kx6v.jpg",
-      "price": 2.45,
-      "currency": "USD",
-      "source_query": "svg bundle",
-      "search_rank": 5,
-      "quantity": 475,
-      "views": 541,
-      "favorites": 57,
-      "shop_sales": 55866,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T07:36:13+00:00",
-          "quantity": 475,
-          "views": 541,
-          "favorites": 57,
-          "shop_sales": 55866
-        },
-        {
-          "captured_at": "2026-09-27T07:46:52+00:00",
-          "quantity": 475,
-          "views": 541,
-          "favorites": 57,
-          "shop_sales": 55866
-        }
-      ],
-      "last_seen_at": "2026-09-27T07:46:52+00:00",
-      "quantity_delta": 0,
-      "estimated_sales_24h": 0.0,
-      "shop_id": 17732091,
-      "metrics_ready": false,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
     "1859853434": {
       "listing_id": 1859853434,
       "title": "Memorial Casket Panel Canva Template: Custom Funeral Obituary Stairs (Digital Download)",
@@ -4272,51 +4421,6 @@
       "basis": "İlk ölçüm · karşılaştırma bekleniyor",
       "hot_score": 0.0
     },
-    "4557168049": {
-      "listing_id": 4557168049,
-      "title": "Western Cowboy Ghost SVG Bundle, Halloween Fall Ghost Shelf Decor, Rustic Western Laser Cut Files, Digital Download",
-      "url": "https://www.etsy.com/listing/4557168049/western-cowboy-ghost-svg-bundle",
-      "image_url": "https://i.etsystatic.com/53685782/r/il/925bdf/8439972527/il_570xN.8439972527_msd8.jpg",
-      "price": 6.3,
-      "currency": "USD",
-      "source_query": "svg bundle",
-      "search_rank": 35,
-      "quantity": 984,
-      "views": 240,
-      "favorites": 24,
-      "shop_sales": 4877,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T07:36:13+00:00",
-          "quantity": 984,
-          "views": 240,
-          "favorites": 24,
-          "shop_sales": 4877
-        },
-        {
-          "captured_at": "2026-09-27T07:46:52+00:00",
-          "quantity": 984,
-          "views": 240,
-          "favorites": 24,
-          "shop_sales": 4877
-        }
-      ],
-      "last_seen_at": "2026-09-27T07:46:52+00:00",
-      "quantity_delta": 0,
-      "estimated_sales_24h": 0.0,
-      "shop_id": 53685782,
-      "metrics_ready": false,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
     "4557680673": {
       "listing_id": 4557680673,
       "title": "Stripes Skeleton Lost Balloon PNG, Well Shit Funny Skeleton PNG, Dark Humor Halloween Shirt Design, Gothic Sublimation Png, Digital File",
@@ -4710,51 +4814,6 @@
       "quantity_delta": 0,
       "estimated_sales_24h": 0.0,
       "shop_id": 36269000,
-      "metrics_ready": false,
-      "stock_movement_24h": 0.0,
-      "confirmed_sales_24h": 0.0,
-      "views_24h": 0.0,
-      "favorites_24h": 0.0,
-      "shop_sales_24h": 0.0,
-      "confirmed_sales_view_24h": null,
-      "estimated_sales_view_24h": null,
-      "confidence": 0,
-      "basis": "İlk ölçüm · karşılaştırma bekleniyor",
-      "hot_score": 0.0
-    },
-    "4570877060": {
-      "listing_id": 4570877060,
-      "title": "Editable MatchBox Canva Template | Romantic Scrapbook Poster | Anniversary Valentine’s Gift | Digital Download",
-      "url": "https://www.etsy.com/listing/4570877060/editable-matchbox-canva-template-o",
-      "image_url": "https://i.etsystatic.com/49900525/r/il/78a246/8490670692/il_570xN.8490670692_s7uw.jpg",
-      "price": 3.0,
-      "currency": "USD",
-      "source_query": "canva template",
-      "search_rank": 26,
-      "quantity": 989,
-      "views": 159,
-      "favorites": 3,
-      "shop_sales": 10,
-      "samples": [
-        {
-          "captured_at": "2026-09-27T07:36:13+00:00",
-          "quantity": 989,
-          "views": 159,
-          "favorites": 3,
-          "shop_sales": 10
-        },
-        {
-          "captured_at": "2026-09-27T07:46:52+00:00",
-          "quantity": 989,
-          "views": 159,
-          "favorites": 3,
-          "shop_sales": 10
-        }
-      ],
-      "last_seen_at": "2026-09-27T07:46:52+00:00",
-      "quantity_delta": 0,
-      "estimated_sales_24h": 0.0,
-      "shop_id": 49900525,
       "metrics_ready": false,
       "stock_movement_24h": 0.0,
       "confirmed_sales_24h": 0.0,
@@ -18439,15 +18498,15 @@
       "hot_score": 0.0
     }
   },
-  "last_success_at": "2026-09-28T00:16:39+00:00",
-  "last_attempt_at": "2026-09-28T00:16:39+00:00",
+  "last_success_at": "2026-09-28T05:33:38+00:00",
+  "last_attempt_at": "2026-09-28T05:33:38+00:00",
   "collection_status": "ok",
   "collection_message": null,
   "api_usage": {
     "requests": 6,
     "max_requests_per_run": 8,
     "daily_limit": 5000,
-    "remaining_today": 4938,
+    "remaining_today": 4932,
     "daily_reserve": 500,
     "second_limit": 5,
     "retry_at": null
